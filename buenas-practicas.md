@@ -13,7 +13,7 @@
 - Respeta las sangrías/indentaciones... como si todo fuese Python! ;-) PD: Existe un programa que autoajusta, que se llama astyle (utilizar con precaución!).
 - NO utilizar NÚMEROS en nombres de ficheros para indicar versiones/intentos/iteraciones... ¡Para eso ya existen los hash y tag de los sistemas de control de versiones!
 - NO crear DUPLICADOS de programas. Analizar en profundidad si se puede ampliar la funcionalidad de un programa a través del ajuste o incorporación de parámetros antes de crear un programa nuevo. Una vez detectado que se puede ampliar la funcionalidad de un programa, utilizar los mecanismos convencionales (issues, o fork y pull request).
-- Tratamos de minimizar comentarios estilo `toDo` en el código. Para eso están las *issues*.
+- Todo `toDo`, `fixMe`, etc. en el código debe estar asociado a una *issue abierta* (referenciado bidireccionalmente).
 - [Cabeceras, ficheros de configuración y parámetros de CLI](http://robots.uc3m.es/dox-asibot-main/post_install.html#post_install_changing_parameters).
 - Lee acerca de [Clean code](https://www.google.es/search?q=cleancode).
 
