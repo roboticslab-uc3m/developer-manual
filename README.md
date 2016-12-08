@@ -1,4 +1,4 @@
 # best-practices
-Contains best and recommended practices for roboticslab-uc3m
+Contains best and recommended practices for roboticslab-uc3m.
 
-- [Buenas prácticas](buenas-practicas.md) (spanish)
+- Best practices ([English](best-practices.md), [Spanish](buenas-practicas.md))
