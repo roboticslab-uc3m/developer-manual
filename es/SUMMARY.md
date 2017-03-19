@@ -1,5 +1,5 @@
 # Summary
 
-* [Introduction](README.md)
+* [Introducción](README.md)
 * [Buenas Prácticas](best-practices.md)
 
