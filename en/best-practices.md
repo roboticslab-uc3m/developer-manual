@@ -7,6 +7,7 @@
   - Increased global productivity as logs are kept. It tends to avoid repetition of the same questions and the same answers.
   - A convenient tool to keep any technical topic inside its technical context and focus on the proper issue's subject.
   - Higher visibility of your topic in such a way that the answer may come from unexpected people. This is especially interesting in cases of disagreement between two parties where unrelated contributors may bring up new ideas and worthy viewpoints.
+- In case of trouble during installation of dependencies or additional software, take a look first at our [dedicated repository](https://www.gitbook.com/book/roboticslab-uc3m/installation-guides/details).
 - The preferred way of documenting things (except Doxygen for C/C++) is Markdown.
 
 ## General programming
