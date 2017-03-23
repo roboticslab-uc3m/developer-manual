@@ -1,4 +1,4 @@
-#Buenas prácticas
+# Buenas prácticas
 
 - **Siempre, para cualquier archivo de trabajo, por muy insignificante o borrador que parezca,** utiliza uno de los repositorios compartidos:
   - Software y hardware: [GitHub (GIT, público)](https://github.com/roboticslab-uc3m). Consulta con tu tutor (que posiblemente te redirija a [Juan](https://github.com/jgvictores), [David](https://github.com/David-Estevez) o [Raúl](https://github.com/rsantos88)) si dudas en qué repositorio trabajar. Acomoda tu [.gitignore](https://git-scm.com/docs/gitignore) al tipo de proyecto, para evitar subir ficheros que no se deberían (binarios, backups, y ficheros residuales varios).
