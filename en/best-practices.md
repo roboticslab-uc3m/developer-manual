@@ -27,7 +27,7 @@
 * Use _lowerCamelCase_ for executable names.
 * Avoid global variables.
 * We prefer modern `std::string` class to alternatives like `char*` or `yarp::os::ConstString`.
-* Store your classes inside a _namespace_ block.
+* Store your classes inside a _namespace_ block. Our current trend is `roboticslab::` (see https://github.com/roboticslab-uc3m/QA/issues/15).
 * Keep a minimalistic `main()` by implementing your program as an OO class.
   * In C++, we usually derive our base classes from [yarp::os::RFModule](http://www.yarp.it/classyarp_1_1os_1_1RFModule.html), thus inheriting a [configure\(yarp::os::ResourceFinder& rf\)](http://www.yarp.it/classyarp_1_1os_1_1RFModule.html#a6c3880961b00b0a7eb527d62214169b7) method that receives a map \([rf](http://www.yarp.it/classyarp_1_1os_1_1ResourceFinder.html)\) passed from `main()`, a [close\(\)](http://www.yarp.it/classyarp_1_1os_1_1RFModule.html#a58ce26fc6fdcb6eb4af8e8dc678e095e) that gets called by _CRTL+C_, and a [updateModule\(\)](http://www.yarp.it/classyarp_1_1os_1_1RFModule.html#a37ee5baa17ce243458a1dff209e878b7) which is invoked with a periodicity measured in seconds given by [getPeriod\(\)](http://www.yarp.it/classyarp_1_1os_1_1RFModule.html#ace2fdadde1a2690f274079fabd6420d2). In case you need a function that gets called more often, you may inherit the [run\(\)](http://www.yarp.it/classyarp_1_1os_1_1RateThread.html#ac3c97e766733b41a45c799aa0c05598f) method from [yarp::os::RateThread](http://www.yarp.it/classyarp_1_1os_1_1RateThread.html) and obtain a periodicity given in milliseconds, to be specified in the constructor.
 * Implement your device as a class, and ideally as a [_YARP device_](http://asrob.uc3m.es/index.php/Tutorial_yarp_devices).
