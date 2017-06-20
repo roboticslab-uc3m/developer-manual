@@ -16,7 +16,7 @@
 * NO utilizar NÚMEROS en nombres de ficheros para indicar versiones/intentos/iteraciones... ¡Para eso ya existen los hash y tag de los sistemas de control de versiones!
 * NO crear DUPLICADOS de programas. Analizar en profundidad si se puede ampliar la funcionalidad de un programa a través del ajuste o incorporación de parámetros antes de crear un programa nuevo. Una vez detectado que se puede ampliar la funcionalidad de un programa, utilizar los mecanismos convencionales \(issues, o fork y pull request\).
 * Todo `toDo`, `fixMe`, etc. en el código debe estar asociado a una _issue abierta_ \(referenciado bidireccionalmente\).
-* [Cabeceras, ficheros de configuración y parámetros de CLI](http://robots.uc3m.es/dox-asibot-main/post_install.html#post_install_changing_parameters).
+* [Cabeceras, ficheros de configuración y parámetros de CLI](https://github.com/roboticslab-uc3m/asibot-main/blob/develop/doc/asibot-post-install.md#changing-parameters).
 * Lee acerca de [Clean code](https://www.google.es/search?q=cleancode).
 
 ## Programación C/C++

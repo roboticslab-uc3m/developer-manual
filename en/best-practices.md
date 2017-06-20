@@ -16,7 +16,7 @@
 * DON'T ADD DIGITS to filenames as a hint of a specific version, iteration step, etc. - that is what hashes and tags in source control are for.
 * AVOID DUPLICATES of existing programs. Prior to creating a new program, thoroughly analyze whether you can enhance an existing one through adjustment or implementation of new parameters. Once you are sure that the functionality of a program could be extended, proceed with the usual steps \(open an issue or fork & create a pull request\).
 * Any `toDo`, `fixMe`, etc. inlined in code must be associated to an _open issue_ \(with bidirectional reference\).
-* [Headers, config files and CLI parameters](http://robots.uc3m.es/dox-asibot-main/post_install.html#post_install_changing_parameters).
+* [Headers, config files and CLI parameters](https://github.com/roboticslab-uc3m/asibot-main/blob/develop/doc/asibot-post-install.md#changing-parameters).
 * Read about [Clean code](https://www.google.es/search?q=cleancode).
 
 ## Programming in C/C++
