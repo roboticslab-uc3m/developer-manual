@@ -1,7 +1,7 @@
 # Buenas prácticas
 
 ## Haciendo preguntas
-* **Siempre, cuando tengas una duda, busca en nuestra **[**wiki**](http://robots.uc3m.es/)**, y busca entre las issues \(tanto abiertas como cerradas\) del repositorio asociado a tu trabajo.** Si no encuentras respuesta, **pon una issue en el repositorio asociado a tu trabajo \(o comenta en la pestaña de Discussion de la wiki\)**. Ventajas:
+* **Siempre, cuando tengas una duda, busca en nuestra **[**wiki**](http://robots.uc3m.es/)**, y busca entre las issues \(tanto abiertas como cerradas\) del repositorio asociado a tu trabajo.** Si no encuentras respuesta, **pon una issue en el repositorio asociado a tu trabajo (o en [QA](https://github.com/roboticslab-uc3m/questions-and-answers) si es extremadamente genérico) o comenta en la pestaña de Discussion de la wiki**. Ventajas:
   * Incrementa la productividad global, porque queda el histórico. Se tiende a evitar el estar repetiendo las mismas preguntas y generando las mismas respuestas.
   * Sirve de herramienta para tratar de mantener lo técnico dentro del contexto técnico, y a centrarse la temática indicada en el asunto de la issue.
   * Da mayor visibilidad a tu duda, te puede contestar gente que no te esperarías. Esto es especialmente interesante cuando hay un desacuerdo entre dos partes: pueden intervenir terceros que aporten nuevas ideas y puntos de vista.
