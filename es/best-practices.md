@@ -5,6 +5,7 @@
   * Incrementa la productividad global, porque queda el histórico. Se tiende a evitar el estar repetiendo las mismas preguntas y generando las mismas respuestas.
   * Sirve de herramienta para tratar de mantener lo técnico dentro del contexto técnico, y a centrarse la temática indicada en el asunto de la issue.
   * Da mayor visibilidad a tu duda, te puede contestar gente que no te esperarías. Esto es especialmente interesante cuando hay un desacuerdo entre dos partes: pueden intervenir terceros que aporten nuevas ideas y puntos de vista.
+* Tratamos de unificar las etiquetas (labels) para preguntas en GitHub, con [teo-main](https://github.com/roboticslab-uc3m/teo-main/labels) como inspiración.
 
 ## Control de versiones
 * **Siempre, para cualquier archivo de trabajo, por muy insignificante o borrador que parezca,** utiliza uno de los repositorios compartidos:
