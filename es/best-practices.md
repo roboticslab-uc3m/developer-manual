@@ -4,7 +4,6 @@
   * Incrementa la productividad global, porque queda el histórico. Se tiende a evitar el estar repetiendo las mismas preguntas y generando las mismas respuestas.
   * Sirve de herramienta para tratar de mantener lo técnico dentro del contexto técnico, y a centrarse la temática indicada en el asunto de la issue.
   * Da mayor visibilidad a tu duda, te puede contestar gente que no te esperarías. Esto es especialmente interesante cuando hay un desacuerdo entre dos partes: pueden intervenir terceros que aporten nuevas ideas y puntos de vista.
-* Si tienes problemas con la instalación de las dependencias o de algún software adicional, consulta primero nuestro [repositorio dedicado](https://www.gitbook.com/book/roboticslab-uc3m/installation-guides/details).
 * La forma preferida de documentación \(salvo Doxygen para C/C++\) es Markdown.
 * La forma preferida para nombrar los archivos en `/doc` es _kebab-case_.
 
@@ -14,7 +13,7 @@
   * Redacción de publicaciones: consulta con tu tutor \(que posiblemente te redirija a [Juan](https://github.com/jgvictores)\) para la URL exacta, distribuidos a través de [http://robots.uc3m.es/svn/\*](http://robots.uc3m.es/svn/*) \(SVN, privado\).
 
 ## Programación en General
-
+* Si tienes problemas con la instalación de las dependencias o de algún software adicional, consulta primero nuestro [repositorio dedicado](https://www.gitbook.com/book/roboticslab-uc3m/installation-guides/details).
 * Respeta las sangrías/indentaciones... como si todo fuese Python! ;-\) PD: Existe un programa que autoajusta, que se llama [astyle](http://astyle.sourceforge.net/) \(utilizar con precaución!\).
 * NO utilizar NÚMEROS en nombres de ficheros para indicar versiones/intentos/iteraciones... ¡Para eso ya existen los hash y tag de los sistemas de control de versiones!
 * NO crear DUPLICADOS de programas. Analizar en profundidad si se puede ampliar la funcionalidad de un programa a través del ajuste o incorporación de parámetros antes de crear un programa nuevo. Una vez detectado que se puede ampliar la funcionalidad de un programa, utilizar los mecanismos convencionales \(issues, o fork y pull request\).
