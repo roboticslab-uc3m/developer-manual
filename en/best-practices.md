@@ -4,7 +4,6 @@
   * Increased global productivity as logs are kept. It tends to avoid repetition of the same questions and the same answers.
   * A convenient tool to keep any technical topic inside its technical context and focus on the proper issue's subject.
   * Higher visibility of your topic in such a way that the answer may come from unexpected people. This is especially interesting in cases of disagreement between two parties where unrelated contributors may bring up new ideas and worthy viewpoints.
-* In case of trouble during installation of dependencies or additional software, take a look first at our [dedicated repository](https://www.gitbook.com/book/roboticslab-uc3m/installation-guides/details).
 * The preferred way of documenting things \(except Doxygen for C/C++\) is Markdown.
 * The preferred way of naming files in `/doc` is _kebab-case_.
 
@@ -14,7 +13,7 @@
   * Paper writing: consult your tutor \(who may direct you to [Juan](https://github.com/jgvictores)\) for the exact URL at [http://robots.uc3m.es/svn/\*](http://robots.uc3m.es/svn/*) \(private SVN\).
 
 ## General programming
-
+* In case of trouble during installation of dependencies or additional software, take a look first at our [dedicated repository](https://www.gitbook.com/book/roboticslab-uc3m/installation-guides/details).
 * Indent your code as if everything were Python. [astyle](http://astyle.sourceforge.net/) can handle this quite automatically for you \(use with caution\).
 * DON'T ADD DIGITS to filenames as a hint of a specific version, iteration step, etc. - that is what hashes and tags in source control are for.
 * AVOID DUPLICATES of existing programs. Prior to creating a new program, thoroughly analyze whether you can enhance an existing one through adjustment or implementation of new parameters. Once you are sure that the functionality of a program could be extended, proceed with the usual steps \(open an issue or fork & create a pull request\).
@@ -23,7 +22,6 @@
 * Read about [Clean code](https://www.google.es/search?q=cleancode).
 
 ## Programming in C/C++
-
 * Use [project-generator](https://github.com/roboticslab-uc3m/project-generator) for creation of new C/C++ projects.
 * Report any problems with project-generator in its corresponding [issues section](https://github.com/roboticslab-uc3m/project-generator/issues). If you find that this solution doesn't suit you, at least stick to [CMake](http://asrob.uc3m.es/index.php/Tutorial_CMake) for any C/C++ project.
 * Use _UpperCamelCase_ for library and class names.
@@ -42,4 +40,3 @@
   1. If necessary, elaborate a removal plan and detail any steps that need to be taken to perform a seamless migration to the new API.
   1. Ping the corresponding team or whoever could need more action on their end.
   1. Proceed gradually and, finally, kill the function.
-
