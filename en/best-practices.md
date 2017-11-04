@@ -14,6 +14,7 @@
 
 ## General programming
 * In case of trouble during installation of dependencies or additional software, take a look first at our [dedicated repository](https://www.gitbook.com/book/roboticslab-uc3m/installation-guides/details).
+* If incorporating a new dependency or additional software, first take a look at our [dedicated repository](https://www.gitbook.com/book/roboticslab-uc3m/installation-guides/details). If it's not there, add it there, then link it to your project ([example](5182f9f475e229acea4cca1130be57489fd6b0f7)).
 * Indent your code as if everything were Python. [astyle](http://astyle.sourceforge.net/) can handle this quite automatically for you \(use with caution\).
 * DON'T ADD DIGITS to filenames as a hint of a specific version, iteration step, etc. - that is what hashes and tags in source control are for.
 * AVOID DUPLICATES of existing programs. Prior to creating a new program, thoroughly analyze whether you can enhance an existing one through adjustment or implementation of new parameters. Once you are sure that the functionality of a program could be extended, proceed with the usual steps \(open an issue or fork & create a pull request\).
