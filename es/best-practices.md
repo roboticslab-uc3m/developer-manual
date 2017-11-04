@@ -1,8 +1,5 @@
 # Buenas prácticas
 
-* **Siempre, para cualquier archivo de trabajo, por muy insignificante o borrador que parezca,** utiliza uno de los repositorios compartidos:
-  * Software y hardware: [GitHub \(GIT, público\)](https://github.com/roboticslab-uc3m). Utilizamos [GitFlow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow/) como workflow de git \(excepto para repos de documentación pura, ver [\#6](https://github.com/roboticslab-uc3m/best-practices/issues/6)\) con [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development) y [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration). Consulta con tu tutor \(que posiblemente te redirija a [Juan](https://github.com/jgvictores), [David](https://github.com/David-Estevez) o [Raúl](https://github.com/rsantos88)\) si dudas en qué repositorio trabajar. Acomoda tu [.gitignore](https://git-scm.com/docs/gitignore) al tipo de proyecto, para evitar subir ficheros que no se deberían \(binarios, backups, y ficheros residuales varios\).
-  * Redacción de publicaciones: consulta con tu tutor \(que posiblemente te redirija a [Juan](https://github.com/jgvictores)\) para la URL exacta, distribuidos a través de [http://robots.uc3m.es/svn/\*](http://robots.uc3m.es/svn/*) \(SVN, privado\).
 * **Siempre, cuando tengas una duda, busca en nuestra **[**wiki**](http://robots.uc3m.es/)**, y busca entre las issues \(tanto abiertas como cerradas\) del repositorio asociado a tu trabajo.** Si no encuentras respuesta, **pon una issue en el repositorio asociado a tu trabajo \(o comenta en la pestaña de Discussion de la wiki\)**. Ventajas:
   * Incrementa la productividad global, porque queda el histórico. Se tiende a evitar el estar repetiendo las mismas preguntas y generando las mismas respuestas.
   * Sirve de herramienta para tratar de mantener lo técnico dentro del contexto técnico, y a centrarse la temática indicada en el asunto de la issue.
@@ -10,6 +7,12 @@
 * Si tienes problemas con la instalación de las dependencias o de algún software adicional, consulta primero nuestro [repositorio dedicado](https://www.gitbook.com/book/roboticslab-uc3m/installation-guides/details).
 * La forma preferida de documentación \(salvo Doxygen para C/C++\) es Markdown.
 * La forma preferida para nombrar los archivos en `/doc` es _kebab-case_.
+
+## Control de versiones
+* **Siempre, para cualquier archivo de trabajo, por muy insignificante o borrador que parezca,** utiliza uno de los repositorios compartidos:
+  * Software y hardware: [GitHub \(GIT, público\)](https://github.com/roboticslab-uc3m). Utilizamos [GitFlow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow/) como workflow de git \(excepto para repos de documentación pura, ver [\#6](https://github.com/roboticslab-uc3m/best-practices/issues/6)\) con [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development) y [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration). Consulta con tu tutor \(que posiblemente te redirija a [Juan](https://github.com/jgvictores), [David](https://github.com/David-Estevez) o [Raúl](https://github.com/rsantos88)\) si dudas en qué repositorio trabajar. Acomoda tu [.gitignore](https://git-scm.com/docs/gitignore) al tipo de proyecto, para evitar subir ficheros que no se deberían \(binarios, backups, y ficheros residuales varios\).
+  * Redacción de publicaciones: consulta con tu tutor \(que posiblemente te redirija a [Juan](https://github.com/jgvictores)\) para la URL exacta, distribuidos a través de [http://robots.uc3m.es/svn/\*](http://robots.uc3m.es/svn/*) \(SVN, privado\).
+
 ## Programación en General
 
 * Respeta las sangrías/indentaciones... como si todo fuese Python! ;-\) PD: Existe un programa que autoajusta, que se llama [astyle](http://astyle.sourceforge.net/) \(utilizar con precaución!\).
