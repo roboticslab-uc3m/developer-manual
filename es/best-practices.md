@@ -26,8 +26,13 @@
 * [Cabeceras, ficheros de configuración y parámetros de CLI](https://github.com/roboticslab-uc3m/asibot-main/blob/develop/doc/asibot-post-install.md#changing-parameters).
 * Lee acerca de [Clean code](https://www.google.es/search?q=cleancode).
 
-## Programación C/C++
+## Programación CMake
+* Convenciones de nombres:
+  * *SCREAMING\_SNAKE\_CASE* para el nombre del proyecto y las variables de configuración: `TEO_MAIN`, `TEO_MAIN_LINK_DIRS`.
+  * *kebab-case* para los directorios de instalación de contextos de YARP creados por `yarp_configure_external_installation()`: `teo-main`, `asibot-openrave-models`.
+  * Utiliza el prefijo `ROBOTICSLAB_` (o `roboticslab-`) siempre que no sea posible garantizar la unicidad del nombre elegido para el proyecto (ten en cuenta que querrás llamar a `find_package()`): `ROBOTICSLAB_YARP_DEVICES`, `ROBOTICSLAB_KINEMATICS_DYNAMICS_INCLUDE_DIRS`, `roboticslab-vision`.
 
+## Programación C/C++
 * Para crear un nuevo proyecto C/C++, utiliza [project-generator](https://github.com/roboticslab-uc3m/project-generator).
 * Si hay problema con project-generator, [coméntalo en su sección de issues](https://github.com/roboticslab-uc3m/project-generator/issues). Si sigues con motivos en contra, por lo menos no dejes de utilizar [CMake](http://asrob.uc3m.es/index.php/Tutorial_CMake) para cualquier proyecto C/C++.
 * Utiliza _UpperCamelCase_ para nombres de librerías y de clases.

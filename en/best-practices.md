@@ -26,6 +26,12 @@
 * [Headers, config files and CLI parameters](https://github.com/roboticslab-uc3m/asibot-main/blob/develop/doc/asibot-post-install.md#changing-parameters).
 * Read about [Clean code](https://www.google.es/search?q=cleancode).
 
+## Programming in CMake
+* Naming conventions:
+  * *SCREAMING\_SNAKE\_CASE* for the project name and configuration variables: `TEO_MAIN`, `TEO_MAIN_LINK_DIRS`.
+  * *kebab-case* for installed YARP context directories as set by `yarp_configure_external_installation()`: `teo-main`, `asibot-openrave-models`.
+  * Use the `ROBOTICSLAB_` (or `roboticslab-`) prefix whenever the uniqueness of the chosen name for the project could be easily compromised (keep in mind you'll want to invoke `find_package()`): `ROBOTICSLAB_YARP_DEVICES`, `ROBOTICSLAB_KINEMATICS_DYNAMICS_INCLUDE_DIRS`, `roboticslab-vision`.
+
 ## Programming in C/C++
 * Use [project-generator](https://github.com/roboticslab-uc3m/project-generator) for creation of new C/C++ projects.
 * Report any problems with project-generator in its corresponding [issues section](https://github.com/roboticslab-uc3m/project-generator/issues). If you find that this solution doesn't suit you, at least stick to [CMake](http://asrob.uc3m.es/index.php/Tutorial_CMake) for any C/C++ project.
@@ -45,3 +51,4 @@
   1. If necessary, elaborate a removal plan and detail any steps that need to be taken to perform a seamless migration to the new API.
   1. Ping the corresponding team or whoever could need more action on their end.
   1. Proceed gradually and, finally, kill the function.
+
