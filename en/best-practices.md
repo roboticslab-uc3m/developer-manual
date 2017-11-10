@@ -11,7 +11,6 @@
 * **For any kind of project, as insignificant as it may seem**, use one of our shared repositories:
   * Software and hardware: [GitHub \(public GIT\)](https://github.com/roboticslab-uc3m). We follow the [GitFlow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow/) git workflow \(except pure documentation repos, see [\#6](https://github.com/roboticslab-uc3m/best-practices/issues/6)\) with [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development) and [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration). Take advice from your tutor/supervisor \(who may direct you to [Juan](https://github.com/jgvictores), [David](https://github.com/David-Estevez) or [Raúl](https://github.com/rsantos88)\) if it's not clear which repository you should refer to. Adjust [.gitignore](https://git-scm.com/docs/gitignore) for the right project type to prevent from uploading unwanted files \(binaries, backups and leftover code\).
   * Paper writing: consult your tutor \(who may direct you to [Juan](https://github.com/jgvictores)\) for the exact URL at [http://robots.uc3m.es/svn/\*](http://robots.uc3m.es/svn/*) \(private SVN\).
-* In GitHub, we use the follo
 
 ## General naming and documenting
 * The preferred way of documenting things \(except Doxygen for C/C++\) is Markdown.
