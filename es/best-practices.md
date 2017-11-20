@@ -18,7 +18,7 @@
 
 ## Programación en general
 * Si tienes problemas con la instalación de las dependencias o de algún software adicional, consulta primero nuestro [repositorio dedicado](https://www.gitbook.com/book/roboticslab-uc3m/installation-guides/details).
-* Si incorporas una dependencia o algún software adicional, consulta primero nuestro [repositorio dedicado](https://www.gitbook.com/book/roboticslab-uc3m/installation-guides/details). Si no está ahí, agrégalo ahí, despues enlázalo con tu proyecto ([ejemplo](5182f9f475e229acea4cca1130be57489fd6b0f7)).
+* Si incorporas una dependencia o algún software adicional, consulta primero nuestro [repositorio dedicado](https://www.gitbook.com/book/roboticslab-uc3m/installation-guides/details). Si no está ahí, considera si buena opción tomando como criterios recomendados (aunque no obligatorios) el que sea ligero, flexible y multiplataforma. Siendo una buena opción, agrégalo ahí, despues enlázalo con tu proyecto ([ejemplo](5182f9f475e229acea4cca1130be57489fd6b0f7)).
 * Respeta las sangrías/indentaciones... como si todo fuese Python! ;-\) PD: Existe un programa que autoajusta, que se llama [astyle](http://astyle.sourceforge.net/) \(utilizar con precaución!\).
 * NO utilizar NÚMEROS en nombres de ficheros para indicar versiones/intentos/iteraciones... ¡Para eso ya existen los hash y tag de los sistemas de control de versiones!
 * NO crear DUPLICADOS de programas. Analizar en profundidad si se puede ampliar la funcionalidad de un programa a través del ajuste o incorporación de parámetros antes de crear un programa nuevo. Una vez detectado que se puede ampliar la funcionalidad de un programa, utilizar los mecanismos convencionales \(issues, o fork y pull request\).
