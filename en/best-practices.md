@@ -13,7 +13,7 @@
   * Paper writing: consult your tutor \(who may direct you to [Juan](https://github.com/jgvictores)\) for the exact URL at [http://robots.uc3m.es/svn/\*](http://robots.uc3m.es/svn/*) \(private SVN\).
 
 ## General naming and documenting
-* The preferred way of documenting things \(except Doxygen for C/C++\) is Markdown.
+* The preferred way of documenting things (except [Doxygen](http://www.doxygen.org) for C/C++) is Markdown.
 * The preferred way of naming files in `/doc` is _kebab-case_.
 
 ## General programming
