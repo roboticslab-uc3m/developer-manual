@@ -13,7 +13,7 @@
   * Redacción de publicaciones: consulta con tu tutor \(que posiblemente te redirija a [Juan](https://github.com/jgvictores)\) para la URL exacta, distribuidos a través de [http://robots.uc3m.es/svn/\*](http://robots.uc3m.es/svn/*) \(SVN, privado\).
 
 ## Nombrar y documentar en general
-* La forma preferida de documentación \(salvo Doxygen para C/C++\) es Markdown.
+* La forma preferida de documentación (salvo [Doxygen](http://www.doxygen.org) para C/C++) es Markdown.
 * La forma preferida para nombrar los archivos en `/doc` es _kebab-case_.
 
 ## Programación en general
