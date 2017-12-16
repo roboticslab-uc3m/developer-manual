@@ -51,4 +51,4 @@
   1. Si es necesario, traza un plan de acción adecuado y detalla los pasos necesarios para realizar una transición suave hacia la nueva API.
   1. Menciona al *team* correspondiente o a quien pueda necesitar asistencia durante la operación anterior.
   1. Procede gradualmente y, finalmente, elimina la función.
-
+* Antes de que una clase comience a ejecutar sus funciones principales, asegúrate de inicializar sus miembros o bien en el constructor, o bien en un método de inicialización (p. ej. tu implementación de `DeviceDriver::open` si estás creando un _YARP device_).
