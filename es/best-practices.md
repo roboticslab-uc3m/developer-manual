@@ -1,4 +1,6 @@
-# Buenas prácticas
+# Buenas prácticas (copia antigua)
+
+Copia antigua, véase: https://github.com/roboticslab-uc3m/developer-manual/issues/27
 
 ## Haciendo preguntas
 * **Siempre, cuando tengas una duda, busca en nuestra **[**wiki**](http://robots.uc3m.es/)**, y busca entre las issues \(tanto abiertas como cerradas\) del repositorio asociado a tu trabajo.** Si no encuentras respuesta, **pon una issue en el repositorio asociado a tu trabajo (o en [QA](https://github.com/roboticslab-uc3m/questions-and-answers) si es extremadamente genérico) o comenta en la pestaña de Discussion de la wiki**. Ventajas:
