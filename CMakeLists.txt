@@ -10,7 +10,7 @@ project(${KEYWORD})
 find_package(YARP REQUIRED)
 list(APPEND CMAKE_MODULE_PATH ${YARP_MODULE_PATH})
 include(YarpInstallationHelpers)
-yarp_configure_external_installation(roboticslab-best-practices)
+yarp_configure_external_installation(roboticslab-developer-manual)
 
 file(GLOB md ${CMAKE_CURRENT_SOURCE_DIR}/*.md)
 file(GLOB en/md ${CMAKE_CURRENT_SOURCE_DIR}/en/*.md)
