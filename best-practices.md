@@ -2,7 +2,6 @@
 
 \[[enlace a versión antigua en español](es/best-practices.md)\]
 
-
 ## General naming and documenting
 * The preferred way of documenting things (except [Doxygen](http://www.doxygen.org) for C/C++) is Markdown.
 * The preferred way of naming files in `/doc` is _kebab-case_.
