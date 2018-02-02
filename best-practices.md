@@ -1,5 +1,7 @@
 # Best practices
 
+\[[enlace a versión antigua en español](es/best-practices.md)\]
+
 ## Asking questions
 * **If you have a question, do a search first on our **[**wiki**](http://robots.uc3m.es/)** and among open and closed issues of the repository associated to your project**. In case you don't find the right answer, **open an issue in said repository (or at [QA](https://github.com/roboticslab-uc3m/questions-and-answers) if it extremely generic) or add a comment in the **_**Discussion**_** tab on the wiki**:
   * Increased global productivity as logs are kept. It tends to avoid repetition of the same questions and the same answers.
