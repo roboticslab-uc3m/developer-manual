@@ -30,7 +30,7 @@ Copia antigua, véase: https://github.com/roboticslab-uc3m/developer-manual/issu
 
 ## Programación CMake
 * Convenciones de nombres:
-  * *SCREAMING\_SNAKE\_CASE* para el nombre del proyecto y las variables de configuración: `TEO_MAIN`, `TEO_MAIN_LINK_DIRS`.
+  * *SCREAMING\_SNAKE\_CASE* para el nombre del proyecto, archivos y variables de configuración: `TEO_MAIN`, `TEO_MAINConfig.cmake.in`, `TEO_MAIN_INCLUDE_DIRS`.
   * *kebab-case* para los directorios de instalación de contextos de YARP creados por `yarp_configure_external_installation()`: `teo-main`, `asibot-openrave-models`.
   * Utiliza el prefijo `ROBOTICSLAB_` (o `roboticslab-`) siempre que no sea posible garantizar la unicidad del nombre elegido para el proyecto (ten en cuenta que querrás llamar a `find_package()`): `ROBOTICSLAB_YARP_DEVICES`, `ROBOTICSLAB_KINEMATICS_DYNAMICS_INCLUDE_DIRS`, `roboticslab-vision`.
 
