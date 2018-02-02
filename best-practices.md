@@ -2,17 +2,6 @@
 
 \[[enlace a versión antigua en español](es/best-practices.md)\]
 
-## Asking questions
-* **If you have a question, do a search first on our **[**wiki**](http://robots.uc3m.es/)** and among open and closed issues of the repository associated to your project**. In case you don't find the right answer, **open an issue in said repository (or at [QA](https://github.com/roboticslab-uc3m/questions-and-answers) if it extremely generic) or add a comment in the **_**Discussion**_** tab on the wiki**:
-  * Increased global productivity as logs are kept. It tends to avoid repetition of the same questions and the same answers.
-  * A convenient tool to keep any technical topic inside its technical context and focus on the proper issue's subject.
-  * Higher visibility of your topic in such a way that the answer may come from unexpected people. This is especially interesting in cases of disagreement between two parties where unrelated contributors may bring up new ideas and worthy viewpoints.
-* Attempting to unify labels for questions in GitHub, [teo-main](https://github.com/roboticslab-uc3m/teo-main/labels) for inspiration.
-
-## Version control
-* **For any kind of project, as insignificant as it may seem**, use one of our shared repositories:
-  * Software and hardware: [GitHub \(public GIT\)](https://github.com/roboticslab-uc3m). We follow the [GitFlow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow/) git workflow \(except pure documentation repos, see [\#6](https://github.com/roboticslab-uc3m/developer-manual/issues/6)\) with [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development) and [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration). Take advice from your tutor/supervisor \(who may direct you to [Juan](https://github.com/jgvictores), [David](https://github.com/David-Estevez) or [Raúl](https://github.com/rsantos88)\) if it's not clear which repository you should refer to. Adjust [.gitignore](https://git-scm.com/docs/gitignore) for the right project type to prevent from uploading unwanted files \(binaries, backups and leftover code\).
-  * Paper writing: consult your tutor \(who may direct you to [Juan](https://github.com/jgvictores)\) for the exact URL at [http://robots.uc3m.es/svn/\*](http://robots.uc3m.es/svn/*) \(private SVN\).
 
 ## General naming and documenting
 * The preferred way of documenting things (except [Doxygen](http://www.doxygen.org) for C/C++) is Markdown.
