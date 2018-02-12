@@ -8,7 +8,7 @@ Once you have publishing services running (robot joint/cartesian state, sensors 
 
 1. Manually grab individual "waypoints" or sensor data and store in file(s). For instance, in the joint space, do some `yarp rpc /robotName/manipulatorName/rpc:i` to get joint positions.
 
-1. To record full trajectories (data stream of a certain YARP port) at a given sample rate, use [yarpdatadumper](http://www.yarp.it/yarpdatadumper.html). To record from several YARP ports, [yarpdatadumperAppGenerator](http://www.yarp.it/yarpdatadumperAppGenerator.html) can be used to generate a [yarpmanager](http://www.yarp.it/yarpmanager.html) app.
+1. To record full trajectories (data stream of a certain YARP port) at a given sample rate, use [yarpdatadumper](http://www.yarp.it/yarpdatadumper.html). To record from several YARP ports, [yarpdatadumperAppGenerator](http://www.yarp.it/yarpdatadumperAppGenerator.html) can be used to generate a [yarpmanager](http://www.yarp.it/yarpmanager.html) app of [yarpdatadumper](http://www.yarp.it/yarpdatadumper.html) components.
 
 ## How can I play back data recorded for Programming by Demonstration (PbD) a.k.a. Learning from Demonstration (LfD)?
 
