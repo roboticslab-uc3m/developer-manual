@@ -1,6 +1,6 @@
 # Frequently Asked Questions
 
-## How can I record data for Programning by Demonstration (PbD) a.k.a. Learning from Demonstration (LfD)?
+## How can I record data for Programming by Demonstration (PbD) a.k.a. Learning from Demonstration (LfD)?
 
 First, if moving the robot by hand, you'll want some gravity compensation to help out. That's `[gcmp]` off `BasicCartesianControl`. Refer to the [BasicCartesianControl documentation](http://robots.uc3m.es/dox-kinematics-dynamics/group__BasicCartesianControl.html) for reference.
 
