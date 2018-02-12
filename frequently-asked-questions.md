@@ -2,8 +2,7 @@
 
 ## How can I record data for Programning by Demonstration (PbD) a.k.a. Learning from Demonstration (LfD)?
 
-Esentially, you'll want some gravity compensation to help out. That's `[gcmp]` off the `BasicCartesianControl` :
-http://robots.uc3m.es/dox-kinematics-dynamics/group__BasicCartesianControl.html
+First, if moving the robot by hand, you'll want some gravity compensation to help out. That's `[gcmp]` off `BasicCartesianControl`. Refer to the [BasicCartesianControl documentation](http://robots.uc3m.es/dox-kinematics-dynamics/group__BasicCartesianControl.html) for reference.
 
 Option 1: Manually grab some "waypoints" and then create a program. For instance, in the joint space, do some `yarp rpc /robotName/manipulatorName/rpc:i` to get joint positions you can later use in your program as in [this example](https://github.com/roboticslab-uc3m/yarp-devices/tree/73cbd201df69ee19662cdb26a83d898669834bcb/example/cpp/exampleRemoteControlboard) or similar.
 
