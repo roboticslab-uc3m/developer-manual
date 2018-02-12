@@ -10,6 +10,20 @@ Once you have publishing services running (robot joint/cartesian state, sensors 
 
 1. To record full trajectories (data stream of a certain YARP port) at a given sample rate, use [yarpdatadumper](http://www.yarp.it/yarpdatadumper.html). To record from several YARP ports, [yarpdatadumperAppGenerator](http://www.yarp.it/yarpdatadumperAppGenerator.html) can be used to generate a [yarpmanager](http://www.yarp.it/yarpmanager.html) app of [yarpdatadumper](http://www.yarp.it/yarpdatadumper.html) components.
 
+   An example to record the left arm trayectory of TEO: 
+   * Terminal 1:
+   ```
+   launchManipulation  # Part of teoBase
+   ```
+   * Terminal 2: 
+   ```bash
+   yarpdatadumper --name /leftArm  # the data.log and data.log files will be saved in a new `leftArm` directory
+   ```
+   * Terminal 3:
+   ```bash
+   yarp connect /teo/leftArm/state:o /leftArm
+   ```
+
 ## How can I play back data recorded for Programming by Demonstration (PbD) a.k.a. Learning from Demonstration (LfD)?
 
 Depending on options above:
