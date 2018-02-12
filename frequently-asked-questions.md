@@ -1,6 +1,6 @@
 # Frequently Asked Questions
 
-## How can I program... by demonstration?
+## How can I record data for Programning by Demonstration (PbD) a.k.a. Learning from Demonstration (LfD)?
 
 Esentially, you'll want some gravity compensation to help out. That's `[gcmp]` off the `BasicCartesianControl` :
 http://robots.uc3m.es/dox-kinematics-dynamics/group__BasicCartesianControl.html
