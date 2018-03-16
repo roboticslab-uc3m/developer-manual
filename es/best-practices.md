@@ -17,6 +17,7 @@ Copia antigua, véase: https://github.com/roboticslab-uc3m/developer-manual/issu
 ## Nombrar y documentar en general
 * La forma preferida de documentación (salvo [Doxygen](http://www.doxygen.org) para C/C++) es Markdown.
 * La forma preferida para nombrar los archivos en `/doc` es _kebab-case_.
+* Utiliza el plural en los nombres de directorios en el root del proyecto: `examples`, `libraries`, `programs`, `tests`, `cmake/templates` (excepción: `doc`).
 
 ## Programación en general
 * Si tienes problemas con la instalación de las dependencias o de algún software adicional, consulta primero nuestro [repositorio dedicado](https://www.gitbook.com/book/roboticslab-uc3m/installation-guides/details).
@@ -33,7 +34,6 @@ Copia antigua, véase: https://github.com/roboticslab-uc3m/developer-manual/issu
   * *SCREAMING\_SNAKE\_CASE* para el nombre del proyecto, archivos y variables de configuración: `TEO_MAIN`, `TEO_MAINConfig.cmake.in`, `TEO_MAIN_INCLUDE_DIRS`.
   * *kebab-case* para los directorios de instalación de contextos de YARP creados por `yarp_configure_external_installation()`: `teo-main`, `asibot-openrave-models`.
   * Utiliza el prefijo `ROBOTICSLAB_` (o `roboticslab-`) siempre que no sea posible garantizar la unicidad del nombre elegido para el proyecto (ten en cuenta que querrás llamar a `find_package()`): `ROBOTICSLAB_YARP_DEVICES`, `ROBOTICSLAB_KINEMATICS_DYNAMICS_INCLUDE_DIRS`, `roboticslab-vision`.
-  * Utiliza el plural en los nombres de directorios en el root del proyecto: `examples`, `libraries`, `programs`, `tests`, `cmake/templates` (excepción: `doc`).
 
 ## Programación C/C++
 * Para crear un nuevo proyecto C/C++, utiliza [project-generator](https://github.com/roboticslab-uc3m/project-generator).
