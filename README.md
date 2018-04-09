@@ -3,10 +3,10 @@
 Welcome the Developer manual for [roboticslab-uc3m](https://github.com/roboticslab-uc3m).
 
 This repository is simultaneously hosted at the following links:
-- [GitBook](https://www.gitbook.com/book/roboticslab-uc3m/developer-manual)
-- [GitHub](https://github.com/roboticslab-uc3m/developer-manual)
+- [GitBook](https://www.gitbook.com/book/roboticslab-uc3m/developer-manual) ([SUMMARY (index)](https://github.com/roboticslab-uc3m/developer-manual/blob/master/SUMMARY.md))
+- [GitHub](https://github.com/roboticslab-uc3m/developer-manual) ([READ](https://roboticslab-uc3m.gitbooks.io/developer-manual/content/))
 
-Direct link to [SUMMARY (index)](https://github.com/roboticslab-uc3m/developer-manual/blob/master/SUMMARY.md) on GitHub.
+Direct link to  on GitHub.
 
 ## Contributing
 
