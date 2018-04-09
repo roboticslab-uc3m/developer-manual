@@ -6,6 +6,8 @@ This repository is simultaneously hosted at the following links:
 - [GitBook](https://www.gitbook.com/book/roboticslab-uc3m/developer-manual)
 - [GitHub](https://github.com/roboticslab-uc3m/developer-manual)
 
+Direct link to [SUMMARY (index)](https://github.com/roboticslab-uc3m/developer-manual/blob/master/SUMMARY.md) on GitHub.
+
 ## Contributing
 
 #### Posting Issues
