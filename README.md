@@ -1,7 +1,8 @@
 # developer-manual
 
-Developer manual for [roboticslab-uc3m](https://github.com/roboticslab-uc3m).
+Welcome the Developer manual for [roboticslab-uc3m](https://github.com/roboticslab-uc3m).
 
+This repository is simultaneously hosted at the following links:
 - [GitBook](https://www.gitbook.com/book/roboticslab-uc3m/developer-manual)
 - [GitHub](https://github.com/roboticslab-uc3m/developer-manual)
 
