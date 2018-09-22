@@ -5,8 +5,8 @@
    - Native Partition: More risky, as boot and partitions are touched. Please backup your data before doing this, and additionaly have an extra machine around in case you mess up your boot (may additional hours/days to fix, depending on expertize)! A basic recommendation towards avoiding data loss is to first manage partition sizes from within the original OS to leave empty space for the new OS. It is recommended to assume the risk if you want higher performance and/or are going to be interacting with hardware (e.g. cameras or real robots!).
    - Windows Subsystem for Linux (WSL): [FAQ](https://docs.microsoft.com/en-us/windows/wsl/faq).
 - Version control: [Tutorial (Spanish)](https://github.com/asrob-uc3m/tutoriales/tree/master/software/version-control) / [Usage within roboticslab-uc3m organization](version-control.md)
-- Github (issues, etc) (see [tutorial](https://david-estevez.gitbooks.io/the-git-the-bad-and-the-ugly/content/))
-- Markdown (see [tutorial](https://github.com/asrob-uc3m/tutoriales/blob/master/writing/markdown.md))
-- Doxygen (missing tutorial)
-- C/C++, Python... (missing tutorials)
+- Github (issues, etc): [Tutorial (Spanish)](https://david-estevez.gitbooks.io/the-git-the-bad-and-the-ugly/content/)
+- Markdown: [Tutorial (Spanish)](https://github.com/asrob-uc3m/tutoriales/blob/master/writing/markdown.md)
+- Doxygen: missing tutorial
+- C/C++, Python: missing tutorials?
 - CMake
