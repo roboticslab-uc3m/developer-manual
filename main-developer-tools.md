@@ -6,7 +6,8 @@
    - Windows Subsystem for Linux (WSL): [FAQ](https://docs.microsoft.com/en-us/windows/wsl/faq).
 - Version control: [Tutorial (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/version-control/) / [Usage within roboticslab-uc3m organization](version-control.md)
 - Github (issues, etc): [Tutorial (Spanish)](https://david-estevez.gitbooks.io/the-git-the-bad-and-the-ugly/content/)
-- Markdown: [Tutorial (Spanish)](https://github.com/asrob-uc3m/tutoriales/blob/master/writing/markdown.md)
-- Doxygen: missing tutorial
-- C/C++, Python: missing tutorials?
-- CMake
+- Markdown: [Tutorial (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/writing/markdown.html)
+- CMake: [Tutorial (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/programming/cmake.html)
+- C/C++: Low-level (control) programming.
+- Python: High-level (algorithm) programming.
+- Doxygen: Document code, within the code.
