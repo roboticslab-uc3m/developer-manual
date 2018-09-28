@@ -6,7 +6,7 @@
       1. Download the ISO from the links above.
       1. Historically, ISOs were burnt to CDs, but now we create bootable USB drives. [This nice tutorial](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows) via Windows recommends [Rufus](http://rufus.akeo.ie/).
       1. Create disk space for installation. If from Windows, best from Disk Administration tool.
-      1. Turn off and reboot into USB.
+      1. Turn off and reboot into USB (via boot selection or changing boot order in BIOS), install Ubuntu.
    - Windows Subsystem for Linux (WSL): [FAQ](https://docs.microsoft.com/en-us/windows/wsl/faq).
 - Version control: [Tutorial (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/version-control/) / [Usage within roboticslab-uc3m organization](version-control.md)
 - Github (issues, etc): [Tutorial](https://david-estevez.gitbooks.io/the-git-the-bad-and-the-ugly/content/)
