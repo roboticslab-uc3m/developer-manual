@@ -12,6 +12,6 @@
 - Github (issues, etc): [Tutorial](https://david-estevez.gitbooks.io/the-git-the-bad-and-the-ugly/content/)
 - Markdown: [Tutorial (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/writing/markdown.html)
 - CMake: [Tutorial (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/programming/cmake.html)
-- C/C++: Low-level (control) programming.
+- C/C++: Low-level (control) programming. Some good slides on C are "Thinking in C" by Bruce Eckel, and some good books on C++ are "Thinking in C++" by Bruce Eckel.
 - Python: High-level (algorithm) programming.
 - Doxygen: Document code, within the code.
