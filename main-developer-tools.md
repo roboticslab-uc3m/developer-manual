@@ -9,7 +9,7 @@
       1. Turn off and reboot into USB (via boot selection or changing boot order in BIOS), install Ubuntu.
    - Windows Subsystem for Linux (WSL): [FAQ](https://docs.microsoft.com/en-us/windows/wsl/faq).
 - Bash: [Tutorial (Spanish)](https://github.com/asrob-uc3m/tutoriales/blob/master/software/linux/bash.md) 
-- C/C++: Low-level (control) programming. Some good slides on C are "Thinking in C" by Bruce Eckel, and some good books on C++ are "Thinking in C++" by Bruce Eckel.
+- C/C++: Low-level (control) programming. Some good slides on C are "Thinking in C" by Bruce Eckel, and some good books on C++ are "Thinking in C++" by Bruce Eckel. A nice IDE is QTCreator, but you can also customize Eclipse, Atom or even Vim. 
 - CMake: [Tutorial (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/programming/cmake.html)
 - Version control: [Tutorial (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/version-control/) / [Usage within roboticslab-uc3m organization](version-control.md)
 - Github (issues, etc): [Tutorial](https://david-estevez.gitbooks.io/the-git-the-bad-and-the-ugly/content/)
