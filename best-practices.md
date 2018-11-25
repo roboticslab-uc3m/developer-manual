@@ -43,3 +43,5 @@
   1. Ping the corresponding team or whoever could need more action on their end.
   1. Proceed gradually and, finally, kill the function.
 * Always initialize class members, either in the class constructor or in any initialization method (e.g. your implementation of `DeviceDriver::open` when creating custom _YARP devices_) before doing the actual work.
+* More links to best practices:
+   * https://google.github.io/styleguide/cppguide.html
