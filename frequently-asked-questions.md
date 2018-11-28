@@ -35,5 +35,9 @@ Depending on options above:
 Note: There are several alternatives to these approaches, but these are kind of nice. [yarpmanager](http://www.yarp.it/yarpmanager.html) has some record/playback facilities, but we haven't really tried them. Additionally, [yarpdataplayer](http://www.yarp.it/yarpdataplayer.html) is the packaged YARP utility for playback. However, these interfaces have their playback capabilities tightly coupled to their GUI code. The previously mentioned components from the [tools](https://github.com/roboticslab-uc3m/tools) repository are lightweight and can be used independently as they are not coupled with any graphical interface.
 
 ## I've found some broken links in your repositories, which have been renamed?
-- https://github.com/roboticslab-uc3m/teo-head became https://github.com/roboticslab-uc3m/vision
-- There was a https://github.com/roboticslab-uc3m/teo-main that became https://github.com/roboticslab-uc3m/kinematics-dynamics
+Most of this was done at https://github.com/roboticslab-uc3m/questions-and-answers/issues/2
+- https://github.com/roboticslab-uc3m/teo-body -> https://github.com/roboticslab-uc3m/yarp-devices
+- https://github.com/roboticslab-uc3m/teo-head -> https://github.com/roboticslab-uc3m/vision
+- https://github.com/roboticslab-uc3m/teo-main (old version) -> https://github.com/roboticslab-uc3m/kinematics-dynamics
+- https://github.com/roboticslab-uc3m/best-practices -> https://github.com/roboticslab-uc3m/developer-manual
+- https://github.com/roboticslab-uc3m/teo-software-manual -> https://github.com/roboticslab-uc3m/teo-developer-manual
