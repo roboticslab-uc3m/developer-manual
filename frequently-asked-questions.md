@@ -34,6 +34,20 @@ Depending on options above:
 
 Note: There are several alternatives to these approaches, but these are kind of nice. [yarpmanager](http://www.yarp.it/yarpmanager.html) has some record/playback facilities, but we haven't really tried them. Additionally, [yarpdataplayer](http://www.yarp.it/yarpdataplayer.html) is the packaged YARP utility for playback. However, these interfaces have their playback capabilities tightly coupled to their GUI code. The previously mentioned components from the [tools](https://github.com/roboticslab-uc3m/tools) repository are lightweight and can be used independently as they are not coupled with any graphical interface.
 
+## How does the iPos PT Mode work?
+
+`PT Mode` performs at a fixed rate at driver level. This is great, because it's real-time right next to the motor, so network latencies will not affect performance of set of a pre-defined joint-space targets (positions). Not justifying how it's implemented, but providing the reason why they actually did it as it is. Naïve options:
+1. First receive (e.g. via CAN-bus) all the trajectory, then execute each target at the exact time given the fixed period. The issue with this is: how much memory should we reserve for this? What happens if somebody wants to run a trajectory with thousands or millions of intermediate targets?
+2. Receive the next target (e.g. via CAN-bus), execute it at exactly the planned time given the fixed period, repeat. The issue with this is: what happens if a target arrives late?
+
+None of these options is the implemented solution. The iPos implementation is an intermediate solution, essentially a [FIFO](https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics)) memory with 8 buffer positions (would have to check the iPos manual for the specific correct value). So, you start filling it in, once it is initially full you start running, and then continue feeding it targets (e.g. via CAN-bus) at the rate established by the fixed period.
+- If you feed it too slow, the buffer will empty before time and movement will stop.
+- If you feed it too fast, the buffer will get full  (you'll see a `pt buffer full!` message in our [CanBusControlboard](https://github.com/roboticslab-uc3m/yarp-devices/blob/e696c219fa9aa6203d008585123ea477d9b74454/libraries/YarpPlugins/CanBusControlboard) implementation).
+
+Hence, best to feed it at the most precise rate possible. Take into account that a [PeriodicThread](https://github.com/robotology/yarp/blob/master/example/os/ratethread.cpp) (YARP's old `RateThread`) will be more precise than adding a fixed delay at the end of your loop. 
+
+In the current [CanBusControlboard](https://github.com/roboticslab-uc3m/yarp-devices/blob/e696c219fa9aa6203d008585123ea477d9b74454/libraries/YarpPlugins/CanBusControlboard) implementation, this is set when we instance the class, and may be modified via [--ptModeMs](https://github.com/roboticslab-uc3m/yarp-devices/blob/e696c219fa9aa6203d008585123ea477d9b74454/libraries/YarpPlugins/CanBusControlboard/DeviceDriverImpl.cpp#L10). You'll be asking yourself if there is a minimum threshold. The answer is yes, and this minimum should be estimated by the time consumed by CAN-bus communications to feed all the individual drivers per period.
+
 ## I've found some broken links in your repositories, which have been renamed?
 Most of this was done at https://github.com/roboticslab-uc3m/questions-and-answers/issues/2
 - https://github.com/roboticslab-uc3m/teo-body -> https://github.com/roboticslab-uc3m/yarp-devices
