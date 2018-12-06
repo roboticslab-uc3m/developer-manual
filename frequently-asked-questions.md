@@ -51,7 +51,7 @@ In the current [CanBusControlboard](https://github.com/roboticslab-uc3m/yarp-dev
 ## I've found some broken links in your repositories, which have been renamed?
 Most of this was done at https://github.com/roboticslab-uc3m/questions-and-answers/issues/2
 - https://github.com/roboticslab-uc3m/teo-body -> https://github.com/roboticslab-uc3m/yarp-devices
-- https://github.com/roboticslab-uc3m/teo-head -> https://github.com/roboticslab-uc3m/vision
+- https://github.com/roboticslab-uc3m/teo-head -> https://github.com/roboticslab-uc3m/vision and https://github.com/roboticslab-uc3m/speech
 - https://github.com/roboticslab-uc3m/teo-main (old version) -> https://github.com/roboticslab-uc3m/kinematics-dynamics
 - https://github.com/roboticslab-uc3m/best-practices -> https://github.com/roboticslab-uc3m/developer-manual
 - https://github.com/roboticslab-uc3m/teo-software-manual -> https://github.com/roboticslab-uc3m/teo-developer-manual
