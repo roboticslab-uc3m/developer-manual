@@ -12,4 +12,6 @@ echo "Gitbook developer-manual..."
 rm -r _book/
 gitbook build
 gitbook pdf . _book/developer-manual.pdf
+gitbook mobi . _book/developer-manual.mobi
+gitbook epub . _book/developer-manual.epub
 cd ..
