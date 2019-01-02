@@ -2,7 +2,7 @@
 
 # Developer Manual
 
-Developer Manual for [Roboticslab UC3M](https://github.com/roboticslab-uc3m)
+Developer Manual for [roboticslab-uc3m](https://github.com/roboticslab-uc3m)
 
 Click on the option you want, or use the arrows to move sequentially
 
