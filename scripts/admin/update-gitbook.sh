@@ -11,4 +11,5 @@ git pull
 echo "Gitbook developer-manual..."
 rm -r _book/
 gitbook build
+gitbook pdf . _book/developer-manual.pdf
 cd ..
