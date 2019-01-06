@@ -10,8 +10,8 @@ cd $HOME/developer-manual
 git pull
 echo "Gitbook developer-manual..."
 rm -r _book/
-gitbook build
-gitbook pdf . _book/developer-manual.pdf
-gitbook mobi . _book/developer-manual.mobi
-gitbook epub . _book/developer-manual.epub
+/usr/local/bin/gitbook build
+/usr/local/bin/gitbook pdf . _book/developer-manual.pdf
+/usr/local/bin/gitbook mobi . _book/developer-manual.mobi
+/usr/local/bin/gitbook epub . _book/developer-manual.epub
 cd ..
