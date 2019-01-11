@@ -1,7 +1,7 @@
 # Main Developer Tools
 
 ## Which Operating System should I use?
-- For desktops and laptops, we recommend Ubuntu (Desktop version) on a naitive partition. You are free to choose between versions `16.04` and `18.04`. Either one is a good option, although we have slight more support for `16.04`. For further information, please read: [Linux - Introducción (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/linux/introduction.html)
+- For desktops and laptops, we recommend Ubuntu (Desktop version) on a native partition. You are free to choose between versions `16.04` and `18.04`. Either one is a good option, although we have slight more support for `16.04`. For further information, please read: [Linux - Introducción (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/linux/introduction.html)
 - For robot on-board CPUs, you can read through a long conversation at: [questions-and-answers#20](https://github.com/roboticslab-uc3m/questions-and-answers/issues/20). 
 
 ## I was told to install something. How can I do that?
