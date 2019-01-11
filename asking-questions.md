@@ -16,3 +16,6 @@ Reasons for using GitHub issues rather than private messaging:
 * A convenient tool to keep any technical topic inside its technical context and focus on the proper issue's subject.
 * Higher visibility of your topic in such a way that the answer may come from unexpected people. This is especially interesting in cases of disagreement between two parties where unrelated contributors may bring up new ideas and worthy viewpoints.
 
+## Self evaluation time!
+
+https://goo.gl/forms/s9RNrCZqVUAaausf1
