@@ -1,6 +1,6 @@
 # Best practices
 
-## Version control
+## GitHub
 * **For any kind of project, as insignificant as it may seem**, use one of our repositories: see [Repository Index](repository-index.md).
 * Adjust [.gitignore](https://git-scm.com/docs/gitignore) for the right project type to prevent from uploading unwanted files \(binaries, backups and leftover code\).
 * We follow the [GitFlow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow/) git workflow \(except pure documentation repos, see [\#6](https://github.com/roboticslab-uc3m/developer-manual/issues/6)\). Upload your work to a new branch, branching out from `develop`. If `develop` doesn't exist, branch out from `master` instead.
