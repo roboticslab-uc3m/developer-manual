@@ -24,6 +24,7 @@ A useful tool to avoid uploading undesired files is [.gitignore](https://git-scm
 
 ### How should I name files and folders I commit?
 * Re-use existing folders when this makes senses, create new folders only if required.
+* Re-use existing files when this makes senses, DON'T ADD DIGITS to filenames as a hint of a specific version, iteration step, etc. - version control is for this. Additionally, AVOID DUPLICATES of existing files: code and documentation can and should be reused ([don't repeat yourself (DRY)](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)).
 * Use concise and explanatory names for your files and folders.
 * Files in `/doc` should be named using _kebab-case_.
 * For C/C++ and CMake files, see specific respective conventions, below.
@@ -43,12 +44,13 @@ Whenever you feel your changes are mature enough to be merged with the main proj
 * In case of trouble during installation of dependencies or additional software, take a look first at our [dedicated repository](https://www.gitbook.com/book/roboticslab-uc3m/installation-guides/details).
 * If incorporating a new dependency or additional software, first take a look at our [dedicated repository](https://www.gitbook.com/book/roboticslab-uc3m/installation-guides/details). If it's not there, consider if it's a good option using the following recommended (but not mandatory) criteria: lightweight, flexible, multiplatform. If so, add it there, then link it to your project ([example](5182f9f475e229acea4cca1130be57489fd6b0f7)).
 * Indent your code as if everything were Python. [astyle](http://astyle.sourceforge.net/) can handle this quite automatically for you \(use with caution\).
-* DON'T ADD DIGITS to filenames as a hint of a specific version, iteration step, etc. - that is what hashes and tags in source control are for.
-* AVOID DUPLICATES of existing files and programs: [don't repeat yourself (DRY)](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself). Prior to creating a new program, thoroughly analyze whether you can enhance an existing one through adjustment or implementation of new parameters. Once you are sure that the functionality of a program could be extended, proceed with the usual steps \(open an issue or fork & create a pull request\).
 * Any `toDo`, `fixMe`, etc. inlined in code must be associated to an _open issue_ \(with bidirectional reference\).
 * [Headers, config files and CLI parameters](https://github.com/roboticslab-uc3m/asibot-main/blob/develop/doc/asibot-post-install.md#changing-parameters).
 * Read about [Clean code](https://www.google.es/search?q=cleancode).
 * We use [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development) and [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration).
+* Let's repeat:
+    * DON'T ADD DIGITS to filenames as a hint of a specific version, iteration step, etc. - version control is for this.
+    * AVOID DUPLICATES of existing files and programs: [don't repeat yourself (DRY)](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself). Prior to creating a new program, thoroughly analyze whether you can enhance an existing one through adjustment or implementation of new parameters. Once you are sure that the functionality of a program could be extended, proceed with the usual steps \(open an issue or fork & create a pull request\).
 
 ## Programming in CMake
 * Naming conventions:
