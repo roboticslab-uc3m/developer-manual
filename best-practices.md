@@ -1,7 +1,6 @@
 # Best practices
 
-## GitHub: commit
-
+## GitHub: commit (and push)
 We have seen in [Main Developer Tools](main-developer-tools.md) that GitHub is an important part of our workflow. Now let's see when and how to use it.
 
 ### When should I commit to GitHub?
@@ -34,7 +33,7 @@ A useful tool to avoid uploading undesired files is [.gitignore](https://git-scm
 ### How should commit messages be?
 Use a short and direct commit message that clearly states the changes made in that commit. Avoid using generic messages such as "Upload files", since they make it very hard for the repository users to track changes later on.
 
-### When and how should I merge?
+## GitHub: Pull Request
 Whenever you feel your changes are mature enough to be merged with the main project, create a Pull Request. Your work will be reviewed and merged by the owner/admin of that repository.
 
 ## General documenting
