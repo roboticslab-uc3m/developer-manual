@@ -37,9 +37,6 @@ Use a short and direct commit message that clearly states the changes made in th
 ### When and how should I merge?
 Whenever you feel your changes are mature enough to be merged with the main project, create a Pull Request. Your work will be reviewed and merged by the owner/admin of that repository.
 
-## Continuous Integration
-* We use [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development) and [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration).
-
 ## General documenting
 * The preferred way of documenting things (except [Doxygen](http://www.doxygen.org) for C/C++) is Markdown.
 
@@ -52,6 +49,7 @@ Whenever you feel your changes are mature enough to be merged with the main proj
 * Any `toDo`, `fixMe`, etc. inlined in code must be associated to an _open issue_ \(with bidirectional reference\).
 * [Headers, config files and CLI parameters](https://github.com/roboticslab-uc3m/asibot-main/blob/develop/doc/asibot-post-install.md#changing-parameters).
 * Read about [Clean code](https://www.google.es/search?q=cleancode).
+* We use [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development) and [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration).
 
 ## Programming in CMake
 * Naming conventions:
