@@ -1,10 +1,10 @@
 # Best practices
 
-## GitHub
+## GitHub: commit
 
 We have seen in [Main Developer Tools](main-developer-tools.md) that GitHub is an important part of our workflow. Now let's see when and how to use it.
 
-### When should I use GitHub?
+### When should I commit to GitHub?
 Essentially, always. Whatever you are doing, as insignificant as it may seem, please upload the files to GitHub. Read on for the details.
 
 ### To which GitHub repository should I commit?
@@ -23,18 +23,19 @@ We commented above to commit absolutely everything, as insignificant as it may s
 
 A useful tool to avoid uploading undesired files is [.gitignore](https://git-scm.com/docs/gitignore): adjust it for the right project type to prevent from uploading these unwanted files.
 
-### How should I name file and folders I commit?
-* The preferred way of naming files in `/doc` is _kebab-case_.
-* See conventions for specific languages (e.g. C/C++) below.
-* Prefer plural in directory names at the project root: `examples`, `libraries`, `programs`, `tests`, `cmake/templates` (except: `doc`).
+### How should I name files and folders I commit?
+* Re-use existing folders when this makes senses, create new folders only if required.
+* Use concise and explanatory names for your files and folders.
+* Files in `/doc` should be named using _kebab-case_.
+* For C/C++ and CMake files, see specific respective conventions, below.
+* As a general naming rule: be coherent with the rest of the files in that repositories (CamelCase, kebab-case, etc).
+* Prefer plural in directory names at the project root: `examples`, `libraries`, `programs`, `tests`, `cmake/templates` (exception: `doc`).
 
 ### How should commit messages be?
 Use a short and direct commit message that clearly states the changes made in that commit. Avoid using generic messages such as "Upload files", since they make it very hard for the repository users to track changes later on.
 
 ### When and how should I merge?
-* Whenever you feel your changes are mature enough to be merged with the main project, create a Pull Request. Your work will be reviewed and merged by the owner/admin of that repository.
-
-* Upload your changes/files in the corresponding folder, and use a concise and explanatory name for your files. Try to be coherent with the rest of the files in that repositories (CamelCase, kebab-case, etc).
+Whenever you feel your changes are mature enough to be merged with the main project, create a Pull Request. Your work will be reviewed and merged by the owner/admin of that repository.
 
 ## Continuous Integration
 * We use [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development) and [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration).
