@@ -8,7 +8,6 @@
 * Use a short and direct commit message that clearly states the changes made in that commit. Avoid using generic messages such as "Upload files", since they make it very hard for the repository users to track changes later on.
 * Avoid uploading compressed (e.g. `.zip`) and binary (e.g. `.pdf`, videos...) files. In most cases, uploading the sources will suffice to generate the rest of the files.
 * Upload your changes / files in the corresponding folder, and use a concise and explanatory name for your files. Try to be coherent with the rest of the files in that repositories (CamelCase, kebab-case, etc).
-* In case of doubt, please ask.
 * We use [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development) and [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration).
 
 ## General naming and documenting
@@ -55,3 +54,7 @@
 * More links to best practices:
    * https://google.github.io/styleguide/cppguide.html
    * https://www.perforce.com/resources/qac/high-integrity-cpp-coding-standard
+
+## If you have any doubts or comments
+
+Please comment publicly [HERE](https://github.com/roboticslab-uc3m/developer-manual/issues/new)
