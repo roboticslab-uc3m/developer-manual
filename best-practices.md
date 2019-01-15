@@ -23,9 +23,10 @@ We commented above to commit absolutely everything, as insignificant as it may s
 A useful tool to avoid uploading undesired files is [.gitignore](https://git-scm.com/docs/gitignore): adjust it for the right project type to prevent from uploading these unwanted files.
 
 ### How should I name files and folders I commit?
-* Re-use existing folders when this makes senses, create new folders only if required.
-* Re-use existing files when this makes senses, DON'T ADD DIGITS to filenames as a hint of a specific version, iteration step, etc. - version control is for this. Additionally, AVOID DUPLICATES of existing files: code and documentation can and should be reused ([don't repeat yourself (DRY)](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)).
 * Use concise and explanatory names for your files and folders.
+* Place your file inside existing folders when this makes sense, and create new folders only if required.
+* DON'T ADD DIGITS to filenames as a hint of a specific version, iteration step, etc. Git is a version control that manages this internally for you. Over-write an existing file when commiting a modified version of it, and create new files only if required.
+* AVOID DUPLICATES of existing files: code and documentation can and should be reused ([don't repeat yourself (DRY)](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)).
 * Files in `/doc` should be named using _kebab-case_.
 * For C/C++ and CMake files, see specific respective conventions, below.
 * As a general naming rule: be coherent with the rest of the files in that repositories (CamelCase, kebab-case, etc).
