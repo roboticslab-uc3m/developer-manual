@@ -1,5 +1,19 @@
 # Best practices
 
+* [GitHub: commit (and push)](#github-commit-and-push)
+    * [When should I commit to GitHub?](#when-should-i-commit-to-github)
+    * [To which GitHub repository should I commit?](#to-which-github-repository-should-i-commit)
+    * [To which repository branch should I commit?](#to-which-repository-branch-should-i-commit)
+    * [Which files should I commit to the branch?](#which-files-should-i-commit-to-the-branch)
+    * [How should I name files and folders I commit?](#how-should-i-name-files-and-folders-i-commit)
+    * [How should commit messages be?](#how-should-commit-messages-be)
+* [GitHub: Pull Request](#github-pull-request)
+* [General Documenting](#general-documenting)
+* [General Programming](#general-programming)
+* [Programming in CMake](#programming-in-cmake)
+* [Programming in C/C++](#programming-in-cc)
+* [If you have any doubts or comments](#if-you-have-any-doubts-or-comments)
+
 ## GitHub: commit (and push)
 We have seen in [Main Developer Tools](main-developer-tools.md) that GitHub is an important part of our workflow. Now let's see when and how to use it.
 
@@ -38,10 +52,10 @@ Use a short and direct commit message that clearly states the changes made in th
 ## GitHub: Pull Request
 Whenever you feel your changes are mature enough to be merged with the main project, create a Pull Request. Your work will be reviewed and merged by the owner/admin of that repository.
 
-## General documenting
+## General Documenting
 * The preferred way of documenting things (except [Doxygen](http://www.doxygen.org) for C/C++) is Markdown.
 
-## General programming
+## General Programming
 * In case of trouble during installation of dependencies or additional software, take a look first at our [dedicated repository](https://www.gitbook.com/book/roboticslab-uc3m/installation-guides/details).
 * If incorporating a new dependency or additional software, first take a look at our [dedicated repository](https://www.gitbook.com/book/roboticslab-uc3m/installation-guides/details). If it's not there, consider if it's a good option using the following recommended (but not mandatory) criteria: lightweight, flexible, multiplatform. If so, add it there, then link it to your project ([example](5182f9f475e229acea4cca1130be57489fd6b0f7)).
 * Indent your code as if everything were Python. [astyle](http://astyle.sourceforge.net/) can handle this quite automatically for you \(use with caution\).
