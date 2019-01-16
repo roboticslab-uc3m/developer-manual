@@ -51,7 +51,8 @@ A useful tool to avoid uploading undesired files is [.gitignore](https://git-scm
 Use a short and direct commit message that clearly states the changes made in that commit. Avoid using generic messages such as "Upload files", since they make it very hard for the repository users to track changes later on.
 
 ## GitHub Pull Request
-Whenever you feel your changes are mature enough to be merged with the main project, create a Pull Request. Your work will be reviewed and merged by the owner/admin of that repository.
+- Whenever you feel your changes are mature enough to be merged with the main project, create a Pull Request. Your work will be reviewed and merged by the owner/admin of that repository.
+- Prepend `[WIP]` (which stands for Work In Progress) in the Pull Request title if you feel the branch is still not ready for a git merge.
 
 ## If you have any doubts or comments
 Please read the [Asking Questions](asking-questions.md) section, and once you've succeded with its [self-evaluation](asking-questions.md#self-evaluation-time) follow the recommendations by commenting publicly [HERE](https://github.com/roboticslab-uc3m/developer-manual/issues/new) if required
