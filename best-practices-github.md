@@ -1,21 +1,21 @@
 # Best practices: GitHub
 
-* [Issues](#github-issues)
-* [commit (and push)](#github-commit-and-push)
+* [GitHub Issues](#github-issues)
+* [git commit (and push)](#github-commit-and-push)
     * [When should I commit to GitHub?](#when-should-i-commit-to-github)
     * [To which GitHub repository should I commit?](#to-which-github-repository-should-i-commit)
     * [To which repository branch should I commit?](#to-which-repository-branch-should-i-commit)
     * [Which files should I commit to the branch?](#which-files-should-i-commit-to-the-branch)
     * [How should I name files and folders I commit?](#how-should-i-name-files-and-folders-i-commit)
     * [How should commit messages be?](#how-should-commit-messages-be)
-* [Pull Request](#github-pull-request)
+* [GitHub Pull Request](#github-pull-request)
 * [If you have any doubts or comments](#if-you-have-any-doubts-or-comments)
 
-## Issues
+## GitHub Issues
 
 Regarding which `label` to assign to an issue in GitHub, we are attempting to unify them, with [teo-main](https://github.com/roboticslab-uc3m/teo-main/labels) for inspiration.
 
-## commit (and push)
+## git commit (and push)
 We have seen in [Main Developer Tools](main-developer-tools.md) that GitHub is an important part of our workflow. Now let's see when and how to use it.
 
 ### When should I commit to GitHub?
@@ -50,7 +50,7 @@ A useful tool to avoid uploading undesired files is [.gitignore](https://git-scm
 ### How should commit messages be?
 Use a short and direct commit message that clearly states the changes made in that commit. Avoid using generic messages such as "Upload files", since they make it very hard for the repository users to track changes later on.
 
-## Pull Request
+## GitHub Pull Request
 Whenever you feel your changes are mature enough to be merged with the main project, create a Pull Request. Your work will be reviewed and merged by the owner/admin of that repository.
 
 ## If you have any doubts or comments
