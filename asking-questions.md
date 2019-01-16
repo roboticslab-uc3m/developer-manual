@@ -11,12 +11,7 @@ Here are some places where to look before asking a question:
 ## I cannot find my question answered anywhere, how and where should I ask my question?
 Please open a GitHub Issue following [THESE GUIDELINES](best-practices-github.md#github-issues).
 
-Ideally, you'd open the GitHub Issue in one of the following repositories:
-* If it is clearly specific to one repository, open an issue on that repository. Examples: [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices/issues), [kinematics-dynamics](https://github.com/roboticslab-uc3m/kinematics-dynamics/issues), [vision](https://github.com/roboticslab-uc3m/vision/issues)...
-* If it is extremely generic but refers to a specific robot, go to the robot's main repository. Examples: [teo-main](https://github.com/roboticslab-uc3m/teo-main/issues), [asibot-main](https://github.com/roboticslab-uc3m/asibot-main/issues)...
-   * Note that TEO has its own private [teo-hardware-issues](https://github.com/roboticslab-uc3m/teo-hardware-issues/issues) repository where you can also open an issue on any specific TEO hardware issue.
-* If it extremely generic, open an issue at: [questions-and-answers](https://github.com/roboticslab-uc3m/questions-and-answers)
-* If it refers to a wiki page, add a comment in the *Discussion* tab on the wiki.
+* Note: If it refers to a wiki page, add a comment in the *Discussion* tab on the wiki.
 
 ## I really don't like GitHub Issues, why can't I just bug somebody who knows the answer?
 There are several reasons to prefer GitHub Issues rather than asking in person or private messaging:

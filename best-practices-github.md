@@ -13,8 +13,27 @@
 * [If you have any doubts or comments](#if-you-have-any-doubts-or-comments)
 
 ## GitHub Issues
+We justified GitHub Issues as the main mechanism for asking questions at the [Asking Questions](asking-questions.md) section.
+1. Log into GitHub by clicking on `Sign in` (if not logged in already)
+1. Go to the repository that is most related from the [Repository Index](appendix/repository-index.md)
+    * If it is clearly specific to one repository, go to that repository. Examples: [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices/issues), [kinematics-dynamics](https://github.com/roboticslab-uc3m/kinematics-dynamics/issues), [vision](https://github.com/roboticslab-uc3m/vision/issues)...
+    * If it is extremely generic but refers to a specific robot, go to the robot's main repository. Examples: [teo-main](https://github.com/roboticslab-uc3m/teo-main/issues), [asibot-main](https://github.com/roboticslab-uc3m/asibot-main/issues)...
+    * Note that TEO has its own private [teo-hardware-issues](https://github.com/roboticslab-uc3m/teo-hardware-issues/issues) repository where you can also open an issue on any specific TEO hardware issue.
+    * If it extremely generic, go to: [questions-and-answers](https://github.com/roboticslab-uc3m/questions-and-answers)
+1. Click on `Issues`, then on `New Issue`
+1. Add an accurate title and detailed description:
+    * Explain, as detailed as possible, how to reproduce the issue or the specific behaviour for the feature.
+    * Include what you expected to happen and what actually happened.
+    * Please include information on what operating system and version you are working with. Also add any other relevant details.
+    * Remember you can use Markdown to include code fragments, bullet points, tables, etc. Don't know what Markdown is? Please read [Markdown (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/writing/markdown.html)
+    * Feel free to attach any other information illustrating the issue, you can drag and drop: log files, helper images, etc.
+1. Click on `Submit new issue`
+1. If you have permissions, assign closest related `label(s)` to the Issue.
+    * Note on GitHub Issue labels: we are attempting to unify them, originally with [teo-main](https://github.com/roboticslab-uc3m/teo-main/labels) for inspiration, read more at [questions-and-answers#76](https://github.com/roboticslab-uc3m/questions-and-answers/issues/76).
+1. If you have permissions, add the Issue to closest related `Project(s)`.
 
-Regarding which `label` to assign to an issue in GitHub, we are attempting to unify them, with [teo-main](https://github.com/roboticslab-uc3m/teo-main/labels) for inspiration.
+Troubleshooting:
+- In certain repositories (none of the https://github.com/roboticslab-uc3m GitHub organization), you have to be part of the specific GitHub organization to be able to put an Issue. Please contact the specific GitHub organization owners if given the case.
 
 ## git commit (and push)
 We have seen in [Main Developer Tools](main-developer-tools.md) that GitHub is an important part of our workflow. Now let's see when and how to use it.
@@ -56,7 +75,7 @@ Use a short and direct commit message that clearly states the changes made in th
 - Prepend `[WIP]` (which stands for Work In Progress) in the Pull Request title if you feel the branch is still not ready for a git merge.
 
 ## GitHub Projects
-We use GitHub Projects to manage our workflow. They offer a nice Kanban that is integrated with GitHub Issues.
+We use GitHub Projects to manage our workflow. They offer a nice Kanban that is integrated with GitHub Issues. Read more at [questions-and-answers#74](https://github.com/roboticslab-uc3m/questions-and-answers/issues/74).
 
 ## If you have any doubts or comments
 Please read the [Asking Questions](asking-questions.md) section, and once you've succeded with its [self-evaluation](asking-questions.md#self-evaluation-time) follow the recommendations by commenting publicly [HERE](https://github.com/roboticslab-uc3m/developer-manual/issues/new) if required
