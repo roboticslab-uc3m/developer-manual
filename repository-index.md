@@ -9,7 +9,7 @@ All our main repositories are currently hosted at: https://github.com/roboticsla
 - https://github.com/roboticslab-uc3m/questions-and-answers
 - Also see manuals for individual robots
 
-## Robotics (Horizontal)
+## Robotics (General)
 - https://github.com/roboticslab-uc3m/color-debug
 - https://github.com/roboticslab-uc3m/data-visualization
 - https://github.com/roboticslab-uc3m/gazebo-tools
