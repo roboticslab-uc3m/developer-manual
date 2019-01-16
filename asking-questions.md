@@ -8,9 +8,10 @@ Here are some places where to look before asking a question:
 * Do a search among open and closed issues of the repository associated to your project.
 * We still have some information in our [old wiki](http://robots.uc3m.es/)
 
-## I cannot find my question answered anywhere, where and how should I ask my question?
+## I cannot find my question answered anywhere, how and where should I ask my question?
+Please open a GitHub Issue following [THESE GUIDELINES](best-practices-github.md#github-issues).
 
-Please open a GitHub Issue in one of the following repositories:
+Ideally, you'd open the GitHub Issue in one of the following repositories:
 * If it is clearly specific to one repository, open an issue on that repository. Examples: [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices/issues), [kinematics-dynamics](https://github.com/roboticslab-uc3m/kinematics-dynamics/issues), [vision](https://github.com/roboticslab-uc3m/vision/issues)...
 * If it is extremely generic but refers to a specific robot, go to the robot's main repository. Examples: [teo-main](https://github.com/roboticslab-uc3m/teo-main/issues), [asibot-main](https://github.com/roboticslab-uc3m/asibot-main/issues)...
    * Note that TEO has its own private [teo-hardware-issues](https://github.com/roboticslab-uc3m/teo-hardware-issues/issues) repository where you can also open an issue on any specific TEO hardware issue.
