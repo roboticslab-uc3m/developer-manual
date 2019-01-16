@@ -5,7 +5,7 @@ The quickest answers are the ones that are already written, and it's pretty poss
 
 Here are some places to look for information before asking a question:
 * Read the manuals! You can find a list of all the manuals including this one [HERE](appendix/repository-index.md#manuals-and-faqs)
-* Do a search first on our and among open and closed issues of the repository associated to your project.
+* Do a search among open and closed issues of the repository associated to your project.
 * We still have some information in our [old wiki](http://robots.uc3m.es/)
 
 ## I cannot find my question answered anywhere, where and how should I ask my question?
@@ -16,6 +16,13 @@ Please open a GitHub Issue in one of the following repositories:
    * Note that TEO has its own private [teo-hardware-issues](https://github.com/roboticslab-uc3m/teo-hardware-issues/issues) repository where you can also open an issue on any specific TEO hardware issue.
 * If it extremely generic, open an issue at: [questions-and-answers](https://github.com/roboticslab-uc3m/questions-and-answers)
 * If it refers to a wiki page, add a comment in the *Discussion* tab on the wiki.
+
+## I really don't like GitHub Issues, why can't I just bug somebody who knows the answer?
+There are several reasons to prefer GitHub Issues rather than asking in person or private messaging:
+* Increased global productivity as logs are kept. It tends to avoid repetition of the same questions and the same answers.
+* A convenient tool to keep any technical topic inside its technical context and focus on the proper issue's subject.
+* Higher visibility of your topic in such a way that the answer may come from unexpected people. This is especially interesting in cases of disagreement between two parties where unrelated contributors may bring up new ideas and worthy viewpoints.
+
 
 ## Self evaluation time!
 
