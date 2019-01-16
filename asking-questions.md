@@ -1,9 +1,9 @@
 # Asking Questions
 
 ## What should I do before asking a question?
-The quickest answers are the ones that are already written, and it's pretty possible that your question has already been answered somewhere!
+The quickest answers are the ones that are already written! It's pretty possible that your question has already been answered somewhere!!
 
-Here are some places to look for information before asking a question:
+Here are some places where to look before asking a question:
 * Read the manuals! You can find a list of all the manuals including this one [HERE](appendix/repository-index.md#manuals-and-faqs)
 * Do a search among open and closed issues of the repository associated to your project.
 * We still have some information in our [old wiki](http://robots.uc3m.es/)
