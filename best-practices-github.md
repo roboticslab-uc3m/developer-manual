@@ -59,5 +59,4 @@ Use a short and direct commit message that clearly states the changes made in th
 Whenever you feel your changes are mature enough to be merged with the main project, create a Pull Request. Your work will be reviewed and merged by the owner/admin of that repository.
 
 ## If you have any doubts or comments
-
-Please comment publicly [HERE](https://github.com/roboticslab-uc3m/developer-manual/issues/new)
+Please read the [Asking Questions](asking-questions.md) section, and once you've succeded with its [self-evaluation](asking-questions.md#self-evaluation-time) follow the recommendations by commenting publicly [HERE](https://github.com/roboticslab-uc3m/developer-manual/issues/new) if required
