@@ -83,10 +83,8 @@ All our main repositories are currently hosted at: https://github.com/roboticsla
 ### Xgnitive
 - https://github.com/roboticslab-uc3m/xgnitive
 
-## If you have any doubts or comments
-
-Please comment publicly [HERE](https://github.com/roboticslab-uc3m/developer-manual/issues/new)
-
 ## Additional notes
-
 We still have some stuff at [http://robots.uc3m.es/svn/\* (private)](http://robots.uc3m.es/svn/)
+
+## If you have any doubts or comments
+Please read the [Asking Questions](asking-questions.md) section, and once you've succeded with its [self-evaluation](asking-questions.md#self-evaluation-time) follow the recommendations by commenting publicly [HERE](https://github.com/roboticslab-uc3m/developer-manual/issues/new) if required
