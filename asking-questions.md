@@ -20,10 +20,9 @@ Ideally, you'd open the GitHub Issue in one of the following repositories:
 
 ## I really don't like GitHub Issues, why can't I just bug somebody who knows the answer?
 There are several reasons to prefer GitHub Issues rather than asking in person or private messaging:
-* Increased global productivity as logs are kept. It tends to avoid repetition of the same questions and the same answers.
-* A convenient tool to keep any technical topic inside its technical context and focus on the proper issue's subject.
-* Higher visibility of your topic in such a way that the answer may come from unexpected people. This is especially interesting in cases of disagreement between two parties where unrelated contributors may bring up new ideas and worthy viewpoints.
-
+* Answers are left for future people with doubts, and even the *you from the future* can run into the same issue after some time and then find the solution online!
+* Developers can have more time to perform research and/or create new cool applications, maybe even that coffee-making or pizza-delivery robot you've been waiting for, yay!
+* GitHub Issues have proved many times to be an efficient mechanism to receive answers from very unexpected contributors, which have provided many answers, new ideas, and worthy viewpoints!!
 
 ## Self evaluation time!
 
