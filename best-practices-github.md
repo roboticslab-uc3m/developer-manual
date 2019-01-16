@@ -1,5 +1,6 @@
 # Best practices
 
+* [GitHub: Issues](#github-issues)
 * [GitHub: commit (and push)](#github-commit-and-push)
     * [When should I commit to GitHub?](#when-should-i-commit-to-github)
     * [To which GitHub repository should I commit?](#to-which-github-repository-should-i-commit)
@@ -9,6 +10,15 @@
     * [How should commit messages be?](#how-should-commit-messages-be)
 * [GitHub: Pull Request](#github-pull-request)
 * [If you have any doubts or comments](#if-you-have-any-doubts-or-comments)
+
+## GitHub: Issues
+
+Regarding which `label` to assign to an issue in GitHub, we are attempting to unify them, with [teo-main](https://github.com/roboticslab-uc3m/teo-main/labels) for inspiration.
+
+Reasons for using GitHub issues rather than private messaging:
+* Increased global productivity as logs are kept. It tends to avoid repetition of the same questions and the same answers.
+* A convenient tool to keep any technical topic inside its technical context and focus on the proper issue's subject.
+* Higher visibility of your topic in such a way that the answer may come from unexpected people. This is especially interesting in cases of disagreement between two parties where unrelated contributors may bring up new ideas and worthy viewpoints.
 
 ## GitHub: commit (and push)
 We have seen in [Main Developer Tools](main-developer-tools.md) that GitHub is an important part of our workflow. Now let's see when and how to use it.
