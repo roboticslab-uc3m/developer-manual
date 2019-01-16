@@ -9,6 +9,7 @@
     * [How should I name files and folders I commit?](#how-should-i-name-files-and-folders-i-commit)
     * [How should commit messages be?](#how-should-commit-messages-be)
 * [GitHub Pull Request](#github-pull-request)
+* [GitHub Projects](#github-projects)
 * [If you have any doubts or comments](#if-you-have-any-doubts-or-comments)
 
 ## GitHub Issues
@@ -53,6 +54,9 @@ Use a short and direct commit message that clearly states the changes made in th
 ## GitHub Pull Request
 - Whenever you feel your changes are mature enough to be merged with the main project, create a Pull Request. Your work will be reviewed and merged by the owner/admin of that repository.
 - Prepend `[WIP]` (which stands for Work In Progress) in the Pull Request title if you feel the branch is still not ready for a git merge.
+
+## GitHub Projects
+We use GitHub Projects to manage our workflow. They offer a nice Kanban that is integrated with GitHub Issues.
 
 ## If you have any doubts or comments
 Please read the [Asking Questions](asking-questions.md) section, and once you've succeded with its [self-evaluation](asking-questions.md#self-evaluation-time) follow the recommendations by commenting publicly [HERE](https://github.com/roboticslab-uc3m/developer-manual/issues/new) if required
