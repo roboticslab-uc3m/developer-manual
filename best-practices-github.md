@@ -9,6 +9,7 @@
     * [How should I name files and folders I commit?](#how-should-i-name-files-and-folders-i-commit)
     * [How should commit messages be?](#how-should-commit-messages-be)
 * [GitHub Pull Request](#github-pull-request)
+* [GitHub Repositories](#github-repositories)
 * [GitHub Projects](#github-projects)
 * [If you have any doubts or comments](#if-you-have-any-doubts-or-comments)
 
@@ -73,6 +74,9 @@ Use a short and direct commit message that clearly states the changes made in th
 ## GitHub Pull Request
 - Whenever you feel your changes are mature enough to be merged with the main project, create a Pull Request. Your work will be reviewed and merged by the owner/admin of that repository.
 - Prepend `[WIP]` (which stands for Work In Progress) in the Pull Request title if you feel the branch is still not ready for a git merge.
+
+## GitHub Repositories
+It is recommended to protect at least the following branches: `master` and `develop` (whenever it exists)
 
 ## GitHub Projects
 We use GitHub Projects to manage our workflow. They offer a nice Kanban that is integrated with GitHub Issues. For columns, we define the automated basics (please preserve the first 4 and in that order!), but new can be added per repo. The chosen ones are:
