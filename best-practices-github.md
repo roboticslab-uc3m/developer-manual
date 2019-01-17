@@ -75,7 +75,14 @@ Use a short and direct commit message that clearly states the changes made in th
 - Prepend `[WIP]` (which stands for Work In Progress) in the Pull Request title if you feel the branch is still not ready for a git merge.
 
 ## GitHub Projects
-We use GitHub Projects to manage our workflow. They offer a nice Kanban that is integrated with GitHub Issues. Read more at [questions-and-answers#74](https://github.com/roboticslab-uc3m/questions-and-answers/issues/74).
+We use GitHub Projects to manage our workflow. They offer a nice Kanban that is integrated with GitHub Issues. For columns, we define the automated basics (please preserve the first 4 and in that order!), but new can be added per repo. The chosen ones are:
+1. `To do`
+2. `Blocked`
+3. `Waiting for 3rd party`
+4. `In progress`
+5. `Done`
+
+Read more at [questions-and-answers#74](https://github.com/roboticslab-uc3m/questions-and-answers/issues/74).
 
 ## If you have any doubts or comments
 Please read the [Asking Questions](asking-questions.md) section, and once you've succeded with its [self-evaluation](asking-questions.md#self-evaluation-time) follow the recommendations by commenting publicly [HERE](https://github.com/roboticslab-uc3m/developer-manual/issues/new) if required
