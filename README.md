@@ -6,9 +6,8 @@ Developer Manual for [roboticslab-uc3m](https://github.com/roboticslab-uc3m)
 
 Currently hosted at http://robots.uc3m.es/gitbook-developer-manual
 
-### If you have any doubts or comments
-1. Please check if you can find the answer through the corresponding file and/or folder in-source documentation, as well as in the [Issues](https://github.com/roboticslab-uc3m/developer-manual/issues) section (both Open and Closed issues).
-2. If your doubt or comment is not a duplicate, please post a detailed [New issue](https://github.com/roboticslab-uc3m/developer-manual/issues/new).
+## If you have any doubts or comments
+Please read the [Asking Questions](asking-questions.md) section, and once you've succeded with its [self-evaluation](asking-questions.md#self-evaluation-time) follow the recommendations by commenting publicly [HERE](https://github.com/roboticslab-uc3m/developer-manual/issues/new) if required
 
 ## How-To's
 * [How to serve on localhost](#how-to-serve-on-localhost)
