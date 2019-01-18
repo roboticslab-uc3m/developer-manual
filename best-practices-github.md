@@ -1,6 +1,8 @@
 # Best practices: GitHub
 
 * [GitHub Issues](#github-issues)
+    * [Opening a GitHub Issue](#opening-a-github-issue)
+    * [Closing a GitHub Issue](#closing-a-github-issue)
 * [git commit (and push)](#github-commit-and-push)
     * [When should I commit to GitHub?](#when-should-i-commit-to-github)
     * [To which GitHub repository should I commit?](#to-which-github-repository-should-i-commit)
