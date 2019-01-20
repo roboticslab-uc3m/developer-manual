@@ -1,6 +1,8 @@
 # Best practices: GitHub
 
 * [GitHub Issues](#github-issues)
+    * [Opening a GitHub Issue](#opening-a-github-issue)
+    * [Closing a GitHub Issue](#closing-a-github-issue)
 * [git commit (and push)](#github-commit-and-push)
     * [When should I commit to GitHub?](#when-should-i-commit-to-github)
     * [To which GitHub repository should I commit?](#to-which-github-repository-should-i-commit)
@@ -14,6 +16,8 @@
 * [If you have any doubts or comments](#if-you-have-any-doubts-or-comments)
 
 ## GitHub Issues
+
+### Opening a GitHub Issue
 We justified GitHub Issues as the main mechanism for asking questions at the [Asking Questions](asking-questions.md) section.
 1. Log into GitHub by clicking on `Sign in` (if not logged in already)
 1. Go to the repository that is most related from the [Repository Index](appendix/repository-index.md)
@@ -35,6 +39,9 @@ We justified GitHub Issues as the main mechanism for asking questions at the [As
 
 Troubleshooting:
 - In certain repositories (none of the https://github.com/roboticslab-uc3m GitHub organization), you have to be part of the specific GitHub organization to be able to put an Issue. Please contact the specific GitHub organization owners if given the case.
+
+### Closing a GitHub Issue
+Please cite the hash of the commit that closes the GitHub Issue (ideally, the hash of a merge commit) in the closing comment.
 
 ## git commit (and push)
 We have seen in [Main Developer Tools](main-developer-tools.md) that GitHub is an important part of our workflow. Now let's see when and how to use it.
