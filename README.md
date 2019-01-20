@@ -2,7 +2,7 @@
 
 # Developer Manual
 
-Developer Manual for [roboticslab-uc3m](https://github.com/roboticslab-uc3m)
+Developer Manual @ [roboticslab-uc3m](https://github.com/roboticslab-uc3m)
 
 Currently hosted at http://robots.uc3m.es/gitbook-developer-manual
 
