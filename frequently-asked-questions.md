@@ -48,6 +48,16 @@ Hence, best to feed it at the most precise rate possible. Take into account that
 
 In the current [CanBusControlboard](https://github.com/roboticslab-uc3m/yarp-devices/blob/e696c219fa9aa6203d008585123ea477d9b74454/libraries/YarpPlugins/CanBusControlboard) implementation, this is set when we instance the class, and may be modified via [--ptModeMs](https://github.com/roboticslab-uc3m/yarp-devices/blob/e696c219fa9aa6203d008585123ea477d9b74454/libraries/YarpPlugins/CanBusControlboard/DeviceDriverImpl.cpp#L10). You'll be asking yourself if there is a minimum threshold. The answer is yes, and this minimum should be estimated by the time consumed by CAN-bus communications to feed all the individual drivers per period.
 
+## How can I change the RGB-D sensor resolution?
+We use the YARP `OpenNI2DeviceServer` device for this. In [teoBase.xml#L36](https://github.com/roboticslab-uc3m/teo-configuration-files/blob/89d6e279d13cfe47c444c709cd7a08e5de56382b/share/teoBase/scripts/teoBase.xml#L36) you can see an example instance:
+```bash
+yarpdev --device OpenNI2DeviceServer --depthVideoMode 4 --colorVideoMode 9 --noRGBMirror
+```
+If you want to know what values you can use for `--depthVideoMode` and `--colorVideoMode 9` instead (and the actual meaning of the current values), please launch:
+```bash
+yarpdev --device OpenNI2DeviceServer --printVideoModes
+```
+
 ## I've found some broken links in your repositories, which have been renamed?
 Most of this was done at https://github.com/roboticslab-uc3m/questions-and-answers/issues/2
 - https://github.com/roboticslab-uc3m/teo-body -> https://github.com/roboticslab-uc3m/yarp-devices
