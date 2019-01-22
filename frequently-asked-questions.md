@@ -4,7 +4,7 @@
 * [How can I play back data recorded for Programming by Demonstration (PbD) a.k.a. Learning from Demonstration (LfD)?](#how-can-i-play-back-data-recorded-for-programming-by-demonstration-pbd-aka-learning-from-demonstration-lfd)
 * [How does the iPos PT Mode work?](#how-does-the-ipos-pt-mode-work)
 * [How can I change the RGB-D sensor resolution?](#how-can-i-change-the-rgb-d-sensor-resolution)
-* [I've found some broken links in your repositories, which have been renamed?](#i-ve-found-some-broken-links-in-your-repositories-which-have-been-renamed)
+* [I've found some broken links in your repositories, which have been renamed?](#ive-found-some-broken-links-in-your-repositories-which-have-been-renamed)
 * [If you have any doubts or comments](#if-you-have-any-doubts-or-comments)
 
 ## How can I record data for Programming by Demonstration (PbD) a.k.a. Learning from Demonstration (LfD)?
