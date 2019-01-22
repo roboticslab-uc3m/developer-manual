@@ -53,7 +53,7 @@ We use the YARP `OpenNI2DeviceServer` device for this. In [teoBase.xml#L36](http
 ```bash
 yarpdev --device OpenNI2DeviceServer --depthVideoMode 4 --colorVideoMode 9 --noRGBMirror
 ```
-If you want to know what values you can use for `--depthVideoMode` and `--colorVideoMode 9` instead (and the actual meaning of the current values), please launch:
+If you want to know what values you can use for `--depthVideoMode` and `--colorVideoMode` instead (and the actual meaning of the current values), please launch:
 ```bash
 yarpdev --device OpenNI2DeviceServer --printVideoModes
 ```
