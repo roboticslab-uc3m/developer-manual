@@ -18,7 +18,7 @@
 ## GitHub Issues
 
 ### Opening a GitHub Issue
-We justified GitHub Issues as the main mechanism for asking questions at [Asking Questions](asking-questions.md#i-really-dont-like-github-issues-why-cant-i-just-bug-somebody-who-knows-the-answer).
+1. Make sure you have read the entire [Asking Questions](asking-questions.md) page and passed its [self-evaluation](asking-questions.md#self-evaluation-time)! It's where we recommend to do a previous search and tell you where and how to look!
 1. Log into GitHub by clicking on `Sign in` (if not logged in already)
 1. Go to the repository that is most related from the [Repository Index](appendix/repository-index.md)
     * If it is clearly specific to one repository, go to that repository. Examples: [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices/issues), [kinematics-dynamics](https://github.com/roboticslab-uc3m/kinematics-dynamics/issues), [vision](https://github.com/roboticslab-uc3m/vision/issues)...

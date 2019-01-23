@@ -5,8 +5,13 @@ The quickest answers are the ones that are already written! It's pretty possible
 
 Here are some places where to look before asking a question:
 * Read the manuals! You can find a list of all the manuals including this one [HERE](appendix/repository-index.md#manuals-and-faqs)
-* Do a search among open and closed issues of the repository associated to your project.
+* Do a search among open and closed issues of the repositories associated to your project:
+    1. Go to the repositories that are most related from the [Repository Index](appendix/repository-index.md)
+    1. Click on the `Issues` tab, which defaults to a view on open Github Issues of the repository: see if you can find an answer among them!
+    1. Click on `Closed` to see the closed Github Issues of the repository: see if you can find an answer among them!
+    1. The `Filters` query changed from `is:issue is:open` to `is:issue is:closed` when you clicked on `Closed`. See if you can modify the query to find the answer you are looking for!
 * We still have some information in our [old wiki](http://robots.uc3m.es/)
+* You can also [Google](https://www.google.com) or [DuckDuckGo](https://duckduckgo.com) it!
 
 ## I cannot find my question answered anywhere, how and where should I ask my question?
 Please open a GitHub Issue following [THESE GUIDELINES](best-practices-github.md#github-issues).
