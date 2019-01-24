@@ -78,6 +78,8 @@ A useful tool to avoid uploading undesired files is [.gitignore](https://git-scm
 ### How should commit messages be?
 Use a short and direct commit message that clearly states the changes made in that commit. Avoid using generic messages such as "Upload files", since they make it very hard for the repository users to track changes later on.
 
+There are two types of commits where you should always additionally reference an issue: merge commits, and hot-fix commits.
+
 ## GitHub Pull Request
 - Whenever you feel your changes are mature enough to be merged with the main project, create a Pull Request. Your work will be reviewed and merged by the owner/admin of that repository.
 - Prepend `[WIP]` (which stands for Work In Progress) in the Pull Request title if you feel the branch is still not ready for a git merge.
