@@ -25,6 +25,7 @@
     * If it is extremely generic but refers to a specific robot, go to the robot's main repository. Examples: [teo-main](https://github.com/roboticslab-uc3m/teo-main/issues), [asibot-main](https://github.com/roboticslab-uc3m/asibot-main/issues)...
     * Note that TEO has its own private [teo-hardware-issues](https://github.com/roboticslab-uc3m/teo-hardware-issues/issues) repository where you can also open an issue on any specific TEO hardware issue.
     * If it extremely generic, go to: [questions-and-answers](https://github.com/roboticslab-uc3m/questions-and-answers)
+1. Fix the objective/scope of the Issue to be as "achievable" as possible. If the task at hand seems too broad or prone to become labeled `epic`, open several Issues where each can be acomplished in less than 1-2 weeks.
 1. Click on `Issues`, then on `New Issue`
 1. Add an accurate title and detailed description:
     * Explain, as detailed as possible, how to reproduce the issue or the specific behaviour for the feature.
