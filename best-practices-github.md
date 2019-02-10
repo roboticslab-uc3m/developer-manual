@@ -3,6 +3,7 @@
 * [GitHub Issues](#github-issues)
     * [Opening a GitHub Issue](#opening-a-github-issue)
     * [Closing a GitHub Issue](#closing-a-github-issue)
+    * [GitHub Issue Labels](#github-issue-labels)
 * [git commit (and push)](#github-commit-and-push)
     * [When should I commit to GitHub?](#when-should-i-commit-to-github)
     * [To which GitHub repository should I commit?](#to-which-github-repository-should-i-commit)
@@ -35,8 +36,7 @@
     * Remember you can use Markdown to include code fragments, bullet points, tables, etc. Don't know what Markdown is? Please read [Markdown (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/writing/markdown.html)
     * Feel free to attach any other information illustrating the issue, you can drag and drop: log files, helper images, etc.
 1. Click on `Submit new issue`
-1. If you have permissions, assign closest related `label(s)` to the Issue.
-    * Note on GitHub Issue labels: we are attempting to unify them, originally with [teo-main](https://github.com/roboticslab-uc3m/teo-main/labels) for inspiration, read more at [questions-and-answers#76](https://github.com/roboticslab-uc3m/questions-and-answers/issues/76).
+1. If you have permissions, assign closest related `label(s)` to the Issue (also see [GitHub Issue Labels](#github-issue-labels) section below).
 1. If you have permissions, add the Issue to closest related `Project(s)`.
 
 Troubleshooting:
@@ -44,6 +44,9 @@ Troubleshooting:
 
 ### Closing a GitHub Issue
 Please cite the hash of the commit that closes the GitHub Issue (ideally, the hash of a merge commit) in the closing comment.
+
+### GitHub Issue Labels
+We are attempting to unify GitHub labels: originally with [teo-main](https://github.com/roboticslab-uc3m/teo-main/labels) for inspiration, read more at [questions-and-answers#76](https://github.com/roboticslab-uc3m/questions-and-answers/issues/76).
 
 ## git commit (and push)
 We have seen in [Main Developer Tools](main-developer-tools.md) that GitHub is an important part of our workflow. Now let's see when and how to use it.
