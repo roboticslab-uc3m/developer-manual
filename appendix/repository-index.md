@@ -7,6 +7,7 @@ All our main repositories are currently hosted at: https://github.com/roboticsla
 - This manual
 - https://github.com/roboticslab-uc3m/installation-guides
 - https://github.com/roboticslab-uc3m/questions-and-answers
+- https://github.com/roboticslab-uc3m/web-and-social-media
 - Also see manuals for individual robots
 
 ## Robotics (General)
