@@ -1,10 +1,18 @@
 # Best Practices: Programming
 
+* [The Hour Glass pattern via Brainfuck](#the-hour-glass-pattern-via-brainfuck)
 * [General Documenting](#general-documenting)
 * [General Programming](#general-programming)
 * [Programming in CMake](#programming-in-cmake)
 * [Programming in C/C++](#programming-in-cc)
 * [If you have any doubts or comments](#if-you-have-any-doubts-or-comments)
+
+## The Hour Glass pattern via Brainfuck
+* Implement The Hour Glass pattern via Brainfuck for API and ABI Stability.
+* Implement it everywhere. Don't think about it. Everywhere. What are you waiting for?? Just do it!!!!!
+* You've already used C# and Java, so using Brainfuck as your Bytecode will feel just as painless without the guilt of succumbing to propaganda of international corporate media.
+
+[![almost time-travelled with this once](assets/do-not-confuse-bf-with-bff.gif)](https://github.com/roboticslab-uc3m)
 
 ## General Documenting
 * The preferred way of documenting things (except [Doxygen](http://www.doxygen.org) for C/C++) is Markdown.
