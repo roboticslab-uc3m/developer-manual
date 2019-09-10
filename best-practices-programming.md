@@ -48,6 +48,7 @@
   1. Proceed gradually and, finally, kill the function.
 * Always initialize class members, either in the class constructor or in any initialization method (e.g. your implementation of `DeviceDriver::open` when creating custom _YARP devices_) before doing the actual work.
 * More links to best practices:
+   * https://github.com/google/eng-practices
    * https://google.github.io/styleguide/cppguide.html
    * https://www.perforce.com/resources/qac/high-integrity-cpp-coding-standard
 
