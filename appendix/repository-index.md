@@ -1,14 +1,13 @@
 # Repository Index
 
-The following list currently contains all public repositories.
-All our main repositories are currently hosted at: https://github.com/roboticslab-uc3m
+List of repositories provided by [Robotics Lab](http://roboticslab.uc3m.es) of Universidad Carlos III de Madrid ([UC3M](http://uc3m.es)) that are hosted at <https://github.com/roboticslab-uc3m>.
 
 ## Manuals and FAQs
-- This manual
+- This manual (https://github.com/roboticslab-uc3m/developer-manual)
 - https://github.com/roboticslab-uc3m/installation-guides
 - https://github.com/roboticslab-uc3m/questions-and-answers
-- https://github.com/roboticslab-uc3m/web-and-social-media
-- Also see manuals for individual robots
+- https://github.com/roboticslab-uc3m/web-and-social-media (private)
+- Also see manuals in each corresponding section of [Robots (individual)](#robots-individual)
 
 ## Robotics (General)
 - https://github.com/roboticslab-uc3m/color-debug
@@ -50,6 +49,10 @@ All our main repositories are currently hosted at: https://github.com/roboticsla
     - https://github.com/roboticslab-uc3m/teo-self-presentation
 
 ###  TIAGo
+- https://github.com/roboticslab-uc3m/tiago-main (private)
+- https://github.com/roboticslab-uc3m/tiago-docs (private)
+- https://github.com/roboticslab-uc3m/tiago-hardware (private)
+- https://github.com/roboticslab-uc3m/tiago-state-machines (private)
 - https://github.com/roboticslab-uc3m/tiago_tts
 - https://github.com/roboticslab-uc3m/semantic-map-server
 
@@ -74,18 +77,22 @@ All our main repositories are currently hosted at: https://github.com/roboticsla
 - https://github.com/roboticslab-uc3m/pressmatic-android
 
 ### Sign Language
+- https://github.com/roboticslab-uc3m/sign-language-papers (private)
 
 ### Textiles
 - https://roboticslab-uc3m.github.io/robot-household-companion-web
 - https://github.com/roboticslab-uc3m/textiles
+- https://github.com/roboticslab-uc3m/textiles-papers (private)
 - https://github.com/roboticslab-uc3m/textiles-hanging
-- Horus
+- Horus:
+    - https://github.com/roboticslab-uc3m/horus-papers (private)
 
 ### Xgnitive
 - https://github.com/roboticslab-uc3m/xgnitive
+- https://github.com/roboticslab-uc3m/xgnitive-papers (private)
 
-## Additional notes
-We still have some stuff at [http://robots.uc3m.es/svn/\* (private)](http://robots.uc3m.es/svn/)
+## Additional Notes
+We still have some repositories at [http://robots.uc3m.es/svn/\*](http://robots.uc3m.es/svn/) (private)
 
 ## If you have any doubts or comments
 Please read the [Asking Questions](asking-questions.md) section, and once you've succeded with its [self-evaluation](asking-questions.md#self-evaluation-time) follow the recommendations by commenting publicly [HERE](https://github.com/roboticslab-uc3m/developer-manual/issues/new) if required

@@ -1,6 +1,6 @@
 # Project Index
 
-The following list currently contains all public projects, currently hosted at: https://github.com/roboticslab-uc3m
+List of GitHub projects provided by [Robotics Lab](http://roboticslab.uc3m.es) of Universidad Carlos III de Madrid ([UC3M](http://uc3m.es)) that are hosted at <https://github.com/roboticslab-uc3m>.
 
 - https://github.com/orgs/roboticslab-uc3m/projects
 
