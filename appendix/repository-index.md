@@ -7,9 +7,10 @@ List of repositories provided by [Robotics Lab](http://roboticslab.uc3m.es) of U
 - https://github.com/roboticslab-uc3m/installation-guides
 - https://github.com/roboticslab-uc3m/questions-and-answers
 - https://github.com/roboticslab-uc3m/web-and-social-media (private)
+- https://github.com/roboticslab-uc3m/laboratorios (private)
 - Also see manuals in each corresponding section of [Robots (individual)](#robots-individual)
 
-## Robotics (General)
+## General
 - https://github.com/roboticslab-uc3m/color-debug
 - https://github.com/roboticslab-uc3m/data-visualization
 - https://github.com/roboticslab-uc3m/gazebo-tools
@@ -28,32 +29,36 @@ List of repositories provided by [Robotics Lab](http://roboticslab.uc3m.es) of U
 Repositories related to our [AMOR](http://roboticslab.uc3m.es/roboticslab/robot/amor) robot.
 - https://github.com/roboticslab-uc3m/amor-main
 - https://github.com/roboticslab-uc3m/amor-configuration-files
-- https://github.com/roboticslab-uc3m/amor-openrave-models
 - https://github.com/roboticslab-uc3m/amor-api (private)
+- Simulation
+    - https://github.com/roboticslab-uc3m/amor-openrave-models
 
 ### ASIBOT
 Repositories related to our [ASIBOT](http://roboticslab.uc3m.es/roboticslab/robot/asibot) robot.
+- https://github.com/roboticslab-uc3m/asibot-main
 - https://github.com/roboticslab-uc3m/asibot-configuration-files
 - https://github.com/roboticslab-uc3m/asibot-hmi
-- https://github.com/roboticslab-uc3m/asibot-main
-- https://github.com/roboticslab-uc3m/asibot-openrave-models
+- Simulation
+    - https://github.com/roboticslab-uc3m/asibot-openrave-models
 
 ### TEO
 Repositories related to our [TEO](http://roboticslab.uc3m.es/roboticslab/robot/teo-humanoid) robot.
+- https://github.com/roboticslab-uc3m/teo-main
 - https://github.com/roboticslab-uc3m/teo-developer-manual
 - https://github.com/roboticslab-uc3m/teo-configuration-files
-- https://github.com/roboticslab-uc3m/teo-gazebo
-- https://github.com/roboticslab-uc3m/teo-main
-- https://github.com/roboticslab-uc3m/teo-openrave-models
-- https://github.com/roboticslab-uc3m/teo_robot
-- https://github.com/roboticslab-uc3m/teo-ros-simulation
-- https://github.com/roboticslab-uc3m/teo-simox-models
-- Demos:
+- https://github.com/roboticslab-uc3m/teo-hardware-issues (private)
+- Simulation
+    - https://github.com/roboticslab-uc3m/teo-gazebo
+    - https://github.com/roboticslab-uc3m/teo-openrave-models
+    - https://github.com/roboticslab-uc3m/teo_robot
+    - https://github.com/roboticslab-uc3m/teo-ros-simulation
+    - https://github.com/roboticslab-uc3m/teo-simox-models
+- Demos
     - https://github.com/roboticslab-uc3m/waiter
     - https://github.com/roboticslab-uc3m/follow-me
     - https://github.com/roboticslab-uc3m/teo-self-presentation
 
-###  TIAGo
+### TIAGo
 Repositories related to our [TIAGo](http://roboticslab.uc3m.es/roboticslab/robot/tiago) robot.
 - https://github.com/roboticslab-uc3m/tiago-main (private)
 - https://github.com/roboticslab-uc3m/tiago-docs (private)
@@ -87,11 +92,13 @@ Repositories related to our research in [Robot Sign Language](http://roboticslab
 - https://github.com/roboticslab-uc3m/sign-language-papers (private)
 
 ### Textiles
-Repositories related to our research towards a [Robotic Laundry Assistant](http://roboticslab.uc3m.es/roboticslab/robottypeandapp/robotic-laundry-assistant) via [Deformable Object Perception and Manipulation](http://roboticslab.uc3m.es/roboticslab/researchtopic/deformable-object-perception-and-manipulation).
-- https://roboticslab-uc3m.github.io/robot-household-companion-web
+Repositories related to our research towards a [Robotic Laundry Assistant](http://roboticslab.uc3m.es/roboticslab/robottypeandapp/robotic-laundry-assistant) via [Deformable Object Perception and Manipulation](http://roboticslab.uc3m.es/roboticslab/researchtopic/deformable-object-perception-and-manipulation), as seen at <https://roboticslab-uc3m.github.io/robot-household-companion-web>.
 - https://github.com/roboticslab-uc3m/textiles
-- https://github.com/roboticslab-uc3m/textiles-papers (private)
 - https://github.com/roboticslab-uc3m/textiles-hanging
+- https://github.com/roboticslab-uc3m/textiles-papers (private)
+- https://github.com/roboticslab-uc3m/textiles-folding (private)
+- https://github.com/roboticslab-uc3m/robot-household-companion-web (private)
+- More repos with "textiles-" prefix (private)
 
 #### Horus
 Repositories related to our research in [HORUS](http://roboticslab.uc3m.es/roboticslab/project/horus).
