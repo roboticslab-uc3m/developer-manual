@@ -4,11 +4,13 @@ List of GitHub projects provided by [Robotics Lab](http://roboticslab.uc3m.es) o
 
 ## General
 - [[ROBOTICSLAB]](https://github.com/orgs/roboticslab-uc3m/projects/4) (roboticslab-uc3m)
+- [[WEB-AND-SOCIAL-MEDIA]](https://github.com/roboticslab-uc3m/web-and-social-media/projects/1) (roboticslab-uc3m/web-and-social-media) (private)
 
 ## Robots (Individual)
 
 ### TEO
 - [[TEO]](https://github.com/orgs/roboticslab-uc3m/projects/6) (roboticslab-uc3m)
+- [[TEO-HARDWARE-ISSUES]](https://github.com/roboticslab-uc3m/teo-hardware-issues/projects/1) (roboticslab-uc3m/teo-hardware-issues) (private)
 
 ###  TIAGo
 - [[TIAGO]](https://github.com/orgs/roboticslab-uc3m/projects/7) (roboticslab-uc3m) (private)
