@@ -6,6 +6,7 @@ List of repositories provided by [Robotics Lab](http://roboticslab.uc3m.es) of U
 - This manual (https://github.com/roboticslab-uc3m/developer-manual)
 - https://github.com/roboticslab-uc3m/installation-guides
 - https://github.com/roboticslab-uc3m/questions-and-answers
+- https://github.com/roboticslab-uc3m/datasheets-and-manuals
 - https://github.com/roboticslab-uc3m/web-and-social-media (private)
 - https://github.com/roboticslab-uc3m/laboratorios (private)
 - Also see manuals in each corresponding section of [Robots (individual)](#robots-individual)
