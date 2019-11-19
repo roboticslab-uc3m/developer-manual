@@ -14,15 +14,16 @@ List of repositories provided by [Robotics Lab](http://roboticslab.uc3m.es) of U
 ## General
 - https://github.com/roboticslab-uc3m/color-debug
 - https://github.com/roboticslab-uc3m/data-visualization
-- https://github.com/roboticslab-uc3m/gazebo-tools
 - https://github.com/roboticslab-uc3m/kinematics-dynamics
-- https://github.com/roboticslab-uc3m/openrave-tools
-- https://github.com/roboticslab-uc3m/openrave-yarp-plugins
 - https://github.com/roboticslab-uc3m/project-generator
 - https://github.com/roboticslab-uc3m/speech
 - https://github.com/roboticslab-uc3m/tools
 - https://github.com/roboticslab-uc3m/vision
 - https://github.com/roboticslab-uc3m/yarp-devices
+- Simulation
+    - https://github.com/roboticslab-uc3m/openrave-tools
+    - https://github.com/roboticslab-uc3m/openrave-yarp-plugins
+    - https://github.com/roboticslab-uc3m/gazebo-tools
 
 ## Robots (Individual)
 
