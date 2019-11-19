@@ -9,7 +9,7 @@ List of repositories provided by [Robotics Lab](http://roboticslab.uc3m.es) of U
 - https://github.com/roboticslab-uc3m/web-and-social-media (private)
 - Also see manuals in each corresponding section of [Robots (individual)](#robots-individual)
 
-## Robotics (General)
+## General
 - https://github.com/roboticslab-uc3m/color-debug
 - https://github.com/roboticslab-uc3m/data-visualization
 - https://github.com/roboticslab-uc3m/gazebo-tools
@@ -56,7 +56,7 @@ Repositories related to our [TEO](http://roboticslab.uc3m.es/roboticslab/robot/t
     - https://github.com/roboticslab-uc3m/follow-me
     - https://github.com/roboticslab-uc3m/teo-self-presentation
 
-###  TIAGo
+### TIAGo
 Repositories related to our [TIAGo](http://roboticslab.uc3m.es/roboticslab/robot/tiago) robot.
 - https://github.com/roboticslab-uc3m/tiago-main (private)
 - https://github.com/roboticslab-uc3m/tiago-docs (private)
