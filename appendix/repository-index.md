@@ -7,8 +7,6 @@ List of repositories provided by [Robotics Lab](http://roboticslab.uc3m.es) of U
 - https://github.com/roboticslab-uc3m/installation-guides
 - https://github.com/roboticslab-uc3m/questions-and-answers
 - https://github.com/roboticslab-uc3m/datasheets-and-manuals (private)
-- https://github.com/roboticslab-uc3m/web-and-social-media (private)
-- https://github.com/roboticslab-uc3m/laboratorios (private)
 - Also see manuals in each corresponding section of [Robots (individual)](#robots-individual)
 
 ## General
@@ -113,6 +111,11 @@ Repositories related to our research in [HORUS](http://roboticslab.uc3m.es/robot
 Repositories related to our research in [XGNITIVE](http://roboticslab.uc3m.es/roboticslab/robottypeandapp/xgnitive).
 - https://github.com/roboticslab-uc3m/xgnitive
 - https://github.com/roboticslab-uc3m/xgnitive-papers (private)
+
+## Admin and Sysop
+- https://github.com/roboticslab-uc3m/web-and-social-media (private)
+- https://github.com/roboticslab-uc3m/laboratorios (private)
+- https://github.com/jgvictores/wikirobots (external, private)
 
 ## Additional Notes
 We still have some repositories at [http://robots.uc3m.es/svn/\*](http://robots.uc3m.es/svn/) (private)
