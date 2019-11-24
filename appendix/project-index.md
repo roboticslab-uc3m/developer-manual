@@ -31,7 +31,7 @@ Proejcts related to our [TIAGo](http://roboticslab.uc3m.es/roboticslab/robot/tia
 
 ### Sign Language
 Projects related to our research in [Robot Sign Language](http://roboticslab.uc3m.es/roboticslab/robottypeandapp/robot-sign-language).
-- [[SIGNLANGUAGE]](https://github.com/orgs/roboticslab-uc3m/projects/10) (roboticslab-uc3m)
+- [[SIGN-LANGUAGE]](https://github.com/orgs/roboticslab-uc3m/projects/10) (roboticslab-uc3m)
 - [[SIGN-LANGUAGE-PAPERS]](https://github.com/roboticslab-uc3m/sign-language-papers/projects/4) (roboticslab-uc3m/sign-language-papers) (private)
 
 ### Textiles
