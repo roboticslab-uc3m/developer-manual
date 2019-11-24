@@ -3,7 +3,7 @@
 List of repositories provided by [Robotics Lab](http://roboticslab.uc3m.es) of Universidad Carlos III de Madrid ([UC3M](http://uc3m.es)) that are hosted at <https://github.com/roboticslab-uc3m>.
 
 ## Manuals and FAQs
-- This manual (https://github.com/roboticslab-uc3m/developer-manual)
+- This manual (generated from https://github.com/roboticslab-uc3m/developer-manual)
 - https://github.com/roboticslab-uc3m/questions-and-answers
 - https://github.com/roboticslab-uc3m/installation-guides
 - https://github.com/roboticslab-uc3m/datasheets-and-manuals (private)
