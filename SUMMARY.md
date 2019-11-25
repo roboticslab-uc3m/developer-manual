@@ -2,7 +2,6 @@
 
 * [Introduction](README-gitbook.md)
 * [Asking Questions](asking-questions.md)
-* [Main Developer Tools](main-developer-tools.md)
 * [Frequently Asked Questions](frequently-asked-questions.md)
 * [Best Practices: GitHub](best-practices-github.md)
 * [Best Practices: Programming](best-practices-programming.md)
