@@ -1,15 +1,15 @@
 # Main Developer Tools
 
 ## Which Operating System should I use?
-- For desktops and laptops, we recommend Ubuntu (Desktop version) on a native partition. You are free to choose between versions `16.04` and `18.04`. Either one is a good option, although we have slight more support for `16.04`. For further information, please read: [Linux - Introducción (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/linux/introduction.html)
+- For desktops and laptops, we recommend a GNU/Linux ([what is Linux? (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/linux/introduction.html#%C2%BFqu%C3%A9-es-linux)) distribution ([what is a distribution? (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/linux/introduction.html#%C2%BFqu%C3%A9-es-una-distribuci%C3%B3n-de-linux)) on a native partition ([what options do I have to install a distribution? (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/linux/introduction.html#%C2%BFqu%C3%A9-opciones-tengo-para-instalar-una-distribuci%C3%B3n) and [how to install a native partition (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/linux/introduction.html#%C2%BFc%C3%B3mo-instalo-una-distribuci%C3%B3n-en-una-partici%C3%B3n-nativa)). The specific GNU/Linux distribution we recommend is [Ubuntu](https://ubuntu.com/#download) (`Ubuntu Desktop`). You are free to choose between  version `16.04 LTS ` and `18.04 LTS`. Either one is a good option, although we have slight more support for `16.04`.
 - For robot on-board CPUs, you can read through a long conversation at: [questions-and-answers#20](https://github.com/roboticslab-uc3m/questions-and-answers/issues/20). 
 
 ## I was told to install something. How can I do that?
-- Please make sure you carefully read and understood the dedicated section at: [Linux - Introducción (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/linux/introduction.html#¿cómo-instalo-programas-en-linux)
+- Please make sure you carefully read and understood the dedicated section at: [how do I install programs on Linux? (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/linux/introduction.html#¿cómo-instalo-programas-en-linux)
 - Each of our repositories usually contains instructions for installing, e.g. the initial `README.md` of <https://github.com/roboticslab-uc3m/vision> links to its [doc/vision-install.md](https://github.com/roboticslab-uc3m/vision/blob/develop/doc/vision-install.md) documentation file.
-   - Note 1: Don't know what a repository is? Please read [Control de versiones (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/version-control/index.html)
-   - Note 2: This manual contains an index of our repositories: [HERE](repository-index.md)
-- For instructions on installing 3rd party software, please see a special repository we maintain: https://github.com/roboticslab-uc3m/installation-guides
+   - Note 1: Don't know what a repository is? Please read: [Control de versiones (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/version-control/index.html)
+   - Note 2: This manual contains an index of our repositories: [HERE](appendix/repository-index.md)
+- For instructions on installing 3rd party software, please see a special repository we maintain: <http://robots.uc3m.es/gitbook-installation-guides>
 
 ## I see a lot of commands for installation but do not understand anything. What do they mean?
 - Please read: [Linux - Bash (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/linux/bash.html)
