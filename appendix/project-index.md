@@ -15,11 +15,11 @@ List of GitHub projects provided by [Robotics Lab](http://roboticslab.uc3m.es) o
     * [Textiles](#textiles)
         * [Horus](#horus)
     * [Xgnitive](#xgnitive)
+* [Admin and Sysop](#admin-and-sysop)
 * [If you have any doubts or comments](#if-you-have-any-doubts-or-comments)
 
 ## General
 - [[ROBOTICSLAB]](https://github.com/orgs/roboticslab-uc3m/projects/4) (roboticslab-uc3m)
-- [[WEB-AND-SOCIAL-MEDIA]](https://github.com/roboticslab-uc3m/web-and-social-media/projects/1) (roboticslab-uc3m/web-and-social-media) (private)
 
 ## Robots (Individual)
 
@@ -65,6 +65,9 @@ Projects related to our research in [HORUS](http://roboticslab.uc3m.es/roboticsl
 Projects related to our research in [XGNITIVE](http://roboticslab.uc3m.es/roboticslab/robottypeandapp/xgnitive).
 - [[XGNITIVE]](https://github.com/orgs/roboticslab-uc3m/projects/5) (roboticslab-uc3m)
 - [[XGNITIVE-PAPERS]](https://github.com/roboticslab-uc3m/xgnitive-papers/projects/1) (roboticslab-uc3m/xgnitive-papers) (private)
+
+## Admin and Sysop
+- [[WEB-AND-SOCIAL-MEDIA]](https://github.com/roboticslab-uc3m/web-and-social-media/projects/1) (roboticslab-uc3m/web-and-social-media) (private)
 
 ## If you have any doubts or comments
 Please read the [Asking Questions](asking-questions.md) section, and once you've succeded with its [self-evaluation](asking-questions.md#self-evaluation-time) follow the recommendations by commenting publicly [HERE](https://github.com/roboticslab-uc3m/developer-manual/issues/new) if required
