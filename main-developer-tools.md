@@ -25,7 +25,7 @@
 - Python: High-level (algorithm) programming.
 - Doxygen: Document code, within the code.
 
-## Even More Stuff
+## Documenting Stuff
 - Markdown: [Tutorial (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/writing/markdown.html)
 
 ## If you have any doubts or comments
