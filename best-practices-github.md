@@ -1,4 +1,4 @@
-# Best practices: GitHub
+# Best Practices: GitHub
 
 * [GitHub Issues](#github-issues)
     * [Opening a GitHub Issue](#opening-a-github-issue)
