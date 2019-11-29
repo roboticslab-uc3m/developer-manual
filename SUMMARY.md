@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README-gitbook.md)
+* [Cover](gitbook-cover.md)
 * [Asking Questions](asking-questions.md)
 * [Frequently Asked Questions](frequently-asked-questions.md)
 * [Best Practices: GitHub](best-practices-github.md)
