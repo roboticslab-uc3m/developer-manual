@@ -11,7 +11,7 @@
 * [How does the iPos PT Mode work?](#how-does-the-ipos-pt-mode-work)
 * [How can I change the RGB-D sensor resolution?](#how-can-i-change-the-rgb-d-sensor-resolution)
 * [I've found some broken links in your repositories, which have been renamed?](#ive-found-some-broken-links-in-your-repositories-which-have-been-renamed)
-* [If you have any doubts or comments](#if-you-have-any-doubts-or-comments)
+* [I have read this page and related links, and I have doubts and/or comments. What should I do?](#i-have-read-this-page-and-related-links-and-i-have-doubts-andor-comments-what-should-i-do)
 
 ## Which Operating System should I use?
 - For desktops and laptops, we recommend a GNU/Linux ([what is Linux? (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/linux/introduction.html#%C2%BFqu%C3%A9-es-linux)) distribution ([what is a distribution? (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/linux/introduction.html#%C2%BFqu%C3%A9-es-una-distribuci%C3%B3n-de-linux)) on a native partition ([what options do I have to install a distribution? (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/linux/introduction.html#%C2%BFqu%C3%A9-opciones-tengo-para-instalar-una-distribuci%C3%B3n) and [how to install a native partition (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/linux/introduction.html#%C2%BFc%C3%B3mo-instalo-una-distribuci%C3%B3n-en-una-partici%C3%B3n-nativa)). The specific GNU/Linux distribution we recommend is [Ubuntu](https://ubuntu.com/#download) (`Ubuntu Desktop`). You are free to choose between  version `16.04 LTS ` and `18.04 LTS`. Either one is a good option, although we have slight more support for `16.04`.
@@ -107,5 +107,7 @@ Most of this was done at https://github.com/roboticslab-uc3m/questions-and-answe
 - https://github.com/roboticslab-uc3m/best-practices -> https://github.com/roboticslab-uc3m/developer-manual
 - https://github.com/roboticslab-uc3m/teo-software-manual -> https://github.com/roboticslab-uc3m/teo-developer-manual
 
-## If you have any doubts or comments
-Please read the [Asking Questions](asking-questions.md) section, and once you've succeded with its [self-evaluation](asking-questions.md#self-evaluation-time) follow the recommendations by commenting publicly [HERE](https://github.com/roboticslab-uc3m/developer-manual/issues/new) if required
+## I have read this page and related links, and I have doubts and/or comments. What should I do?
+Please follow these steps:
+1. Read the [Asking Questions](asking-questions.md) section as many as times as required to succeded with its [self-evaluation](asking-questions.md#self-evaluation-time).
+2. Follow its recommendations, which you will know because you have succeded in its [self-evaluation](asking-questions.md#self-evaluation-time). ^^
