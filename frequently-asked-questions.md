@@ -4,7 +4,7 @@
 * [I was told to install something. How can I do that?](#i-was-told-to-install-something-how-can-i-do-that)
 * [I see a lot of commands for installation but do not understand anything. What do they mean?](#i-see-a-lot-of-commands-for-installation-but-do-not-understand-anything-what-do-they-mean)
 * [I've heard lots of stuff about Git and GitHub. What do they mean?](#ive-heard-lots-of-stuff-about-git-and-github-what-do-they-mean)
-* [How should I programm stuff?](#how-should-i-programm-stuff)
+* [How should I program stuff?](#how-should-i-program-stuff)
 * [How should I document stuff?](#how-should-i-document-stuff)
 * [How can I record data for Programming by Demonstration (PbD) a.k.a. Learning from Demonstration (LfD)?](#how-can-i-record-data-for-programming-by-demonstration-pbd-aka-learning-from-demonstration-lfd)
 * [How can I play back data recorded for Programming by Demonstration (PbD) a.k.a. Learning from Demonstration (LfD)?](#how-can-i-play-back-data-recorded-for-programming-by-demonstration-pbd-aka-learning-from-demonstration-lfd)
@@ -32,7 +32,7 @@
    - [Git y GitHub (Spanish)](https://david-estevez.gitbooks.io/the-git-the-bad-and-the-ugly/content/es/control-de-versiones.html)
    - [Control de versiones - Git (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/version-control/git.html)
 
-## How should I programm stuff?
+## How should I program stuff?
 - C/C++: Low-level (control) programming. Some good slides on C are "Thinking in C" by Bruce Eckel, and some good books on C++ are "Thinking in C++" by Bruce Eckel. A nice IDE is QTCreator, but you can also customize Eclipse, Atom or even Vim. 
 - CMake: [Tutorial (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/programming/cmake.html)
 - Python: High-level (algorithm) programming.
