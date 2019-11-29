@@ -1,4 +1,4 @@
-# Frequently Asked Questions
+# Frequently Asked Questions (FAQ)
 
 * [Which Operating System should I use?](#which-operating-system-should-i-use)
 * [I was told to install something. How can I do that?](#i-was-told-to-install-something-how-can-i-do-that)
