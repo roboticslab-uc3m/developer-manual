@@ -1,8 +1,8 @@
 # Summary
 
 * [Develper Manual](gitbook-cover.md)
-* [Asking Questions](asking-questions.md)
 * [Frequently Asked Questions](frequently-asked-questions.md)
+* [Asking Questions](asking-questions.md)
 * [Best Practices: GitHub](best-practices-github.md)
 * [Best Practices: Programming](best-practices-programming.md)
 * [Appendices](appendix/README.md)
