@@ -8,4 +8,3 @@
 * [Appendices](appendix/README.md)
   * [Repository Index](appendix/repository-index.md)
   * [Project Index](appendix/project-index.md)
-  * [Buenas Prácticas (copia antigua)](appendix/buenas-practicas.md)
