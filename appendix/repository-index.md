@@ -65,6 +65,7 @@ Repositories related to our [TEO](http://roboticslab.uc3m.es/roboticslab/robot/t
 - https://github.com/roboticslab-uc3m/teo-developer-manual
 - https://github.com/roboticslab-uc3m/teo-configuration-files
 - https://github.com/roboticslab-uc3m/teo-hardware-issues (private)
+- https://github.com/roboticslab-uc3m/teo-ipos-backup (private)
 - Simulation
     - https://github.com/roboticslab-uc3m/teo-gazebo
     - https://github.com/roboticslab-uc3m/teo-openrave-models
