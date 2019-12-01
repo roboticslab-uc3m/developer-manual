@@ -1,5 +1,10 @@
 # Asking Questions
 
+* [What should I do before asking a question?](#what-should-i-do-before-asking-a-question)
+* [I cannot find my question answered anywhere, how and where should I ask my question?](#i-cannot-find-my-question-answered-anywhere-how-and-where-should-i-ask-my-question)
+* [I really don't like GitHub Issues, why can't I just bug somebody who knows the answer?](#i-really-dont-like-github-issues-why-cant-i-just-bug-somebody-who-knows-the-answer)
+* [Self evaluation time!](#self-evaluation-time)
+
 ## What should I do before asking a question?
 The quickest answers are the ones that are already written! It's pretty possible that your question has already been answered somewhere!!
 
