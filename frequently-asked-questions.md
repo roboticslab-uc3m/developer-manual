@@ -33,10 +33,7 @@
    - [Control de versiones - Git (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/version-control/git.html)
 
 ## How should I program stuff?
-- C/C++: Low-level (control) programming. Some good slides on C are "Thinking in C" by Bruce Eckel, and some good books on C++ are "Thinking in C++" by Bruce Eckel. A nice IDE is QTCreator, but you can also customize Eclipse, Atom or even Vim. 
-- CMake: [Tutorial (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/programming/cmake.html)
-- Python: High-level (algorithm) programming.
-- Doxygen: Document code, within the code.
+- Please make sure you carefully read and understood the dedicated section at: [Best Practices: Programming](best-practices-programming.md)
 
 ## How should I document stuff?
 - Please make sure you carefully read and understood the dedicated section at: [Best Practices: Documenting](best-practices-documenting.md)

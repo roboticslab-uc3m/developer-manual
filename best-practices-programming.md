@@ -1,9 +1,16 @@
 # Best Practices: Programming
 
+* [Main Programming Tools](#main-programming-tools)
 * [General Programming](#general-programming)
 * [Programming in CMake](#programming-in-cmake)
 * [Programming in C/C++](#programming-in-cc)
 * [If you have any doubts or comments](#if-you-have-any-doubts-or-comments)
+
+## Main Programming Tools
+- C/C++: Low-level (control) programming. Some good slides on C are "Thinking in C" by Bruce Eckel, and some good books on C++ are "Thinking in C++" by Bruce Eckel. A nice IDE is QTCreator, but you can also customize Eclipse, Atom or even Vim.
+- CMake: [Tutorial (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/programming/cmake.html)
+- Python: High-level (algorithm) programming.
+- Doxygen: Document code, within the code.
 
 ## General Programming
 * In case of trouble during installation of dependencies or additional software, take a look first at our [dedicated repository](https://www.gitbook.com/book/roboticslab-uc3m/installation-guides/details).
