@@ -39,7 +39,7 @@
 - Doxygen: Document code, within the code.
 
 ## How should I document stuff?
-- Markdown: [Tutorial (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/writing/markdown.html)
+- Please make sure you carefully read and understood the dedicated section at: [Best Practices: Documenting](best-practices-documenting.md)
 
 ## How can I record data for Programming by Demonstration (PbD) a.k.a. Learning from Demonstration (LfD)?
 
