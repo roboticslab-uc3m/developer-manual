@@ -1,13 +1,9 @@
 # Best Practices: Programming
 
-* [General Documenting](#general-documenting)
 * [General Programming](#general-programming)
 * [Programming in CMake](#programming-in-cmake)
 * [Programming in C/C++](#programming-in-cc)
 * [If you have any doubts or comments](#if-you-have-any-doubts-or-comments)
-
-## General Documenting
-* The preferred way of documenting things (except [Doxygen](http://www.doxygen.org) for C/C++) is Markdown.
 
 ## General Programming
 * In case of trouble during installation of dependencies or additional software, take a look first at our [dedicated repository](https://www.gitbook.com/book/roboticslab-uc3m/installation-guides/details).
