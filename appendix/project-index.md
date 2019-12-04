@@ -53,13 +53,13 @@ Projects related to our research in [Robot Sign Language](http://roboticslab.uc3
 Projects related to our research towards a [Robotic Laundry Assistant](http://roboticslab.uc3m.es/roboticslab/robottypeandapp/robotic-laundry-assistant) via [Deformable Object Perception and Manipulation](http://roboticslab.uc3m.es/roboticslab/researchtopic/deformable-object-perception-and-manipulation), as seen at <https://roboticslab-uc3m.github.io/robot-household-companion-web>.
 - [[TEXTILES]](https://github.com/orgs/roboticslab-uc3m/projects/9) (roboticslab-uc3m)
 - [[TEXTILES-PAPERS]](https://github.com/roboticslab-uc3m/textiles-papers/projects/3) (roboticslab-uc3m/textiles-papers) (private)
-- More projects within <https://github.com/roboticslab-uc3m/textiles/projects> and <https://github.com/roboticslab-uc3m/textiles-papers/projects>
+- More projects within [textiles/projects/](https://github.com/roboticslab-uc3m/textiles/projects) and [textiles-papers/projects/](https://github.com/roboticslab-uc3m/textiles-papers/projects)
 
 #### Horus
 Projects related to our research in [HORUS](http://roboticslab.uc3m.es/roboticslab/project/horus).
 - [[HORUS]](https://github.com/orgs/roboticslab-uc3m/projects/8) (roboticslab-uc3m) (private)
 - [[HORUS-PAPERS]](https://github.com/roboticslab-uc3m/horus-papers/projects/3) (roboticslab-uc3m/horus-papers) (private)
-- More projects within <https://github.com/roboticslab-uc3m/horus-papers/projects> and <https://github.com/roboticslab-uc3m/horus-hardware/projects>
+- More projects within [horus-papers/projects/](https://github.com/roboticslab-uc3m/horus-papers/projects> and [horus-hardware/projects/](https://github.com/roboticslab-uc3m/horus-hardware/projects)
 
 ### Xgnitive
 Projects related to our research in [XGNITIVE](http://roboticslab.uc3m.es/roboticslab/robottypeandapp/xgnitive).
