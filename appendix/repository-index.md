@@ -134,7 +134,7 @@ Repositories related to our research in [XGNITIVE](http://roboticslab.uc3m.es/ro
 ## Admin and Sysop
 - [web-and-social-media](https://github.com/roboticslab-uc3m/web-and-social-media) (private)
 - [laboratorios](https://github.com/roboticslab-uc3m/laboratorios) (private)
-- https://github.com/jgvictores/wikirobots (external, private)
+- [jgvictores/wikirobots](https://github.com/jgvictores/wikirobots) (external, private)
 
 ## Additional Notes
 We still have some repositories at [http://robots.uc3m.es/svn/\*](http://robots.uc3m.es/svn/) (private)
