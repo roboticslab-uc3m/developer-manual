@@ -30,15 +30,15 @@ List of repositories provided by [Robotics Lab](http://roboticslab.uc3m.es) of U
 ## General
 - [color-debug](https://github.com/roboticslab-uc3m/color-debug)
 - [data-visualization](https://github.com/roboticslab-uc3m/data-visualization)
-- [kinematics-dynamics](https://github.com/roboticslab-uc3m/kinematics-dynamics)
+- [kinematics-dynamics](https://github.com/roboticslab-uc3m/kinematics-dynamics) ([doxygen](http://robots.uc3m.es/dox-kinematics-dynamics))
 - [project-generator](https://github.com/roboticslab-uc3m/project-generator)
-- [speech](https://github.com/roboticslab-uc3m/speech)
-- [tools](https://github.com/roboticslab-uc3m/tools)
-- [vision](https://github.com/roboticslab-uc3m/vision)
-- [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices)
+- [speech](https://github.com/roboticslab-uc3m/speech) ([doxygen](http://robots.uc3m.es/dox-speech))
+- [tools](https://github.com/roboticslab-uc3m/tools) ([doxygen](http://robots.uc3m.es/dox-tools))
+- [vision](https://github.com/roboticslab-uc3m/vision) ([doxygen](http://robots.uc3m.es/dox-vision))
+- [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices) ([doxygen](http://robots.uc3m.es/dox-yarp-devices))
 - Simulation
     - [openrave-tools](https://github.com/roboticslab-uc3m/openrave-tools)
-    - [openrave-yarp-plugins](https://github.com/roboticslab-uc3m/openrave-yarp-plugins)
+    - [openrave-yarp-plugins](https://github.com/roboticslab-uc3m/openrave-yarp-plugins) ([doxygen](http://robots.uc3m.es/dox-openrave-yarp-plugins))
     - [gazebo-tools](https://github.com/roboticslab-uc3m/gazebo-tools)
 
 ## Robots (Individual)
