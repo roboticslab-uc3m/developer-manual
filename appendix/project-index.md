@@ -59,7 +59,7 @@ Projects related to our research towards a [Robotic Laundry Assistant](http://ro
 Projects related to our research in [HORUS](http://roboticslab.uc3m.es/roboticslab/project/horus).
 - [[HORUS]](https://github.com/orgs/roboticslab-uc3m/projects/8) (roboticslab-uc3m) (private)
 - [[HORUS-PAPERS]](https://github.com/roboticslab-uc3m/horus-papers/projects/3) (roboticslab-uc3m/horus-papers) (private)
-- More projects within [horus-papers/projects/](https://github.com/roboticslab-uc3m/horus-papers/projects> and [horus-hardware/projects/](https://github.com/roboticslab-uc3m/horus-hardware/projects)
+- More projects within [horus-papers/projects/](https://github.com/roboticslab-uc3m/horus-papers/projects) and [horus-hardware/projects/](https://github.com/roboticslab-uc3m/horus-hardware/projects)
 
 ### Xgnitive
 Projects related to our research in [XGNITIVE](http://roboticslab.uc3m.es/roboticslab/robottypeandapp/xgnitive).
