@@ -40,6 +40,7 @@ List of repositories provided by [Robotics Lab](http://roboticslab.uc3m.es) of U
     - [openrave-tools](https://github.com/roboticslab-uc3m/openrave-tools)
     - [openrave-yarp-plugins](https://github.com/roboticslab-uc3m/openrave-yarp-plugins) ([doxygen](http://robots.uc3m.es/dox-openrave-yarp-plugins))
     - [gazebo-tools](https://github.com/roboticslab-uc3m/gazebo-tools)
+    - Also see models in each corresponding section of [Robots (individual)](#robots-individual)
 
 ## Robots (Individual)
 
