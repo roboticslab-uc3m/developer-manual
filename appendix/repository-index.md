@@ -90,6 +90,7 @@ Repositories related to our [TIAGo](http://roboticslab.uc3m.es/roboticslab/robot
 ## Research
 
 ### Humanoid Robotics
+- [gait-experiments](https://github.com/roboticslab-uc3m/gait-experiments)
 - [gait](https://github.com/roboticslab-uc3m/gait)
 - [gaitcontrol](https://github.com/roboticslab-uc3m/gaitcontrol)
 - [footsteps](https://github.com/roboticslab-uc3m/footsteps)
