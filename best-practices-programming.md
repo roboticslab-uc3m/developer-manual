@@ -16,7 +16,7 @@
 * You can find more general recommendations for programming at: [Programación (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/programming/index.html)
 
 ## General Programming
-* In case of trouble during installation of dependencies or additional software, take a look first at our [dedicated repository](https://www.gitbook.com/book/roboticslab-uc3m/installation-guides/details).
+* In case of trouble during installation of dependencies or additional software, take a look first at our dedicated repository: [installation-guides](https://github.com/roboticslab-uc3m/installation-guides) ([gitbook](http://robots.uc3m.es/gitbook-installation-guides)).
 * If incorporating a new dependency or additional software, first take a look at our [dedicated repository](https://www.gitbook.com/book/roboticslab-uc3m/installation-guides/details). If it's not there, consider if it's a good option using the following recommended (but not mandatory) criteria: lightweight, flexible, multiplatform. If so, add it there, then link it to your project ([example](5182f9f475e229acea4cca1130be57489fd6b0f7)).
 * Indent your code as if everything were Python. [astyle](http://astyle.sourceforge.net/) can handle this quite automatically for you \(use with caution\).
 * Any `toDo`, `fixMe`, etc. inlined in code must be associated to an _open issue_ \(with bidirectional reference\).
