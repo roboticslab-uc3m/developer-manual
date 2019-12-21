@@ -16,6 +16,7 @@ List of repositories provided by [Robotics Lab](http://roboticslab.uc3m.es) of U
     * [Textiles](#textiles)
         * [Horus](#horus)
     * [Xgnitive](#xgnitive)
+* [Playground](#playground)
 * [Admin and Sysop](#admin-and-sysop)
 * [Additional Notes](#additional-notes)
 * [If you have any doubts or comments](#if-you-have-any-doubts-or-comments)
@@ -132,6 +133,9 @@ Repositories related to our research in [HORUS](http://roboticslab.uc3m.es/robot
 Repositories related to our research in [XGNITIVE](http://roboticslab.uc3m.es/roboticslab/robottypeandapp/xgnitive).
 - [xgnitive](https://github.com/roboticslab-uc3m/xgnitive)
 - [xgnitive-papers](https://github.com/roboticslab-uc3m/xgnitive-papers) (private)
+
+## Playground
+- [daw2robot](https://github.com/roboticslab-uc3m/daw2robot)
 
 ## Admin and Sysop
 - [web-and-social-media](https://github.com/roboticslab-uc3m/web-and-social-media) (private)
