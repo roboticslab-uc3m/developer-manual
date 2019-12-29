@@ -21,6 +21,7 @@ List of GitHub projects provided by [Robotics Lab](http://roboticslab.uc3m.es) o
 ## General
 - [[ROBOTICSLAB]](https://github.com/orgs/roboticslab-uc3m/projects/4) (roboticslab-uc3m)
 - [[ROBOTICSLAB-DOCUMENTATION]](https://github.com/orgs/roboticslab-uc3m/projects/11) (roboticslab-uc3m)
+- [[ROBOTICSLAB-SIMULATION]](https://github.com/orgs/roboticslab-uc3m/projects/12) (roboticslab-uc3m)
 
 ## Robots (Individual)
 
