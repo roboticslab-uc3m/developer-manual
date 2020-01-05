@@ -11,4 +11,4 @@
 ## Progress Tracking
 * [Top Contributors](http://robots.uc3m.es/contributors/index.html) ([asrob-uc3m/repostatistics](https://github.com/asrob-uc3m/repostatistics))
 * [Issues in Progress](https://github.com/issues?q=is%3Aopen+is%3Aissue+org%3Aroboticslab-uc3m+label%3A%22status%3A+in+progress%22+-label%3Aupstream+-label%3Aquestion)
-* [Project Index](appendix/project-index.md)
+* [Project Index](project-index.md)
