@@ -46,7 +46,9 @@ Troubleshooting:
 Please cite the hash of the commit that closes the GitHub Issue (ideally, the hash of a merge commit) in the closing comment.
 
 ### GitHub Issue Labels
-We are attempting to unify GitHub labels: originally with [teo-main](https://github.com/roboticslab-uc3m/teo-main/labels) for inspiration, read more at [questions-and-answers#76](https://github.com/roboticslab-uc3m/questions-and-answers/issues/76).
+We are attempting to unify GitHub labels, spawned from [questions-and-answers#76](https://github.com/roboticslab-uc3m/questions-and-answers/issues/76)
+- Existing repos: use https://github.com/destan/github-label-manager or similar to copy from [teo-main](https://github.com/roboticslab-uc3m/teo-main/labels).
+- New repos: new repos will inherit labels defined at https://github.com/organizations/roboticslab-uc3m/settings/labels
 
 ## git commit (and push)
 We have seen in [Main Developer Tools](main-developer-tools.md) that GitHub is an important part of our workflow. Now let's see when and how to use it.
