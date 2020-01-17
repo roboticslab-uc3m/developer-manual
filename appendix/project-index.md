@@ -30,6 +30,7 @@ Projects related to our [AMOR](http://roboticslab.uc3m.es/roboticslab/robot/amor
 
 ### ASIBOT
 Projects related to our [ASIBOT](http://roboticslab.uc3m.es/roboticslab/robot/asibot) robot.
+- [[ASIBOT]](https://github.com/orgs/roboticslab-uc3m/projects/13) (roboticslab-uc3m)
 
 ### TEO
 Projects related to our [TEO](http://roboticslab.uc3m.es/roboticslab/robot/teo-humanoid) robot.
