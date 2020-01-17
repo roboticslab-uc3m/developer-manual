@@ -36,7 +36,7 @@
 
 ## Programming in C/C++
 * Use [project-generator](https://github.com/roboticslab-uc3m/project-generator) for creation of new C/C++ projects.
-* Report any problems with project-generator in its corresponding [issues section](https://github.com/roboticslab-uc3m/project-generator/issues). If you find that this solution doesn't suit you, at least stick to [CMake](http://asrob.uc3m.es/index.php/Tutorial_CMake) for any C/C++ project.
+* Report any problems with project-generator in its corresponding [issues section](https://github.com/roboticslab-uc3m/project-generator/issues). If you find that this solution doesn't suit you, at least stick to [CMake](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/programming/cmake.html) for any C/C++ project.
 * Use _UpperCamelCase_ for library and class names.
 * Use _lowerCamelCase_ for executable names.
 * Avoid global variables.
@@ -59,7 +59,7 @@
 
 ## Programming in C++ with YARP
 * We usually derive our base classes from [yarp::os::RFModule](http://www.yarp.it/classyarp_1_1os_1_1RFModule.html), thus inheriting a [configure\(yarp::os::ResourceFinder& rf\)](http://www.yarp.it/classyarp_1_1os_1_1RFModule.html#a6c3880961b00b0a7eb527d62214169b7) method that receives a map \([rf](http://www.yarp.it/classyarp_1_1os_1_1ResourceFinder.html)\) passed from `main()`, a [close\(\)](http://www.yarp.it/classyarp_1_1os_1_1RFModule.html#a58ce26fc6fdcb6eb4af8e8dc678e095e) that gets called by _CRTL+C_, and a [updateModule\(\)](http://www.yarp.it/classyarp_1_1os_1_1RFModule.html#a37ee5baa17ce243458a1dff209e878b7) which is invoked with a periodicity measured in seconds given by [getPeriod\(\)](http://www.yarp.it/classyarp_1_1os_1_1RFModule.html#ace2fdadde1a2690f274079fabd6420d2). In case you need a function that gets called more often, you may inherit the [run\(\)](http://www.yarp.it/classyarp_1_1os_1_1PeriodicThread.html#a4585b8555a7b796aff7b2ba8b0c8343d) method from [yarp::os::PeriodicThread](http://www.yarp.it/classyarp_1_1os_1_1PeriodicThread.html) and obtain a periodicity given in seconds wih double precision, to be specified in the constructor.
-* Implement your device as a class, and ideally as a [_YARP device_](http://asrob.uc3m.es/index.php/Tutorial_yarp_devices).
+* Implement your device as a class, and ideally as a YARP device ([tutorial (Spanish)](http://wiki.asrob.uc3m.es/index.php/Tutorial_yarp_devices)).
 
 ### Regarding `close()`
 If there exists a `close` method that needs to release unmanaged resources (dynamically allocated memory) or terminate stuff in an ordered manner (if using `PolyDriver` class members, e.g. `close` device A before device B), always define a class destructor that calls `close`, be it a `DeviceDriver` or an `RFModule` derived class. Also, make sure nothing bad happens if this `close` method is called several times (i.e. set dangling pointers to `nullptr`). Why is that:
