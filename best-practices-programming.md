@@ -8,9 +8,9 @@
 * [If you have any doubts or comments](#if-you-have-any-doubts-or-comments)
 
 ## Main Programming Tools
-* YARP: [Tutorial (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/programming/yarp.html). Best practices ([below](#programming-in-c-with-yarp)).
-* C/C++: Low-level (control) programming. Some good slides on C are "Thinking in C" by Bruce Eckel, and some good books on C++ are "Thinking in C++" by Bruce Eckel. A nice IDE is QTCreator, but you can also customize Eclipse, Atom or even Vim. Best practices ([below](#programming-in-cc)).
-* CMake: [Tutorial (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/programming/cmake.html). Best practices ([below](#programming-in-cmake))
+* YARP: See [below](#programming-in-c-with-yarp).
+* C/C++: Low-level (control) programming. See [below](#programming-in-cc).
+* CMake: See [below](#programming-in-cmake)
 * Python: High-level (algorithm) programming.
 * Doxygen: Document code, within the code.
     * Related issue: ["Program documentation: md vs dox" (qa#29)](https://github.com/roboticslab-uc3m/questions-and-answers/issues/29)
@@ -29,14 +29,17 @@
     * AVOID DUPLICATES of existing files and programs: [don't repeat yourself (DRY)](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself). Prior to creating a new program, thoroughly analyze whether you can enhance an existing one through adjustment or implementation of new parameters. Once you are sure that the functionality of a program could be extended, proceed with the usual steps \(open an issue or fork & create a pull request\).
 
 ## Programming in CMake
+* [Tutorial (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/programming/cmake.html)
 * Naming conventions:
   * *SCREAMING\_SNAKE\_CASE* for the project name, files and configuration variables: `TEO_MAIN`, `TEO_MAINConfig.cmake.in`, `TEO_MAIN_INCLUDE_DIRS`.
   * *kebab-case* for installed YARP context directories as set by `yarp_configure_external_installation()`: `teo-main`, `asibot-openrave-models`.
   * Use the `ROBOTICSLAB_` (or `roboticslab-`) prefix whenever the uniqueness of the chosen name for the project could be easily compromised (keep in mind you'll want to invoke `find_package()`): `ROBOTICSLAB_YARP_DEVICES`, `ROBOTICSLAB_KINEMATICS_DYNAMICS_INCLUDE_DIRS`, `roboticslab-vision`.
 
 ## Programming in C/C++
+* Some good slides on C are "Thinking in C" by Bruce Eckel, and some good books on C++ are "Thinking in C++" by Bruce Eckel.
+* A nice IDE is QTCreator, but you can also customize Eclipse, Atom or even Vim.
 * Use [project-generator](https://github.com/roboticslab-uc3m/project-generator) for creation of new C/C++ projects.
-* Report any problems with project-generator in its corresponding [issues section](https://github.com/roboticslab-uc3m/project-generator/issues). If you find that this solution doesn't suit you, at least stick to [CMake](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/programming/cmake.html) for any C/C++ project.
+* Report any problems with project-generator in its corresponding [issues section](https://github.com/roboticslab-uc3m/project-generator/issues). If you find that this solution doesn't suit you, at least stick to [CMake]((#programming-in-cmake) for any C/C++ project.
 * Use _UpperCamelCase_ for library and class names.
 * Use _lowerCamelCase_ for executable names.
 * Avoid global variables.
@@ -58,6 +61,7 @@
    * https://www.perforce.com/resources/qac/high-integrity-cpp-coding-standard
 
 ## Programming in C++ with YARP
+* [Tutorial (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/programming/yarp.html)
 * We usually derive our base classes from [yarp::os::RFModule](http://www.yarp.it/classyarp_1_1os_1_1RFModule.html), thus inheriting a [configure\(yarp::os::ResourceFinder& rf\)](http://www.yarp.it/classyarp_1_1os_1_1RFModule.html#a6c3880961b00b0a7eb527d62214169b7) method that receives a map \([rf](http://www.yarp.it/classyarp_1_1os_1_1ResourceFinder.html)\) passed from `main()`, a [close\(\)](http://www.yarp.it/classyarp_1_1os_1_1RFModule.html#a58ce26fc6fdcb6eb4af8e8dc678e095e) that gets called by _CRTL+C_, and a [updateModule\(\)](http://www.yarp.it/classyarp_1_1os_1_1RFModule.html#a37ee5baa17ce243458a1dff209e878b7) which is invoked with a periodicity measured in seconds given by [getPeriod\(\)](http://www.yarp.it/classyarp_1_1os_1_1RFModule.html#ace2fdadde1a2690f274079fabd6420d2). In case you need a function that gets called more often, you may inherit the [run\(\)](http://www.yarp.it/classyarp_1_1os_1_1PeriodicThread.html#a4585b8555a7b796aff7b2ba8b0c8343d) method from [yarp::os::PeriodicThread](http://www.yarp.it/classyarp_1_1os_1_1PeriodicThread.html) and obtain a periodicity given in seconds wih double precision, to be specified in the constructor.
 * Implement your device as a class, and ideally as a YARP device ([tutorial (Spanish)](http://wiki.asrob.uc3m.es/index.php/Tutorial_yarp_devices)).
 
