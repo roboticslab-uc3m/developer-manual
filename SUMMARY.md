@@ -10,4 +10,5 @@
 * [Appendices](appendix/README.md)
   * [Repository Index](appendix/repository-index.md)
   * [Project Index](appendix/project-index.md)
+  * [YARP Tricks](appendix/yarp-tricks.md)
   * [Additional Links](appendix/additional-links.md)
