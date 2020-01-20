@@ -1,4 +1,4 @@
-# Best Practices: Documenting
+# Documenting
 
 * [General Documenting](#general-documenting)
 
