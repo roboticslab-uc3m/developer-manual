@@ -7,9 +7,9 @@
 * [If you have any doubts or comments](#if-you-have-any-doubts-or-comments)
 
 ## Main Programming Tools
-* YARP: See [below](#programming-in-c-with-yarp).
+* YARP: See [Programming with YARP](programming-with-yarp.md).
 * C/C++: Low-level (control) programming. See [below](#programming-in-cc).
-* CMake: See [below](#programming-in-cmake)
+* CMake: See [below](#programming-in-cmake).
 * Python: High-level (algorithm) programming.
 * Doxygen: Document code, within the code.
     * Related issue: ["Program documentation: md vs dox" (qa#29)](https://github.com/roboticslab-uc3m/questions-and-answers/issues/29)
@@ -44,7 +44,7 @@
 * Avoid global variables.
 * We prefer modern `std::string` class to alternatives like `char*` or `yarp::os::ConstString`.
 * Store your classes inside a _namespace_ block. Our current trend is `roboticslab::` (see https://github.com/roboticslab-uc3m/QA/issues/15).
-* Keep a minimalistic `main()` by implementing your program as an OOP class, see comments on `RFModule` in best practices in C++ with YARP ([below](#programming-in-c-with-yarp)).
+* Keep a minimalistic `main()` by implementing your program as an OOP class, see comments on `RFModule` in best practices in [Programming with YARP](programming-with-yarp.md).
 * Create and maintain unit tests for each class. We are currently using **gtest**, see [kinematics-dynamics/test/testKdlSolver](https://github.com/roboticslab-uc3m/kinematics-dynamics/tree/develop/test/testKdlSolver.cpp) and [yarp-devices/tests/testTechnosoftIpos](https://github.com/roboticslab-uc3m/yarp-devices/tree/develop/tests/testTechnosoftIpos/testTechnosoftIpos.cpp), which is then integrated with Travis CI.
 * It is recommended to mark a function as DEPRECATED for a month before eliminating it from an API. DEPRECATED macros can be generated via CMake as done [here](https://github.com/roboticslab-uc3m/kinematics-dynamics/blob/21f2dde2a38f1d0c1c93703d3619e34c14c3bfcd/CMakeLists.txt#L110-L118), then used within code as [here](https://github.com/roboticslab-uc3m/kinematics-dynamics/blob/21f2dde2a38f1d0c1c93703d3619e34c14c3bfcd/libraries/TeoYarp/ICartesianSolver.h#L29-L33). The full procedure, as described at [QA #21](https://github.com/roboticslab-uc3m/QA/issues/21), should be:
   1. Open an `issue` wherever the offending function is located.
