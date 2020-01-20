@@ -33,10 +33,10 @@
    - [Control de versiones - Git (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/version-control/git.html)
 
 ## How should I program stuff?
-- Please make sure you carefully read and understood the dedicated section at: [Best Practices: Programming](best-practices-programming.md)
+- Please make sure you carefully read and understood the dedicated section at: [Best Practices: Programming](programming.md)
 
 ## How should I document stuff?
-- Please make sure you carefully read and understood the dedicated section at: [Best Practices: Documenting](best-practices-documenting.md)
+- Please make sure you carefully read and understood the dedicated section at: [Best Practices: Documenting](documenting.md)
 
 ## How can I record data for Programming by Demonstration (PbD) a.k.a. Learning from Demonstration (LfD)?
 

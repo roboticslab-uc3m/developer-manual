@@ -1,4 +1,4 @@
-# Best Practices: Programming
+# Programming
 
 * [Main Programming Tools](#main-programming-tools)
 * [General Programming](#general-programming)
