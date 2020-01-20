@@ -6,6 +6,7 @@
 * [Documenting](documenting.md)
 * [GitHub](github.md)
 * [Programming](programming.md)
+    * [Programming with YARP](programming-with-yarp.md)
 * [Appendices](appendix/README.md)
   * [Repository Index](appendix/repository-index.md)
   * [Project Index](appendix/project-index.md)

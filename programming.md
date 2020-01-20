@@ -4,13 +4,12 @@
 * [General Programming](#general-programming)
 * [Programming in CMake](#programming-in-cmake)
 * [Programming in C/C++](#programming-in-cc)
-* [Programming in C++ with YARP](#programming-in-c-with-yarp)
 * [If you have any doubts or comments](#if-you-have-any-doubts-or-comments)
 
 ## Main Programming Tools
-* YARP: See [below](#programming-in-c-with-yarp).
+* YARP: See [Programming with YARP](programming-with-yarp.md).
 * C/C++: Low-level (control) programming. See [below](#programming-in-cc).
-* CMake: See [below](#programming-in-cmake)
+* CMake: See [below](#programming-in-cmake).
 * Python: High-level (algorithm) programming.
 * Doxygen: Document code, within the code.
     * Related issue: ["Program documentation: md vs dox" (qa#29)](https://github.com/roboticslab-uc3m/questions-and-answers/issues/29)
@@ -45,7 +44,7 @@
 * Avoid global variables.
 * We prefer modern `std::string` class to alternatives like `char*` or `yarp::os::ConstString`.
 * Store your classes inside a _namespace_ block. Our current trend is `roboticslab::` (see https://github.com/roboticslab-uc3m/QA/issues/15).
-* Keep a minimalistic `main()` by implementing your program as an OOP class, see comments on `RFModule` in best practices in C++ with YARP ([below](#programming-in-c-with-yarp)).
+* Keep a minimalistic `main()` by implementing your program as an OOP class, see comments on `RFModule` in best practices in [Programming with YARP](programming-with-yarp.md).
 * Create and maintain unit tests for each class. We are currently using **gtest**, see [kinematics-dynamics/test/testKdlSolver](https://github.com/roboticslab-uc3m/kinematics-dynamics/tree/develop/test/testKdlSolver.cpp) and [yarp-devices/tests/testTechnosoftIpos](https://github.com/roboticslab-uc3m/yarp-devices/tree/develop/tests/testTechnosoftIpos/testTechnosoftIpos.cpp), which is then integrated with Travis CI.
 * It is recommended to mark a function as DEPRECATED for a month before eliminating it from an API. DEPRECATED macros can be generated via CMake as done [here](https://github.com/roboticslab-uc3m/kinematics-dynamics/blob/21f2dde2a38f1d0c1c93703d3619e34c14c3bfcd/CMakeLists.txt#L110-L118), then used within code as [here](https://github.com/roboticslab-uc3m/kinematics-dynamics/blob/21f2dde2a38f1d0c1c93703d3619e34c14c3bfcd/libraries/TeoYarp/ICartesianSolver.h#L29-L33). The full procedure, as described at [QA #21](https://github.com/roboticslab-uc3m/QA/issues/21), should be:
   1. Open an `issue` wherever the offending function is located.
@@ -59,18 +58,6 @@
    * https://github.com/google/eng-practices
    * https://google.github.io/styleguide/cppguide.html
    * https://www.perforce.com/resources/qac/high-integrity-cpp-coding-standard
-
-## Programming in C++ with YARP
-* [Tutorial (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/programming/yarp.html)
-* We usually derive our base classes from [yarp::os::RFModule](http://www.yarp.it/classyarp_1_1os_1_1RFModule.html), thus inheriting a [configure\(yarp::os::ResourceFinder& rf\)](http://www.yarp.it/classyarp_1_1os_1_1RFModule.html#a6c3880961b00b0a7eb527d62214169b7) method that receives a map \([rf](http://www.yarp.it/classyarp_1_1os_1_1ResourceFinder.html)\) passed from `main()`, a [close\(\)](http://www.yarp.it/classyarp_1_1os_1_1RFModule.html#a58ce26fc6fdcb6eb4af8e8dc678e095e) that gets called by _CRTL+C_, and a [updateModule\(\)](http://www.yarp.it/classyarp_1_1os_1_1RFModule.html#a37ee5baa17ce243458a1dff209e878b7) which is invoked with a periodicity measured in seconds given by [getPeriod\(\)](http://www.yarp.it/classyarp_1_1os_1_1RFModule.html#ace2fdadde1a2690f274079fabd6420d2). In case you need a function that gets called more often, you may inherit the [run\(\)](http://www.yarp.it/classyarp_1_1os_1_1PeriodicThread.html#a4585b8555a7b796aff7b2ba8b0c8343d) method from [yarp::os::PeriodicThread](http://www.yarp.it/classyarp_1_1os_1_1PeriodicThread.html) and obtain a periodicity given in seconds wih double precision, to be specified in the constructor.
-* Implement your device as a class, and ideally as a YARP device ([tutorial (Spanish)](http://wiki.asrob.uc3m.es/index.php/Tutorial_yarp_devices)).
-
-### Regarding `close()`
-If there exists a `close` method that needs to release unmanaged resources (dynamically allocated memory) or terminate stuff in an ordered manner (if using `PolyDriver` class members, e.g. `close` device A before device B), always define a class destructor that calls `close`, be it a `DeviceDriver` or an `RFModule` derived class. Also, make sure nothing bad happens if this `close` method is called several times (i.e. set dangling pointers to `nullptr`). Why is that:
-- `PolyDriver::open` may fail to initialize a subdevice, but it does not call the subdevice's `close` method; instead, it is immediately destructed via delete ([ref](https://github.com/robotology/yarp/blob/b3dff81c3739112b8f65cfd808f129bcbf4e7aa5/src/libYARP_dev/src/yarp/dev/PolyDriver.cpp#L308)).
-- If `RFModule::configure` returns false, as explained in the above comments, `close` will never be called, hence we also want to use a destructor here.
-- `PolyDriver::close` will never close a wrapped device twice, but callers of `RFModule` can do that inadvertently because of the previous point: once after a successful `RFModule::configure` and a `CTRL+C` signal (it just stops execution flow and calls close before leaving `runModule`), and one more time on class destruction.
-- Despite those two mechanisms being relatively different, this policy ensures we treat both `RFModule` and `DeviceDriver` constructs in a similar manner: `close()` on destruction, avoid dangling pointers.
 
 
 ## If you have any doubts or comments
