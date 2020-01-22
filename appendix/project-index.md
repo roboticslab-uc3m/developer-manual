@@ -27,6 +27,7 @@ List of GitHub projects provided by [Robotics Lab](http://roboticslab.uc3m.es) o
 
 ### AMOR
 Projects related to our [AMOR](http://roboticslab.uc3m.es/roboticslab/robot/amor) robot.
+- [[AMOR]](https://github.com/orgs/roboticslab-uc3m/projects/14) (roboticslab-uc3m)
 
 ### ASIBOT
 Projects related to our [ASIBOT](http://roboticslab.uc3m.es/roboticslab/robot/asibot) robot.
