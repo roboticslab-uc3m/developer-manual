@@ -16,7 +16,7 @@
 * [Edit .ini config files in Calc (Excel)](#edit-ini-config-files-in-calc-excel)
 
 ## Yarp RPC commands (VOCABs)
-Note that this is a hack. VOCABs may be updated without warning. The recommended YARP-ish way is via YARP_dev interfaces. An interactive way to do this is via an `ipython` console and following the [yarp-devices Python examples](https://github.com/roboticslab-uc3m/yarp-devices/tree/develop/examples/python) ([perma](https://github.com/roboticslab-uc3m/yarp-devices/tree/c0c61aa616acf5987eb46a64213cd9ea55419429/examples/python)).
+Note that this is a hack. VOCABs may be updated without warning. The recommended YARP-ish way is via YARP_dev interfaces. An interactive way to do this is via an `ipython` console and following the [yarp-devices Python examples](https://github.com/roboticslab-uc3m/yarp-devices/tree/develop/examples/python) ([perma](https://github.com/roboticslab-uc3m/yarp-devices/tree/64831bcd9acad3748760490b75723cf5ef7400b3/examples/python)).
 
 ### remote_controlboard
 
