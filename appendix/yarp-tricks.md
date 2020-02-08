@@ -13,6 +13,7 @@
         * [remote variables](#remote-variables)
     * [analogsensorClient](#analogsensorclient)
         * [calibration](#calibration)
+    * [remote_grabber](#remote_grabber)
 * [Edit .ini config files in Calc (Excel)](#edit-ini-config-files-in-calc-excel)
 
 ## Yarp RPC commands (VOCABs)
@@ -172,6 +173,10 @@ Some specific to [CanBusControlboard](https://github.com/roboticslab-uc3m/yarp-d
 ```
 [iana] [cal]
 ```
+
+
+### remote_grabber
+- https://github.com/roboticslab-uc3m/yarp-devices/tree/f4d5f67d31703e41cea721080fd16d6777e67799/libraries/YarpPlugins/AravisGigE#camera-parameters-control
 
 
 ## Edit .ini config files in Calc (Excel)
