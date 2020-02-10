@@ -64,7 +64,7 @@ Repositories related to our [ASIBOT](http://roboticslab.uc3m.es/roboticslab/robo
 
 ### TEO
 Repositories related to our [TEO](http://roboticslab.uc3m.es/roboticslab/robot/teo-humanoid) robot.
-- [teo-developer-manual](https://github.com/roboticslab-uc3m/teo-developer-manual) ([gitbook](https://github.com/roboticslab-uc3m/teo-developer-manual))
+- [teo-developer-manual](https://github.com/roboticslab-uc3m/teo-developer-manual) ([gitbook](http://robots.uc3m.es/gitbook-teo-developer-manual))
 - [teo-main](https://github.com/roboticslab-uc3m/teo-main)
 - [teo-configuration-files](https://github.com/roboticslab-uc3m/teo-configuration-files)
 - [teo-hardware-issues](https://github.com/roboticslab-uc3m/teo-hardware-issues) (private)
