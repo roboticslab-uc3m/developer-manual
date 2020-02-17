@@ -126,8 +126,9 @@ Repositories related to our research towards a [Robotic Laundry Assistant](http:
 #### Horus
 Repositories related to our research in [HORUS](http://roboticslab.uc3m.es/roboticslab/project/horus).
 - [horus](https://github.com/roboticslab-uc3m/horus) (private)
-- [horus-papers](https://github.com/roboticslab-uc3m/horus-papers) (private)
 - [horus-hardware](https://github.com/roboticslab-uc3m/horus-hardware) (private)
+- [horus-papers](https://github.com/roboticslab-uc3m/horus-papers) (private)
+- [horus-openrave-models](https://github.com/roboticslab-uc3m/horus-openrave-models) (private)
 - More repos with "horus-" prefix (private)
 
 ### Xgnitive
