@@ -146,6 +146,11 @@ Note that this is a hack. VOCABs may be updated without warning. The recommended
 [get] [vlim] 0
 ```
 
+* set vel limits:
+```
+[set] [vlim] 0 -20 20
+```
+
 #### remote calibrator
 * homing:
 ```
