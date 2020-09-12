@@ -20,7 +20,7 @@
 * If incorporating a new dependency or additional software, first take a look at our dedicated repository: [installation-guides](https://github.com/roboticslab-uc3m/installation-guides) ([gitbook](http://robots.uc3m.es/gitbook-installation-guides)). If it's not there, consider if it's a good option using the following recommended (but not mandatory) criteria: lightweight, flexible, multiplatform. If so, add it there, then link it to your project ([example](5182f9f475e229acea4cca1130be57489fd6b0f7)).
 * Indent your code as if everything were Python. [astyle](http://astyle.sourceforge.net/) can handle this quite automatically for you \(use with caution\).
 * Any `toDo`, `fixMe`, etc. inlined in code must be associated to an _open issue_ \(with bidirectional reference\).
-* [Headers, config files and CLI parameters](https://github.com/roboticslab-uc3m/asibot-main/blob/develop/doc/asibot-post-install.md#changing-parameters).
+* [Headers, config files and CLI parameters](https://github.com/roboticslab-uc3m/asibot-main/blob/master/doc/asibot-post-install.md#changing-parameters).
 * Read about [Clean code](https://www.google.es/search?q=cleancode).
 * We use [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development) and [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration).
 * Let's repeat:
@@ -45,7 +45,7 @@
 * We prefer modern `std::string` class to alternatives like `char*` or `yarp::os::ConstString`.
 * Store your classes inside a _namespace_ block. Our current trend is `roboticslab::` (see https://github.com/roboticslab-uc3m/QA/issues/15).
 * Keep a minimalistic `main()` by implementing your program as an OOP class, see comments on `RFModule` in best practices in [Programming with YARP](programming-with-yarp.md).
-* Create and maintain unit tests for each class. We are currently using **gtest**, see [kinematics-dynamics/test/testKdlSolver](https://github.com/roboticslab-uc3m/kinematics-dynamics/tree/develop/test/testKdlSolver.cpp) and [yarp-devices/tests/testTechnosoftIpos](https://github.com/roboticslab-uc3m/yarp-devices/tree/develop/tests/testTechnosoftIpos/testTechnosoftIpos.cpp), which is then integrated with Travis CI.
+* Create and maintain unit tests for each class. We are currently using **gtest**, see [kinematics-dynamics/tests/testKdlSolver](https://github.com/roboticslab-uc3m/kinematics-dynamics/tree/master/tests/testKdlSolver.cpp), which is then integrated with Travis CI.
 * It is recommended to mark a function as DEPRECATED for a month before eliminating it from an API. DEPRECATED macros can be generated via CMake as done [here](https://github.com/roboticslab-uc3m/kinematics-dynamics/blob/21f2dde2a38f1d0c1c93703d3619e34c14c3bfcd/CMakeLists.txt#L110-L118), then used within code as [here](https://github.com/roboticslab-uc3m/kinematics-dynamics/blob/21f2dde2a38f1d0c1c93703d3619e34c14c3bfcd/libraries/TeoYarp/ICartesianSolver.h#L29-L33). The full procedure, as described at [QA #21](https://github.com/roboticslab-uc3m/QA/issues/21), should be:
   1. Open a [GitHub Issue](github.md#github-issues) wherever the offending function is located.
   1. Label it as `announcement`.

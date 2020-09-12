@@ -19,7 +19,7 @@
 
 ## I was told to install something. How can I do that?
 - Please make sure you carefully read and understood the dedicated section at: [how do I install programs on Linux? (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/linux/introduction.html#¿cómo-instalo-programas-en-linux)
-- Each of our repositories usually contains instructions for installing, e.g. the initial `README.md` of <https://github.com/roboticslab-uc3m/vision> links to its [doc/vision-install.md](https://github.com/roboticslab-uc3m/vision/blob/develop/doc/vision-install.md) documentation file.
+- Each of our repositories usually contains instructions for installing, e.g. the initial `README.md` of <https://github.com/roboticslab-uc3m/vision> links to its [doc/vision-install.md](https://github.com/roboticslab-uc3m/vision/blob/master/doc/vision-install.md) documentation file.
    - Note 1: Don't know what a repository is? Please read: [Control de versiones (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/version-control/index.html)
    - Note 2: This manual contains an index of our repositories: [HERE](appendix/repository-index.md)
 - For instructions on installing 3rd party software, please see a special repository we maintain: <http://robots.uc3m.es/gitbook-installation-guides>

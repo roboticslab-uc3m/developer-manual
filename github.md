@@ -60,8 +60,7 @@ Essentially, always. Whatever you are doing, as insignificant as it may seem, pl
 Please use one of our repositories: [Repository Index](repository-index.md).
 
 ### To which repository branch should I commit?
-Please upload your work to a new branch, branching out from `develop`. This git workflow is called [GitFlow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow/).
-* There is an exception, for pure documentation repos (as discussed at [\#6](https://github.com/roboticslab-uc3m/developer-manual/issues/6)), where there is no `develop` branch, so just branch out from `master` instead.
+Please upload your work to a new branch, branching out from `master`. This git workflow is called [Forking](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow/).
 
 ### Which files should I commit to the branch?
 We commented above to commit absolutely everything, as insignificant as it may seem. There are a few exceptions, please AVOID uploading (all equally important):
@@ -92,7 +91,7 @@ There are two types of commits where you should always additionally reference an
 - Prepend `[WIP]` (which stands for Work In Progress) in the Pull Request title if you feel the branch is still not ready for a git merge.
 
 ## GitHub Repositories
-It is recommended to protect at least the following branches: `master` and `develop` (whenever it exists)
+It is recommended to protect at least the main `master` branch.
 
 ## GitHub Projects
 We use GitHub Projects to manage our workflow. They offer a nice Kanban that is integrated with GitHub Issues. For columns, we define the automated basics (please preserve the first 4 and in that order!), but new can be added per repo. The chosen ones are:
