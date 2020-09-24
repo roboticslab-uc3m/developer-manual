@@ -1,4 +1,4 @@
-# Frequently Asked Questions (FAQ) - Advanced
+# Frequently Asked Questions (FAQ)
 
 * [How can I play back data recorded for Programming by Demonstration (PbD) a.k.a. Learning from Demonstration (LfD)?](#how-can-i-play-back-data-recorded-for-programming-by-demonstration-pbd-aka-learning-from-demonstration-lfd)
 * [How does the iPos PT Mode work?](#how-does-the-ipos-pt-mode-work)

@@ -1,13 +1,13 @@
 # Summary
 
 * [Developer Manual](gitbook-cover.md)
-* [FAQ - Basic](faq-basic.md)
-* [FAQ - Advanced](faq-advanced.md)
+* [Introduction](introduction.md)
 * [Asking Questions](asking-questions.md)
 * [Documenting](documenting.md)
 * [GitHub](github.md)
 * [Programming](programming.md)
     * [Programming with YARP](programming-with-yarp.md)
+* [Frequently Asked Questions (FAQ)](frequently-asked-questions.md)
 * [Appendices](appendix/README.md)
   * [Repository Index](appendix/repository-index.md)
   * [Project Index](appendix/project-index.md)
