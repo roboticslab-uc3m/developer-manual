@@ -1,7 +1,8 @@
 # Summary
 
 * [Developer Manual](gitbook-cover.md)
-* [Frequently Asked Questions (FAQ)](frequently-asked-questions.md)
+* [FAQ - Basic](faq-basic.md)
+* [FAQ - Advanced](faq-advanced.md)
 * [Asking Questions](asking-questions.md)
 * [Documenting](documenting.md)
 * [GitHub](github.md)

@@ -1,12 +1,5 @@
-# Frequently Asked Questions (FAQ)
+# Frequently Asked Questions (FAQ) - Advanced
 
-* [Which Operating System should I use?](#which-operating-system-should-i-use)
-* [I was told to install something. How can I do that?](#i-was-told-to-install-something-how-can-i-do-that)
-* [I see a lot of commands for installation but do not understand anything. What do they mean?](#i-see-a-lot-of-commands-for-installation-but-do-not-understand-anything-what-do-they-mean)
-* [I've heard lots of stuff about Git and GitHub. What do they mean?](#ive-heard-lots-of-stuff-about-git-and-github-what-do-they-mean)
-* [How should I program stuff?](#how-should-i-program-stuff)
-* [How should I document stuff?](#how-should-i-document-stuff)
-* [How can I record data for Programming by Demonstration (PbD) a.k.a. Learning from Demonstration (LfD)?](#how-can-i-record-data-for-programming-by-demonstration-pbd-aka-learning-from-demonstration-lfd)
 * [How can I play back data recorded for Programming by Demonstration (PbD) a.k.a. Learning from Demonstration (LfD)?](#how-can-i-play-back-data-recorded-for-programming-by-demonstration-pbd-aka-learning-from-demonstration-lfd)
 * [How does the iPos PT Mode work?](#how-does-the-ipos-pt-mode-work)
 * [How can I change the RGB-D sensor resolution?](#how-can-i-change-the-rgb-d-sensor-resolution)
