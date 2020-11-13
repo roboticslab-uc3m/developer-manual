@@ -2,26 +2,8 @@
 
 List of repositories provided by [Robotics Lab](http://roboticslab.uc3m.es) of Universidad Carlos III de Madrid ([UC3M](http://uc3m.es)) that are hosted at <https://github.com/roboticslab-uc3m>.
 
-* [Manuals and FAQs](#manuals-and-faqs)
-* [General](#general)
-* [Robots (Individual)](#robots-individual)
-    * [AMOR](#amor)
-    * [ASIBOT](#asibot)
-    * [TEO](#teo)
-    * [TIAGo](#tiago)
-* [Research](#research)
-    * [Humanoid Robotics](#humanoid-robotics)
-    * [Rehab](#rehab)
-    * [Sign Language](#sign-language)
-    * [Textiles](#textiles)
-        * [Horus](#horus)
-    * [Xgnitive](#xgnitive)
-* [Playground](#playground)
-* [Admin and Sysop](#admin-and-sysop)
-* [Additional Notes](#additional-notes)
-* [If you have any doubts or comments](#if-you-have-any-doubts-or-comments)
-
 ## Manuals and FAQs
+
 - [developer-manual](https://github.com/roboticslab-uc3m/developer-manual) ([gitbook](http://robots.uc3m.es/gitbook-developer-manual)) (this manual)
 - [installation-guides](https://github.com/roboticslab-uc3m/installation-guides) ([gitbook](http://robots.uc3m.es/gitbook-installation-guides))
 - [questions-and-answers](https://github.com/roboticslab-uc3m/questions-and-answers)
@@ -30,6 +12,7 @@ List of repositories provided by [Robotics Lab](http://roboticslab.uc3m.es) of U
 - Also see manuals in each corresponding section of [Robots (individual)](#robots-individual)
 
 ## General
+
 - [color-debug](https://github.com/roboticslab-uc3m/color-debug)
 - [data-visualization](https://github.com/roboticslab-uc3m/data-visualization)
 - [kinematics-dynamics](https://github.com/roboticslab-uc3m/kinematics-dynamics) ([doxygen](http://robots.uc3m.es/dox-kinematics-dynamics))
@@ -47,7 +30,9 @@ List of repositories provided by [Robotics Lab](http://roboticslab.uc3m.es) of U
 ## Robots (Individual)
 
 ### AMOR
+
 Repositories related to our [AMOR](http://roboticslab.uc3m.es/roboticslab/robot/amor) robot.
+
 - [amor-main](https://github.com/roboticslab-uc3m/amor-main)
 - [amor-configuration-files](https://github.com/roboticslab-uc3m/amor-configuration-files)
 - [amor-api](https://github.com/roboticslab-uc3m/amor-api) (private)
@@ -55,7 +40,9 @@ Repositories related to our [AMOR](http://roboticslab.uc3m.es/roboticslab/robot/
     - [amor-openrave-models](https://github.com/roboticslab-uc3m/amor-openrave-models)
 
 ### ASIBOT
+
 Repositories related to our [ASIBOT](http://roboticslab.uc3m.es/roboticslab/robot/asibot) robot.
+
 - [asibot-main](https://github.com/roboticslab-uc3m/asibot-main)
 - [asibot-configuration-files](https://github.com/roboticslab-uc3m/asibot-configuration-files)
 - [asibot-hmi](https://github.com/roboticslab-uc3m/asibot-hmi)
@@ -63,7 +50,9 @@ Repositories related to our [ASIBOT](http://roboticslab.uc3m.es/roboticslab/robo
     - [asibot-openrave-models](https://github.com/roboticslab-uc3m/asibot-openrave-models)
 
 ### TEO
+
 Repositories related to our [TEO](http://roboticslab.uc3m.es/roboticslab/robot/teo-humanoid) robot.
+
 - [teo-developer-manual](https://github.com/roboticslab-uc3m/teo-developer-manual) ([gitbook](http://robots.uc3m.es/gitbook-teo-developer-manual))
 - [teo-main](https://github.com/roboticslab-uc3m/teo-main)
 - [teo-configuration-files](https://github.com/roboticslab-uc3m/teo-configuration-files)
@@ -81,7 +70,9 @@ Repositories related to our [TEO](http://roboticslab.uc3m.es/roboticslab/robot/t
     - [teo-self-presentation](https://github.com/roboticslab-uc3m/teo-self-presentation)
 
 ### TIAGo
+
 Repositories related to our [TIAGo](http://roboticslab.uc3m.es/roboticslab/robot/tiago) robot.
+
 - [tiago-main](https://github.com/roboticslab-uc3m/tiago-main) (private)
 - [tiago-docs](https://github.com/roboticslab-uc3m/tiago-docs) (private)
 - [tiago-hardware](https://github.com/roboticslab-uc3m/tiago-hardware) (private)
@@ -92,6 +83,7 @@ Repositories related to our [TIAGo](http://roboticslab.uc3m.es/roboticslab/robot
 ## Research
 
 ### Humanoid Robotics
+
 - [gait-experiments](https://github.com/roboticslab-uc3m/gait-experiments)
 - [gait](https://github.com/roboticslab-uc3m/gait)
 - [gaitcontrol](https://github.com/roboticslab-uc3m/gaitcontrol)
@@ -107,15 +99,19 @@ Repositories related to our [TIAGo](http://roboticslab.uc3m.es/roboticslab/robot
 - [teotragen_com](https://github.com/roboticslab-uc3m/teotragen_com)
 
 ### Rehab
+
 - [abbt-proximity-sensors](https://github.com/roboticslab-uc3m/abbt-proximity-sensors)
 - [pressmatic-android](https://github.com/roboticslab-uc3m/pressmatic-android)
 
 ### Sign Language
+
 Repositories related to our research in [Robot Sign Language](http://roboticslab.uc3m.es/roboticslab/robottypeandapp/robot-sign-language).
 - [sign-language-papers](https://github.com/roboticslab-uc3m/sign-language-papers) (private)
 
 ### Textiles
+
 Repositories related to our research towards a [Robotic Laundry Assistant](http://roboticslab.uc3m.es/roboticslab/robottypeandapp/robotic-laundry-assistant) via [Deformable Object Perception and Manipulation](http://roboticslab.uc3m.es/roboticslab/researchtopic/deformable-object-perception-and-manipulation), as seen at <https://roboticslab-uc3m.github.io/robot-household-companion-web>.
+
 - [textiles](https://github.com/roboticslab-uc3m/textiles)
 - [textiles-hanging](https://github.com/roboticslab-uc3m/textiles-hanging)
 - [textiles-papers](https://github.com/roboticslab-uc3m/textiles-papers) (private)
@@ -124,7 +120,9 @@ Repositories related to our research towards a [Robotic Laundry Assistant](http:
 - More repos with "textiles-" prefix (private)
 
 #### Horus
+
 Repositories related to our research in [HORUS](http://roboticslab.uc3m.es/roboticslab/project/horus).
+
 - [horus](https://github.com/roboticslab-uc3m/horus) (private)
 - [horus-hardware](https://github.com/roboticslab-uc3m/horus-hardware) (private)
 - [horus-papers](https://github.com/roboticslab-uc3m/horus-papers) (private)
@@ -132,20 +130,26 @@ Repositories related to our research in [HORUS](http://roboticslab.uc3m.es/robot
 - More repos with "horus-" prefix (private)
 
 ### Xgnitive
+
 Repositories related to our research in [XGNITIVE](http://roboticslab.uc3m.es/roboticslab/robottypeandapp/xgnitive).
+
 - [xgnitive](https://github.com/roboticslab-uc3m/xgnitive)
 - [xgnitive-papers](https://github.com/roboticslab-uc3m/xgnitive-papers) (private)
 
 ## Playground
+
 - [daw2robot](https://github.com/roboticslab-uc3m/daw2robot)
 
 ## Admin and Sysop
+
 - [web-and-social-media](https://github.com/roboticslab-uc3m/web-and-social-media) (private)
 - [laboratorios](https://github.com/roboticslab-uc3m/laboratorios) (private)
 - [jgvictores/wikirobots](https://github.com/jgvictores/wikirobots) (external, private)
 
 ## Additional Notes
+
 We still have some repositories at [http://robots.uc3m.es/svn/\*](http://robots.uc3m.es/svn/) (private)
 
 ## If you have any doubts or comments
+
 Please read the [Asking Questions](asking-questions.md) section, and once you've succeded with its [self-evaluation](asking-questions.md#self-evaluation-time) follow the recommendations by commenting publicly [HERE](https://github.com/roboticslab-uc3m/developer-manual/issues/new) if required
