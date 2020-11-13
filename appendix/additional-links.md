@@ -2,7 +2,7 @@
 
 ## More Information
 
-* [ASROB Tutorials (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content)
+* [ASROB Tutorials (Spanish)](http://wiki.asrob.uc3m.es/gitbook-tutoriales)
 * [robots.uc3m.es (legacy wiki)](http://robots.uc3m.es)
 * [developer-manual/issues](https://github.com/roboticslab-uc3m/developer-manual/issues)
 * [questions-and-answers/issues](https://github.com/roboticslab-uc3m/questions-and-answers/issues)
