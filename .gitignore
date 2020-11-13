@@ -6,16 +6,6 @@
 *.swp
 *.orig
 
-## CMake and C/C++
-**/build*/
-CMakeLists.txt.user
-*.cproject
-*.project
-tags
-
-## doxygen
-doc/html
-doc/doxygen_sqlite3.db
-
-## gitbook generated
+## gitbook
+/node_modules/
 /_book/
