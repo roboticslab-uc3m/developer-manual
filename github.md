@@ -1,24 +1,9 @@
 # GitHub
 
-* [GitHub Issues](#github-issues)
-    * [Opening a GitHub Issue](#opening-a-github-issue)
-    * [Closing a GitHub Issue](#closing-a-github-issue)
-    * [GitHub Issue Labels](#github-issue-labels)
-* [git commit (and push)](#github-commit-and-push)
-    * [When should I commit to GitHub?](#when-should-i-commit-to-github)
-    * [To which GitHub repository should I commit?](#to-which-github-repository-should-i-commit)
-    * [To which repository branch should I commit?](#to-which-repository-branch-should-i-commit)
-    * [Which files should I commit to the branch?](#which-files-should-i-commit-to-the-branch)
-    * [How should I name files and folders I commit?](#how-should-i-name-files-and-folders-i-commit)
-    * [How should commit messages be?](#how-should-commit-messages-be)
-* [GitHub Pull Request](#github-pull-request)
-* [GitHub Repositories](#github-repositories)
-* [GitHub Projects](#github-projects)
-* [If you have any doubts or comments](#if-you-have-any-doubts-or-comments)
-
 ## GitHub Issues
 
 ### Opening a GitHub Issue
+
 1. Make sure you have read the entire [Asking Questions](asking-questions.md) page and passed its [self-evaluation](asking-questions.md#self-evaluation-time)! It's where we recommend to do a previous search and tell you where and how to look!
 1. Log into GitHub by clicking on `Sign in` (if not logged in already)
 1. Go to the repository that is most related from the [Repository Index](appendix/repository-index.md)
@@ -43,26 +28,33 @@ Troubleshooting:
 - In certain repositories (none of the https://github.com/roboticslab-uc3m GitHub organization), you have to be part of the specific GitHub organization to be able to put an Issue. Please contact the specific GitHub organization owners if given the case.
 
 ### Closing a GitHub Issue
+
 Please cite the hash of the commit that closes the GitHub Issue (ideally, the hash of a merge commit) in the closing comment.
 
 ### GitHub Issue Labels
+
 We are attempting to unify GitHub labels, spawned from [questions-and-answers#76](https://github.com/roboticslab-uc3m/questions-and-answers/issues/76)
 - Existing repos: use https://github.com/destan/github-label-manager or similar to copy from [teo-main](https://github.com/roboticslab-uc3m/teo-main/labels).
 - New repos: new repos will inherit labels defined at https://github.com/organizations/roboticslab-uc3m/settings/labels
 
 ## git commit (and push)
+
 We have seen in [Main Developer Tools](main-developer-tools.md) that GitHub is an important part of our workflow. Now let's see when and how to use it.
 
 ### When should I commit to GitHub?
+
 Essentially, always. Whatever you are doing, as insignificant as it may seem, please upload the files to GitHub. Read on for the details.
 
 ### To which GitHub repository should I commit?
+
 Please use one of our repositories: [Repository Index](repository-index.md).
 
 ### To which repository branch should I commit?
+
 Please upload your work to a new branch, branching out from `master`. This git workflow is called [Forking](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow/).
 
 ### Which files should I commit to the branch?
+
 We commented above to commit absolutely everything, as insignificant as it may seem. There are a few exceptions, please AVOID uploading (all equally important):
 * Files that can be generated via other files (executables, `.pdf`...): instead, document how to generate these files (steps for compiling/installing, `pdflatex`...)
 * Compressed files (e.g. `.zip`): please upload each individual file (which can be done within the same commit)
@@ -72,6 +64,7 @@ We commented above to commit absolutely everything, as insignificant as it may s
 A useful tool to avoid uploading undesired files is [.gitignore](https://git-scm.com/docs/gitignore): adjust it for the right project type to prevent from uploading these unwanted files.
 
 ### How should I name files and folders I commit?
+
 * Use concise and explanatory names for your files and folders.
 * Place your file inside existing folders when this makes sense, and create new folders only if required.
 * DON'T ADD DIGITS to filenames as a hint of a specific version, iteration step, etc. Git is a version control that manages this internally for you. Over-write an existing file when commiting a modified version of it, and create new files only if required.
@@ -82,19 +75,24 @@ A useful tool to avoid uploading undesired files is [.gitignore](https://git-scm
 * Prefer plural in directory names at the project root: `examples`, `libraries`, `programs`, `tests`, `cmake/templates` (exception: `doc`).
 
 ### How should commit messages be?
+
 Use a short and direct commit message that clearly states the changes made in that commit. Avoid using generic messages such as "Upload files", since they make it very hard for the repository users to track changes later on.
 
 There are two types of commits where you should always additionally reference an issue: merge commits, and hot-fix commits.
 
 ## GitHub Pull Request
+
 - Whenever you feel your changes are mature enough to be merged with the main project, create a Pull Request. Your work will be reviewed and merged by the owner/admin of that repository.
 - Prepend `[WIP]` (which stands for Work In Progress) in the Pull Request title if you feel the branch is still not ready for a git merge.
 
 ## GitHub Repositories
+
 It is recommended to protect at least the main `master` branch.
 
 ## GitHub Projects
+
 We use GitHub Projects to manage our workflow. They offer a nice Kanban that is integrated with GitHub Issues. For columns, we define the automated basics (please preserve the first 4 and in that order!), but new can be added per repo. The chosen ones are:
+
 1. `To do`
 2. `Blocked`
 3. `Waiting for 3rd party`
@@ -104,4 +102,5 @@ We use GitHub Projects to manage our workflow. They offer a nice Kanban that is 
 Read more at [questions-and-answers#74](https://github.com/roboticslab-uc3m/questions-and-answers/issues/74).
 
 ## If you have any doubts or comments
+
 Please read the [Asking Questions](asking-questions.md) section, and once you've succeded with its [self-evaluation](asking-questions.md#self-evaluation-time) follow the recommendations by commenting publicly [HERE](https://github.com/roboticslab-uc3m/developer-manual/issues/new) if required

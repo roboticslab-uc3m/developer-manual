@@ -1,16 +1,12 @@
 # Frequently Asked Questions (FAQ)
 
-* [How can I play back data recorded for Programming by Demonstration (PbD) a.k.a. Learning from Demonstration (LfD)?](#how-can-i-play-back-data-recorded-for-programming-by-demonstration-pbd-aka-learning-from-demonstration-lfd)
-* [How does the iPos PT Mode work?](#how-does-the-ipos-pt-mode-work)
-* [How can I change the RGB-D sensor resolution?](#how-can-i-change-the-rgb-d-sensor-resolution)
-* [I've found some broken links in your repositories, which have been renamed?](#ive-found-some-broken-links-in-your-repositories-which-have-been-renamed)
-* [I have read this page and related links, and I have doubts and/or comments. What should I do?](#i-have-read-this-page-and-related-links-and-i-have-doubts-andor-comments-what-should-i-do)
-
 ## Which Operating System should I use?
+
 - For desktops and laptops, we recommend a GNU/Linux ([what is Linux? (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/linux/introduction.html#%C2%BFqu%C3%A9-es-linux)) distribution ([what is a distribution? (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/linux/introduction.html#%C2%BFqu%C3%A9-es-una-distribuci%C3%B3n-de-linux)) on a native partition ([what options do I have to install a distribution? (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/linux/introduction.html#%C2%BFqu%C3%A9-opciones-tengo-para-instalar-una-distribuci%C3%B3n) and [how to install a native partition (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/linux/introduction.html#%C2%BFc%C3%B3mo-instalo-una-distribuci%C3%B3n-en-una-partici%C3%B3n-nativa)). The specific GNU/Linux distribution we recommend is [Ubuntu](https://ubuntu.com/#download) (`Ubuntu Desktop`). You are free to choose between  version `16.04 LTS ` and `18.04 LTS`. Either one is a good option, although we have slight more support for `16.04`.
 - For robot on-board CPUs, you can read through a long conversation at: [questions-and-answers#20](https://github.com/roboticslab-uc3m/questions-and-answers/issues/20). 
 
 ## I was told to install something. How can I do that?
+
 - Please make sure you carefully read and understood the dedicated section at: [how do I install programs on Linux? (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/linux/introduction.html#¿cómo-instalo-programas-en-linux)
 - Each of our repositories usually contains instructions for installing, e.g. the initial `README.md` of <https://github.com/roboticslab-uc3m/vision> links to its [doc/vision-install.md](https://github.com/roboticslab-uc3m/vision/blob/master/doc/vision-install.md) documentation file.
    - Note 1: Don't know what a repository is? Please read: [Control de versiones (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/version-control/index.html)
@@ -18,17 +14,21 @@
 - For instructions on installing 3rd party software, please see a special repository we maintain: <http://robots.uc3m.es/gitbook-installation-guides>
 
 ## I see a lot of commands for installation but do not understand anything. What do they mean?
+
 - Please read: [Linux - Bash (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/linux/bash.html)
 
 ## I've heard lots of stuff about Git and GitHub. What do they mean?
+
 - Please read:
    - [Git y GitHub (Spanish)](https://david-estevez.gitbooks.io/the-git-the-bad-and-the-ugly/content/es/control-de-versiones.html)
    - [Control de versiones - Git (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/version-control/git.html)
 
 ## How should I program stuff?
+
 - Please make sure you carefully read and understood the dedicated section at: [Best Practices: Programming](programming.md)
 
 ## How should I document stuff?
+
 - Please make sure you carefully read and understood the dedicated section at: [Best Practices: Documenting](documenting.md)
 
 ## How can I record data for Programming by Demonstration (PbD) a.k.a. Learning from Demonstration (LfD)?
@@ -80,6 +80,7 @@ Hence, best to feed it at the most precise rate possible. Take into account that
 In the current [CanBusControlboard](https://github.com/roboticslab-uc3m/yarp-devices/blob/e696c219fa9aa6203d008585123ea477d9b74454/libraries/YarpPlugins/CanBusControlboard) implementation, this is set when we instance the class, and may be modified via [--ptModeMs](https://github.com/roboticslab-uc3m/yarp-devices/blob/e696c219fa9aa6203d008585123ea477d9b74454/libraries/YarpPlugins/CanBusControlboard/DeviceDriverImpl.cpp#L10). You'll be asking yourself if there is a minimum threshold. The answer is yes, and this minimum should be estimated by the time consumed by CAN-bus communications to feed all the individual drivers per period.
 
 ## How can I change the RGB-D sensor resolution?
+
 We use the YARP `OpenNI2DeviceServer` device for this. In [teoBase.xml#L36](https://github.com/roboticslab-uc3m/teo-configuration-files/blob/89d6e279d13cfe47c444c709cd7a08e5de56382b/share/teoBase/scripts/teoBase.xml#L36) you can see an example instance:
 ```bash
 yarpdev --device OpenNI2DeviceServer --depthVideoMode 4 --colorVideoMode 9 --noRGBMirror
@@ -90,7 +91,9 @@ yarpdev --device OpenNI2DeviceServer --printVideoModes
 ```
 
 ## I've found some broken links in your repositories, which have been renamed?
+
 Most of this was done at https://github.com/roboticslab-uc3m/questions-and-answers/issues/2
+
 - https://github.com/roboticslab-uc3m/teo-body -> https://github.com/roboticslab-uc3m/yarp-devices
 - https://github.com/roboticslab-uc3m/teo-head -> https://github.com/roboticslab-uc3m/vision and https://github.com/roboticslab-uc3m/speech
 - https://github.com/roboticslab-uc3m/teo-main (old version) -> https://github.com/roboticslab-uc3m/kinematics-dynamics
@@ -98,6 +101,8 @@ Most of this was done at https://github.com/roboticslab-uc3m/questions-and-answe
 - https://github.com/roboticslab-uc3m/teo-software-manual -> https://github.com/roboticslab-uc3m/teo-developer-manual
 
 ## I have read this page and related links, and I have doubts and/or comments. What should I do?
+
 Please follow these steps:
+
 1. Read the [Asking Questions](asking-questions.md) section as many as times as required to succeded with its [self-evaluation](asking-questions.md#self-evaluation-time).
 2. Follow its recommendations, which you will know because you have succeded in its [self-evaluation](asking-questions.md#self-evaluation-time). ^^

@@ -1,11 +1,7 @@
 # Asking Questions
 
-* [What should I do before asking a question?](#what-should-i-do-before-asking-a-question)
-* [I cannot find my question answered anywhere, how and where should I ask my question?](#i-cannot-find-my-question-answered-anywhere-how-and-where-should-i-ask-my-question)
-* [I really don't like GitHub Issues, why can't I just bug somebody who knows the answer?](#i-really-dont-like-github-issues-why-cant-i-just-bug-somebody-who-knows-the-answer)
-* [Self evaluation time!](#self-evaluation-time)
-
 ## What should I do before asking a question?
+
 The quickest answers are the ones that are already written! It's pretty possible that your question has already been answered somewhere!!
 
 Here are some places where to look before asking a question:
@@ -20,11 +16,13 @@ Here are some places where to look before asking a question:
 * You can also [Google](https://www.google.com) or [DuckDuckGo](https://duckduckgo.com) it!
 
 ## I cannot find my question answered anywhere, how and where should I ask my question?
+
 Please open a GitHub Issue following [THESE GUIDELINES](github.md#github-issues).
 
 * Note: If it refers to a wiki page, add a comment in the *Discussion* tab on the wiki.
 
 ## I really don't like GitHub Issues, why can't I just bug somebody who knows the answer?
+
 There are several reasons to prefer GitHub Issues rather than asking in person or private messaging:
 * Answers are left for future people with doubts, and even the *you from the future* can run into the same issue after some time and then find the solution online!
 * Developers can have more time to perform research and/or create new cool applications, maybe even that coffee-making or pizza-delivery robot you've been waiting for, yay!

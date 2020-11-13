@@ -1,27 +1,13 @@
 # YARP Tricks
 
-* [Yarp RPC commands (VOCABs)](#yarp-rpc-commands-vocabs)
-    * [remote_controlboard](#remote_controlboard)
-        * [encoder commands](#encoder-commands)
-        *   [control modes](#control-modes)
-        * [in pos mode](#in-pos-mode)
-        * [in vel mode](#in-vel-mode)
-        * [in torq mode](#in-torq-mode)
-        * [in icur mode](#in-icur-mode)
-        * [limits](#limits)
-        * [remote calibrator](#remote-calibrator)
-        * [remote variables](#remote-variables)
-    * [analogsensorClient](#analogsensorclient)
-        * [calibration](#calibration)
-    * [remote_grabber](#remote_grabber)
-* [Edit .ini config files in Calc (Excel)](#edit-ini-config-files-in-calc-excel)
-
 ## Yarp RPC commands (VOCABs)
+
 Note that this is a hack. VOCABs may be updated without warning. The recommended YARP-ish way is via YARP_dev interfaces. An interactive way to do this is via an `ipython` console and following the [yarp-devices Python examples](https://github.com/roboticslab-uc3m/yarp-devices/tree/master/examples/python) ([perma](https://github.com/roboticslab-uc3m/yarp-devices/tree/64831bcd9acad3748760490b75723cf5ef7400b3/examples/python)).
 
 ### remote_controlboard
 
 #### encoder commands
+
 * query encoder reads:
 ```
 [get] [enc] 0
@@ -41,6 +27,7 @@ Note that this is a hack. VOCABs may be updated without warning. The recommended
 ```
 
 #### control modes
+
 * get control modes:
 ```
 [get] [icmd] [cmod] 0
@@ -77,6 +64,7 @@ Note that this is a hack. VOCABs may be updated without warning. The recommended
 ```
 
 #### in pos mode
+
 * set position
 ```
 [set] [pos] 0 10.0
@@ -113,12 +101,14 @@ Note that this is a hack. VOCABs may be updated without warning. The recommended
 ```
 
 #### in vel mode
+
 * move in vel mode
 ```
 [set] [vmos] (5.0 5.0 5.0)
 ```
 
 #### in torq mode
+
 * get actual torque
 ```
 [get] [torq] [trq] 0
@@ -130,12 +120,14 @@ Note that this is a hack. VOCABs may be updated without warning. The recommended
 ```
 
 #### in icur mode
+
 * get reference current
 ```
 [get] [icur] [ref] 0
 ```
 
 #### limits
+
 * get pos limits:
 ```
 [get] [llim] 0
@@ -152,6 +144,7 @@ Note that this is a hack. VOCABs may be updated without warning. The recommended
 ```
 
 #### remote calibrator
+
 * homing:
 ```
 [set] [reca] [hom] 0
@@ -159,6 +152,7 @@ Note that this is a hack. VOCABs may be updated without warning. The recommended
 ```
 
 #### remote variables
+
 Some specific to [CanBusControlboard](https://github.com/roboticslab-uc3m/yarp-devices/tree/master/libraries/YarpPlugins/CanBusControlboard) ([perma](https://github.com/roboticslab-uc3m/yarp-devices/tree/bd1a72b63dd22b670fd1e21ff7d670254c195522/libraries/YarpPlugins/CanBusControlboard)):
 ```
 [get] [ivar] [lvar]
@@ -179,10 +173,9 @@ Some specific to [CanBusControlboard](https://github.com/roboticslab-uc3m/yarp-d
 [iana] [cal]
 ```
 
-
 ### remote_grabber
-- https://github.com/roboticslab-uc3m/yarp-devices/tree/f4d5f67d31703e41cea721080fd16d6777e67799/libraries/YarpPlugins/AravisGigE#camera-parameters-control
 
+- https://github.com/roboticslab-uc3m/yarp-devices/tree/f4d5f67d31703e41cea721080fd16d6777e67799/libraries/YarpPlugins/AravisGigE#camera-parameters-control
 
 ## Edit .ini config files in Calc (Excel)
 Click `Separated by space` and `Merge delimiters`.

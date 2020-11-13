@@ -1,12 +1,7 @@
 # Programming
 
-* [Main Programming Tools](#main-programming-tools)
-* [General Programming](#general-programming)
-* [Programming in CMake](#programming-in-cmake)
-* [Programming in C/C++](#programming-in-cc)
-* [If you have any doubts or comments](#if-you-have-any-doubts-or-comments)
-
 ## Main Programming Tools
+
 * YARP: See [Programming with YARP](programming-with-yarp.md).
 * C/C++: Low-level (control) programming. See [below](#programming-in-cc).
 * CMake: See [below](#programming-in-cmake).
@@ -16,6 +11,7 @@
 * You can find more general recommendations for programming at: [Programación (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/programming/index.html)
 
 ## General Programming
+
 * In case of trouble during installation of dependencies or additional software, take a look first at our dedicated repository: [installation-guides](https://github.com/roboticslab-uc3m/installation-guides) ([gitbook](http://robots.uc3m.es/gitbook-installation-guides)).
 * If incorporating a new dependency or additional software, first take a look at our dedicated repository: [installation-guides](https://github.com/roboticslab-uc3m/installation-guides) ([gitbook](http://robots.uc3m.es/gitbook-installation-guides)). If it's not there, consider if it's a good option using the following recommended (but not mandatory) criteria: lightweight, flexible, multiplatform. If so, add it there, then link it to your project ([example](5182f9f475e229acea4cca1130be57489fd6b0f7)).
 * Indent your code as if everything were Python. [astyle](http://astyle.sourceforge.net/) can handle this quite automatically for you \(use with caution\).
@@ -28,6 +24,7 @@
     * AVOID DUPLICATES of existing files and programs: [don't repeat yourself (DRY)](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself). Prior to creating a new program, thoroughly analyze whether you can enhance an existing one through adjustment or implementation of new parameters. Once you are sure that the functionality of a program could be extended, proceed with the usual steps \(open an issue or fork & create a pull request\).
 
 ## Programming in CMake
+
 * [Tutorial (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/programming/cmake.html)
 * Naming conventions:
   * *SCREAMING\_SNAKE\_CASE* for the project name, files and configuration variables: `TEO_MAIN`, `TEO_MAINConfig.cmake.in`, `TEO_MAIN_INCLUDE_DIRS`.
@@ -35,6 +32,7 @@
   * Use the `ROBOTICSLAB_` (or `roboticslab-`) prefix whenever the uniqueness of the chosen name for the project could be easily compromised (keep in mind you'll want to invoke `find_package()`): `ROBOTICSLAB_YARP_DEVICES`, `ROBOTICSLAB_KINEMATICS_DYNAMICS_INCLUDE_DIRS`, `roboticslab-vision`.
 
 ## Programming in C/C++
+
 * Some good slides on C are "Thinking in C" by Bruce Eckel, and some good books on C++ are "Thinking in C++" by Bruce Eckel.
 * A nice IDE is QTCreator, but you can also customize Eclipse, Atom or even Vim.
 * Use [project-generator](https://github.com/roboticslab-uc3m/project-generator) for creation of new C/C++ projects.
@@ -59,6 +57,6 @@
    * https://google.github.io/styleguide/cppguide.html
    * https://www.perforce.com/resources/qac/high-integrity-cpp-coding-standard
 
-
 ## If you have any doubts or comments
+
 Please read the [Asking Questions](asking-questions.md) section, and once you've succeded with its [self-evaluation](asking-questions.md#self-evaluation-time) follow the recommendations by commenting publicly [HERE](https://github.com/roboticslab-uc3m/developer-manual/issues/new) if required
