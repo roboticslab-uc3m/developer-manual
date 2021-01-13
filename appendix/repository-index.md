@@ -22,10 +22,10 @@ List of repositories provided by [Robotics Lab](http://roboticslab.uc3m.es) of U
 - [vision](https://github.com/roboticslab-uc3m/vision) ([doxygen](http://robots.uc3m.es/dox-vision))
 - [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices) ([doxygen](http://robots.uc3m.es/dox-yarp-devices))
 - Simulation
-    - [openrave-tools](https://github.com/roboticslab-uc3m/openrave-tools)
-    - [openrave-yarp-plugins](https://github.com/roboticslab-uc3m/openrave-yarp-plugins) ([doxygen](http://robots.uc3m.es/dox-openrave-yarp-plugins))
-    - [gazebo-tools](https://github.com/roboticslab-uc3m/gazebo-tools)
-    - Also see models in each corresponding section of [Robots (individual)](#robots-individual)
+  - [openrave-tools](https://github.com/roboticslab-uc3m/openrave-tools)
+  - [openrave-yarp-plugins](https://github.com/roboticslab-uc3m/openrave-yarp-plugins) ([doxygen](http://robots.uc3m.es/dox-openrave-yarp-plugins))
+  - [gazebo-tools](https://github.com/roboticslab-uc3m/gazebo-tools)
+  - Also see models in each corresponding section of [Robots (individual)](#robots-individual)
 
 ## Robots (Individual)
 
@@ -37,7 +37,7 @@ Repositories related to our [AMOR](http://roboticslab.uc3m.es/roboticslab/robot/
 - [amor-configuration-files](https://github.com/roboticslab-uc3m/amor-configuration-files)
 - [amor-api](https://github.com/roboticslab-uc3m/amor-api) (private)
 - Simulation
-    - [amor-openrave-models](https://github.com/roboticslab-uc3m/amor-openrave-models)
+  - [amor-openrave-models](https://github.com/roboticslab-uc3m/amor-openrave-models)
 
 ### ASIBOT
 
@@ -47,7 +47,7 @@ Repositories related to our [ASIBOT](http://roboticslab.uc3m.es/roboticslab/robo
 - [asibot-configuration-files](https://github.com/roboticslab-uc3m/asibot-configuration-files)
 - [asibot-hmi](https://github.com/roboticslab-uc3m/asibot-hmi)
 - Simulation
-    - [asibot-openrave-models](https://github.com/roboticslab-uc3m/asibot-openrave-models)
+  - [asibot-openrave-models](https://github.com/roboticslab-uc3m/asibot-openrave-models)
 
 ### TEO
 
@@ -59,15 +59,15 @@ Repositories related to our [TEO](http://roboticslab.uc3m.es/roboticslab/robot/t
 - [teo-hardware-issues](https://github.com/roboticslab-uc3m/teo-hardware-issues) (private)
 - [teo-ipos-backup](https://github.com/roboticslab-uc3m/teo-ipos-backup) (private)
 - Simulation
-    - [teo-openrave-models](https://github.com/roboticslab-uc3m/teo-openrave-models)
-    - [teo-gazebo](https://github.com/roboticslab-uc3m/teo-gazebo)
-    - [teo_robot](https://github.com/roboticslab-uc3m/teo_robot)
-    - [teo-ros-simulation](https://github.com/roboticslab-uc3m/teo-ros-simulation)
-    - [teo-simox-models](https://github.com/roboticslab-uc3m/teo-simox-models)
+  - [teo-openrave-models](https://github.com/roboticslab-uc3m/teo-openrave-models)
+  - [teo-gazebo](https://github.com/roboticslab-uc3m/teo-gazebo)
+  - [teo_robot](https://github.com/roboticslab-uc3m/teo_robot)
+  - [teo-ros-simulation](https://github.com/roboticslab-uc3m/teo-ros-simulation)
+  - [teo-simox-models](https://github.com/roboticslab-uc3m/teo-simox-models)
 - Demos
-    - [waiter](https://github.com/roboticslab-uc3m/waiter)
-    - [follow-me](https://github.com/roboticslab-uc3m/follow-me)
-    - [teo-self-presentation](https://github.com/roboticslab-uc3m/teo-self-presentation)
+  - [waiter](https://github.com/roboticslab-uc3m/waiter)
+  - [follow-me](https://github.com/roboticslab-uc3m/follow-me)
+  - [teo-self-presentation](https://github.com/roboticslab-uc3m/teo-self-presentation)
 
 ### TIAGo
 
@@ -106,6 +106,7 @@ Repositories related to our [TIAGo](http://roboticslab.uc3m.es/roboticslab/robot
 ### Sign Language
 
 Repositories related to our research in [Robot Sign Language](http://roboticslab.uc3m.es/roboticslab/robottypeandapp/robot-sign-language).
+
 - [sign-language-papers](https://github.com/roboticslab-uc3m/sign-language-papers) (private)
 
 ### Textiles
