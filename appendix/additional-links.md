@@ -3,7 +3,7 @@
 ## Main Links
 
 * GitHub organization (source code): <https://github.com/roboticslab-uc3m>
-* Google Drive (large files): [Shared RoboticsLab](https://drive.google.com/drive/u/1/folders/1xsRdf8Q2XrD_CF_2N4Naa7c0BfXnIkTE)
+* Google Drive (large files): [Shared RoboticsLab](https://drive.google.com/drive/u/1/folders/1xsRdf8Q2XrD_CF_2N4Naa7c0BfXnIkTE) (private)
 
 ## More Information
 
