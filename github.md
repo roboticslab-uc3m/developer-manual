@@ -76,7 +76,7 @@ A useful tool to avoid uploading undesired files is [.gitignore](https://git-scm
 
 ### How should commit messages be?
 
-Use a short and direct commit message that clearly states the changes made in that commit. Avoid using generic messages such as "Upload files", since they make it very hard for the repository users to track changes later on. Further literature: [1](https://dhwthompson.com/2019/my-favourite-git-commit) [2](https://news.ycombinator.com/item?id=21289827) [3](https://github.com/mpv-player/mpv/commit/1e70e82baa9193f6f027338b0fab0f5078971fbe)
+Use a short and direct commit message that clearly states the changes made in that commit. Avoid using generic messages such as "Upload files", since they make it very hard for the repository users to track changes later on. Further literature: [[1](https://dhwthompson.com/2019/my-favourite-git-commit)][[2](https://news.ycombinator.com/item?id=21289827)][[3](https://github.com/mpv-player/mpv/commit/1e70e82baa9193f6f027338b0fab0f5078971fbe)]
 
 There are two types of commits where you should always additionally reference an issue: merge commits, and hot-fix commits.
 
