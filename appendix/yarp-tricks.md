@@ -4,7 +4,11 @@
 
 Note that this is a hack. VOCABs may be updated without warning. The recommended YARP-ish way is via YARP_dev interfaces. An interactive way to do this is via an `ipython` console and following the [yarp-devices Python examples](https://github.com/roboticslab-uc3m/yarp-devices/tree/master/examples/python) ([perma](https://github.com/roboticslab-uc3m/yarp-devices/tree/64831bcd9acad3748760490b75723cf5ef7400b3/examples/python)).
 
+Commands can be sent through the RPC channel using the `yarp rpc` utility.
+
 ### remote_controlboard
+
+Example: `yarp rpc /teo/leftArm/rpc:i`.
 
 #### encoder commands
 
@@ -163,6 +167,7 @@ Some specific to [CanBusControlboard](https://github.com/roboticslab-uc3m/yarp-d
 ### analogsensorClient
 
 #### calibration
+
 * calibrate channel (single sensor)
 ```
 [iana] [calc] 0
@@ -177,7 +182,24 @@ Some specific to [CanBusControlboard](https://github.com/roboticslab-uc3m/yarp-d
 
 - https://github.com/roboticslab-uc3m/yarp-devices/tree/f4d5f67d31703e41cea721080fd16d6777e67799/libraries/YarpPlugins/AravisGigE#camera-parameters-control
 
+## Yarp streaming commands
+
+Certain interfaces do not accept RPC commands, therefore we need to connect to the stream-oriented `/command:i` port instead using `yarp write`. In this case, messages are usually head-body pairs of bottles (actually, a bottle in the head part and a vector of doubles as the body).
+
+### remote_controlboard
+
+Example: `yarp write ... /teo/leftHand/command:i`.
+
+**Important:** the vector (message body) must contain double values. Passing integers here will cause the connection to fail.
+
+#### PWM commands
+
+```
+([ipwm] [ref] 0) (10.0)
+```
+
 ## Edit .ini config files in Calc (Excel)
+
 Click `Separated by space` and `Merge delimiters`.
 ```bash
 #!/bin/sh
