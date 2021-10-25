@@ -35,8 +35,8 @@ Proejcts related to our [TIAGo](http://roboticslab.uc3m.es/roboticslab/robot/tia
 
 ### Research Projects (Grants)
 
-- [[ALMA]](https://github.com/orgs/roboticslab-uc3m/projects/16)
-- [[ROBOASSET]](https://github.com/orgs/roboticslab-uc3m/projects/15)
+- [[ALMA]](https://github.com/orgs/roboticslab-uc3m/projects/16) (roboticslab-uc3m) (private)
+- [[ROBOASSET]](https://github.com/orgs/roboticslab-uc3m/projects/15) (roboticslab-uc3m) (private)
 
 ### Humanoid Robotics
 
