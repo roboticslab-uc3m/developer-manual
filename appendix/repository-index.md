@@ -110,7 +110,7 @@ Repositories related to our [TIAGo](http://roboticslab.uc3m.es/roboticslab/robot
 
 #### ROBOASSET
 
-- [roboasset(https://github.com/roboticslab-uc3m/roboasset) (private)
+- [roboasset](https://github.com/roboticslab-uc3m/roboasset) (private)
 
 ### Sign Language
 
