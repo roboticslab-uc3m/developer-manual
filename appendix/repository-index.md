@@ -108,6 +108,10 @@ Repositories related to our [TIAGo](http://roboticslab.uc3m.es/roboticslab/robot
 - [abbt-proximity-sensors](https://github.com/roboticslab-uc3m/abbt-proximity-sensors)
 - [pressmatic-android](https://github.com/roboticslab-uc3m/pressmatic-android)
 
+#### ROBOASSET
+
+- [roboasset(https://github.com/roboticslab-uc3m/roboasset) (private)
+
 ### Sign Language
 
 Repositories related to our research in [Robot Sign Language](http://roboticslab.uc3m.es/roboticslab/robottypeandapp/robot-sign-language).
