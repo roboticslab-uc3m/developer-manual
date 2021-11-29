@@ -1,6 +1,6 @@
 # Project Index
 
-List of GitHub projects provided by [Robotics Lab](http://roboticslab.uc3m.es) of Universidad Carlos III de Madrid ([UC3M](http://uc3m.es)) that are hosted at <https://github.com/roboticslab-uc3m>. 
+List of GitHub projects provided by [Robotics Lab](http://roboticslab.uc3m.es) of Universidad Carlos III de Madrid ([UC3M](http://uc3m.es)) that are hosted at <https://github.com/roboticslab-uc3m>.
 
 ## General
 
@@ -13,22 +13,26 @@ List of GitHub projects provided by [Robotics Lab](http://roboticslab.uc3m.es) o
 ### AMOR
 
 Projects related to our [AMOR](http://roboticslab.uc3m.es/roboticslab/robot/amor) robot.
+
 - [[AMOR]](https://github.com/orgs/roboticslab-uc3m/projects/14) (roboticslab-uc3m)
 
 ### ASIBOT
 
 Projects related to our [ASIBOT](http://roboticslab.uc3m.es/roboticslab/robot/asibot) robot.
+
 - [[ASIBOT]](https://github.com/orgs/roboticslab-uc3m/projects/13) (roboticslab-uc3m)
 
 ### TEO
 
 Projects related to our [TEO](http://roboticslab.uc3m.es/roboticslab/robot/teo-humanoid) robot.
+
 - [[TEO]](https://github.com/orgs/roboticslab-uc3m/projects/6) (roboticslab-uc3m)
 - [[TEO-HARDWARE-ISSUES]](https://github.com/roboticslab-uc3m/teo-hardware-issues/projects/1) (roboticslab-uc3m/teo-hardware-issues) (private)
 
-###  TIAGo
+### TIAGo
 
 Proejcts related to our [TIAGo](http://roboticslab.uc3m.es/roboticslab/robot/tiago) robot.
+
 - [[TIAGO]](https://github.com/orgs/roboticslab-uc3m/projects/7) (roboticslab-uc3m) (private)
 
 ## Research
@@ -37,6 +41,7 @@ Proejcts related to our [TIAGo](http://roboticslab.uc3m.es/roboticslab/robot/tia
 
 - [[ALMA]](https://github.com/orgs/roboticslab-uc3m/projects/16) (roboticslab-uc3m) (private)
 - [[ROBOASSET]](https://github.com/orgs/roboticslab-uc3m/projects/15) (roboticslab-uc3m) (private)
+- [[tiago-2021-accessrobot]](https://github.com/roboticslab-uc3m/tiago-2021-accessrobot/projects/1) (roboticslab-uc3m/tiago-2021-accessrobot) (private)
 
 ### Humanoid Robotics
 
