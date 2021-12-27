@@ -2,8 +2,8 @@
 
 ## General Documenting
 
-* The preferred way of documenting things (except [Doxygen](http://www.doxygen.org) for C/C++) is [Markdown](https://daringfireball.net/projects/markdown/) ([Markdown (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/writing/markdown.html)).
-* You can find plenty of general recommendations for writing at: [Redactar (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/writing/redactar.html)
+* The preferred way of documenting things (except [Doxygen](http://www.doxygen.org) for C/C++) is [Markdown](https://daringfireball.net/projects/markdown/) ([Markdown (Spanish)](https://asrob.uc3m.es/tutoriales/writing/markdown.html)).
+* You can find plenty of general recommendations for writing at: [Redactar (Spanish)](https://asrob.uc3m.es/tutoriales/writing/redactar.html)
 
 ## If you have any doubts or comments
 

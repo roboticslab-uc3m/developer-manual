@@ -4,8 +4,8 @@ List of repositories provided by [Robotics Lab](http://roboticslab.uc3m.es) of U
 
 ## Manuals and FAQs
 
-- [developer-manual](https://github.com/roboticslab-uc3m/developer-manual) ([gitbook](http://robots.uc3m.es/gitbook-developer-manual)) (this manual)
-- [installation-guides](https://github.com/roboticslab-uc3m/installation-guides) ([gitbook](http://robots.uc3m.es/gitbook-installation-guides))
+- [developer-manual](https://github.com/roboticslab-uc3m/developer-manual) ([gitbook](https://robots.uc3m.es/developer-manual/)) (this manual)
+- [installation-guides](https://github.com/roboticslab-uc3m/installation-guides) ([gitbook](https://robots.uc3m.es/installation-guides/))
 - [questions-and-answers](https://github.com/roboticslab-uc3m/questions-and-answers)
 - [help-at-uc3m](https://github.com/roboticslab-uc3m/help-at-uc3m) (private)
 - [datasheets-and-manuals](https://github.com/roboticslab-uc3m/datasheets-and-manuals) (private)
@@ -15,15 +15,15 @@ List of repositories provided by [Robotics Lab](http://roboticslab.uc3m.es) of U
 
 - [color-debug](https://github.com/roboticslab-uc3m/color-debug)
 - [data-visualization](https://github.com/roboticslab-uc3m/data-visualization)
-- [kinematics-dynamics](https://github.com/roboticslab-uc3m/kinematics-dynamics) ([doxygen](http://robots.uc3m.es/dox-kinematics-dynamics))
+- [kinematics-dynamics](https://github.com/roboticslab-uc3m/kinematics-dynamics) ([doxygen](https://robots.uc3m.es/kinematics-dynamics/))
 - [project-generator](https://github.com/roboticslab-uc3m/project-generator)
-- [speech](https://github.com/roboticslab-uc3m/speech) ([doxygen](http://robots.uc3m.es/dox-speech))
-- [tools](https://github.com/roboticslab-uc3m/tools) ([doxygen](http://robots.uc3m.es/dox-tools))
-- [vision](https://github.com/roboticslab-uc3m/vision) ([doxygen](http://robots.uc3m.es/dox-vision))
-- [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices) ([doxygen](http://robots.uc3m.es/dox-yarp-devices))
+- [speech](https://github.com/roboticslab-uc3m/speech) ([doxygen](https://robots.uc3m.es/speech/))
+- [tools](https://github.com/roboticslab-uc3m/tools) ([doxygen](https://robots.uc3m.es/tools/))
+- [vision](https://github.com/roboticslab-uc3m/vision) ([doxygen](https://robots.uc3m.es/vision/))
+- [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices) ([doxygen](https://robots.uc3m.es/yarp-devices/))
 - Simulation
   - [openrave-tools](https://github.com/roboticslab-uc3m/openrave-tools)
-  - [openrave-yarp-plugins](https://github.com/roboticslab-uc3m/openrave-yarp-plugins) ([doxygen](http://robots.uc3m.es/dox-openrave-yarp-plugins))
+  - [openrave-yarp-plugins](https://github.com/roboticslab-uc3m/openrave-yarp-plugins) ([doxygen](https://robots.uc3m.es/openrave-yarp-plugins/))
   - [gazebo-tools](https://github.com/roboticslab-uc3m/gazebo-tools)
   - [coppeliasim-tools](https://github.com/roboticslab-uc3m/coppeliasim-tools)
   - [webots-tools](https://github.com/roboticslab-uc3m/webots-tools)
@@ -55,7 +55,7 @@ Repositories related to our [ASIBOT](http://roboticslab.uc3m.es/roboticslab/robo
 
 Repositories related to our [TEO](http://roboticslab.uc3m.es/roboticslab/robot/teo-humanoid) robot.
 
-- [teo-developer-manual](https://github.com/roboticslab-uc3m/teo-developer-manual) ([gitbook](http://robots.uc3m.es/gitbook-teo-developer-manual))
+- [teo-developer-manual](https://github.com/roboticslab-uc3m/teo-developer-manual) ([gitbook](https://robots.uc3m.es/teo-developer-manual/))
 - [teo-main](https://github.com/roboticslab-uc3m/teo-main)
 - [teo-configuration-files](https://github.com/roboticslab-uc3m/teo-configuration-files)
 - [teo-hardware-issues](https://github.com/roboticslab-uc3m/teo-hardware-issues) (private)
@@ -121,7 +121,7 @@ Repositories related to our research in [Robot Sign Language](http://roboticslab
 
 ### Textiles
 
-Repositories related to our research towards a [Robotic Laundry Assistant](http://roboticslab.uc3m.es/roboticslab/robottypeandapp/robotic-laundry-assistant) via [Deformable Object Perception and Manipulation](http://roboticslab.uc3m.es/roboticslab/researchtopic/deformable-object-perception-and-manipulation), as seen at <https://roboticslab-uc3m.github.io/robot-household-companion-web>.
+Repositories related to our research towards a [Robotic Laundry Assistant](http://roboticslab.uc3m.es/roboticslab/robottypeandapp/robotic-laundry-assistant) via [Deformable Object Perception and Manipulation](http://roboticslab.uc3m.es/roboticslab/researchtopic/deformable-object-perception-and-manipulation), as seen at <https://robots.uc3m.es/robot-household-companion-web/>.
 
 - [textiles](https://github.com/roboticslab-uc3m/textiles)
 - [textiles-hanging](https://github.com/roboticslab-uc3m/textiles-hanging)
@@ -159,7 +159,7 @@ Repositories related to our research in [XGNITIVE](http://roboticslab.uc3m.es/ro
 
 ## Additional Notes
 
-We still have some repositories at [http://robots.uc3m.es/svn/\*](http://robots.uc3m.es/svn/) (private)
+We used to have some repositories at [http://robots.uc3m.es/svn/\*](http://robots.uc3m.es/svn/) (private)
 
 ## If you have any doubts or comments
 

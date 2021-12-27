@@ -56,7 +56,7 @@ Projects related to our research in [Robot Sign Language](http://roboticslab.uc3
 
 ### Textiles
 
-Projects related to our research towards a [Robotic Laundry Assistant](http://roboticslab.uc3m.es/roboticslab/robottypeandapp/robotic-laundry-assistant) via [Deformable Object Perception and Manipulation](http://roboticslab.uc3m.es/roboticslab/researchtopic/deformable-object-perception-and-manipulation), as seen at <https://roboticslab-uc3m.github.io/robot-household-companion-web>.
+Projects related to our research towards a [Robotic Laundry Assistant](http://roboticslab.uc3m.es/roboticslab/robottypeandapp/robotic-laundry-assistant) via [Deformable Object Perception and Manipulation](http://roboticslab.uc3m.es/roboticslab/researchtopic/deformable-object-perception-and-manipulation), as seen at <https://robots.uc3m.es/robot-household-companion-web/>.
 
 - [[TEXTILES]](https://github.com/orgs/roboticslab-uc3m/projects/9) (roboticslab-uc3m)
 - [[TEXTILES-PAPERS]](https://github.com/roboticslab-uc3m/textiles-papers/projects/3) (roboticslab-uc3m/textiles-papers) (private)

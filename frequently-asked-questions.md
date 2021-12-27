@@ -2,26 +2,26 @@
 
 ## Which Operating System should I use?
 
-- For desktops and laptops, we recommend a GNU/Linux ([what is Linux? (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/linux/introduction.html#%C2%BFqu%C3%A9-es-linux)) distribution ([what is a distribution? (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/linux/introduction.html#%C2%BFqu%C3%A9-es-una-distribuci%C3%B3n-de-linux)) on a native partition ([what options do I have to install a distribution? (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/linux/introduction.html#%C2%BFqu%C3%A9-opciones-tengo-para-instalar-una-distribuci%C3%B3n) and [how to install a native partition (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/linux/introduction.html#%C2%BFc%C3%B3mo-instalo-una-distribuci%C3%B3n-en-una-partici%C3%B3n-nativa)). The specific GNU/Linux distribution we recommend is [Ubuntu](https://ubuntu.com/#download) (`Ubuntu Desktop`). You are free to choose between  version `16.04 LTS ` and `18.04 LTS`. Either one is a good option, although we have slight more support for `16.04`.
-- For robot on-board CPUs, you can read through a long conversation at: [questions-and-answers#20](https://github.com/roboticslab-uc3m/questions-and-answers/issues/20). 
+- For desktops and laptops, we recommend a GNU/Linux ([what is Linux? (Spanish)](https://asrob.uc3m.es/tutoriales/software/linux/introduction.html#%C2%BFqu%C3%A9-es-linux)) distribution ([what is a distribution? (Spanish)](https://asrob.uc3m.es/tutoriales/software/linux/introduction.html#%C2%BFqu%C3%A9-es-una-distribuci%C3%B3n-de-linux)) on a native partition ([what options do I have to install a distribution? (Spanish)](https://asrob.uc3m.es/tutoriales/software/linux/introduction.html#%C2%BFqu%C3%A9-opciones-tengo-para-instalar-una-distribuci%C3%B3n) and [how to install a native partition (Spanish)](https://asrob.uc3m.es/tutoriales/software/linux/introduction.html#%C2%BFc%C3%B3mo-instalo-una-distribuci%C3%B3n-en-una-partici%C3%B3n-nativa)). The specific GNU/Linux distribution we recommend is [Ubuntu](https://ubuntu.com/#download) (`Ubuntu Desktop`). You are free to choose between  version `16.04 LTS ` and `18.04 LTS`. Either one is a good option, although we have slight more support for `16.04`.
+- For robot on-board CPUs, you can read through a long conversation at: [questions-and-answers#20](https://github.com/roboticslab-uc3m/questions-and-answers/issues/20).
 
 ## I was told to install something. How can I do that?
 
-- Please make sure you carefully read and understood the dedicated section at: [how do I install programs on Linux? (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/linux/introduction.html#¿cómo-instalo-programas-en-linux)
+- Please make sure you carefully read and understood the dedicated section at: [how do I install programs on Linux? (Spanish)](https://asrob.uc3m.es/tutoriales/software/linux/introduction.html#¿cómo-instalo-programas-en-linux)
 - Each of our repositories usually contains instructions for installing, e.g. the initial `README.md` of <https://github.com/roboticslab-uc3m/vision> links to its [doc/vision-install.md](https://github.com/roboticslab-uc3m/vision/blob/master/doc/vision-install.md) documentation file.
-   - Note 1: Don't know what a repository is? Please read: [Control de versiones (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/version-control/index.html)
+   - Note 1: Don't know what a repository is? Please read: [Control de versiones (Spanish)](https://asrob.uc3m.es/tutoriales/software/version-control/index.html)
    - Note 2: This manual contains an index of our repositories: [HERE](appendix/repository-index.md)
-- For instructions on installing 3rd party software, please see a special repository we maintain: <http://robots.uc3m.es/gitbook-installation-guides>
+- For instructions on installing 3rd party software, please see a special repository we maintain: <https://robots.uc3m.es/installation-guides/>
 
 ## I see a lot of commands for installation but do not understand anything. What do they mean?
 
-- Please read: [Linux - Bash (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/linux/bash.html)
+- Please read: [Linux - Bash (Spanish)](https://asrob.uc3m.es/tutoriales/software/linux/bash.html)
 
 ## I've heard lots of stuff about Git and GitHub. What do they mean?
 
 - Please read:
    - [Git y GitHub (Spanish)](https://david-estevez.gitbooks.io/the-git-the-bad-and-the-ugly/content/es/control-de-versiones.html)
-   - [Control de versiones - Git (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/software/version-control/git.html)
+   - [Control de versiones - Git (Spanish)](https://asrob.uc3m.es/tutoriales/software/version-control/git.html)
 
 ## How should I program stuff?
 
@@ -33,7 +33,7 @@
 
 ## How can I record data for Programming by Demonstration (PbD) a.k.a. Learning from Demonstration (LfD)?
 
-First, if moving the robot by hand, you'll want some gravity compensation to help out. That's `[gcmp]` off `BasicCartesianControl`. Refer to the [BasicCartesianControl documentation](http://robots.uc3m.es/dox-kinematics-dynamics/group__BasicCartesianControl.html) for reference.
+First, if moving the robot by hand, you'll want some gravity compensation to help out. That's `[gcmp]` off `BasicCartesianControl`. Refer to the [BasicCartesianControl documentation](https://robots.uc3m.es/kinematics-dynamics/group__BasicCartesianControl.html) for reference.
 
 Once you have publishing services running (robot joint/cartesian state, sensors output), there are two options for recording data:
 
@@ -41,12 +41,12 @@ Once you have publishing services running (robot joint/cartesian state, sensors 
 
 1. To record full trajectories (data stream of a certain YARP port) at a given sample rate, use [yarpdatadumper](http://www.yarp.it/yarpdatadumper.html). To record from several YARP ports, [yarpdatadumperAppGenerator](http://www.yarp.it/yarpdatadumperAppGenerator.html) can be used to generate a [yarpmanager](http://www.yarp.it/yarpmanager.html) app of [yarpdatadumper](http://www.yarp.it/yarpdatadumper.html) components.
 
-   An example of recording a left arm trayectory of TEO: 
+   An example of recording a left arm trayectory of TEO:
    * Terminal 1:
    ```
    launchManipulation  # Part of teoBase
    ```
-   * Terminal 2: 
+   * Terminal 2:
    ```bash
    yarpdatadumper --name /leftArm  # the data.log and data.log files will be saved in a new `leftArm` directory
    ```
@@ -75,7 +75,7 @@ None of these options is the implemented solution. The iPos implementation is an
 - If you feed it too slow, the buffer will empty before time and movement will stop.
 - If you feed it too fast, the buffer will get full  (you'll see a `pt buffer full!` message in our [CanBusControlboard](https://github.com/roboticslab-uc3m/yarp-devices/blob/e696c219fa9aa6203d008585123ea477d9b74454/libraries/YarpPlugins/CanBusControlboard) implementation).
 
-Hence, best to feed it at the most precise rate possible. Take into account that a [PeriodicThread](https://github.com/robotology/yarp/blob/master/example/os/ratethread.cpp) (YARP's old `RateThread`) will be more precise than adding a fixed delay at the end of your loop. 
+Hence, best to feed it at the most precise rate possible. Take into account that a [PeriodicThread](https://github.com/robotology/yarp/blob/master/example/os/ratethread.cpp) (YARP's old `RateThread`) will be more precise than adding a fixed delay at the end of your loop.
 
 In the current [CanBusControlboard](https://github.com/roboticslab-uc3m/yarp-devices/blob/e696c219fa9aa6203d008585123ea477d9b74454/libraries/YarpPlugins/CanBusControlboard) implementation, this is set when we instance the class, and may be modified via [--ptModeMs](https://github.com/roboticslab-uc3m/yarp-devices/blob/e696c219fa9aa6203d008585123ea477d9b74454/libraries/YarpPlugins/CanBusControlboard/DeviceDriverImpl.cpp#L10). You'll be asking yourself if there is a minimum threshold. The answer is yes, and this minimum should be estimated by the time consumed by CAN-bus communications to feed all the individual drivers per period.
 

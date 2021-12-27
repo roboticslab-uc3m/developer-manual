@@ -16,8 +16,8 @@ If there exists a `close` method that needs to release unmanaged resources (dyna
 ## Similar and Related
 
 * [Appendix: YARP Tricks](appendix/yarp-tricks.md)
-* [Install YARP](http://robots.uc3m.es/gitbook-installation-guides/install-yarp.html) ([perma](https://github.com/roboticslab-uc3m/installation-guides/blob/00b8999eeb124e2c05aa37a46b9f23450b1343fe/install-yarp.md))
-    * [Install YARP: Similar and Related](http://robots.uc3m.es/gitbook-installation-guides/install-yarp.html#similar-and-related) ([perma](https://github.com/roboticslab-uc3m/installation-guides/blob/00b8999eeb124e2c05aa37a46b9f23450b1343fe/install-yarp.md#similar-and-related))
+* [Install YARP](https://robots.uc3m.es/installation-guides/install-yarp.html) ([perma](https://github.com/roboticslab-uc3m/installation-guides/blob/00b8999eeb124e2c05aa37a46b9f23450b1343fe/install-yarp.md))
+    * [Install YARP: Similar and Related](https://robots.uc3m.es/installation-guides/install-yarp.html#similar-and-related) ([perma](https://github.com/roboticslab-uc3m/installation-guides/blob/00b8999eeb124e2c05aa37a46b9f23450b1343fe/install-yarp.md#similar-and-related))
 
 ## If you have any doubts or comments
 

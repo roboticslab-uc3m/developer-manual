@@ -18,7 +18,7 @@
     * Explain, as detailed as possible, how to reproduce the issue or the specific behaviour for the feature.
     * Include what you expected to happen and what actually happened.
     * Please include information on what operating system and version you are working with. Also add any other relevant details.
-    * Remember you can use Markdown to include code fragments, bullet points, tables, etc. Don't know what Markdown is? Please read [Markdown (Spanish)](https://asrob-uc3m.gitbooks.io/tutoriales/content/writing/markdown.html)
+    * Remember you can use Markdown to include code fragments, bullet points, tables, etc. Don't know what Markdown is? Please read [Markdown (Spanish)](https://asrob.uc3m.es/tutoriales/writing/markdown.html)
     * Feel free to attach any other information illustrating the issue, you can drag and drop: log files, helper images, etc.
 1. Click on `Submit new issue`
 1. If you have permissions, assign closest related `label(s)` to the Issue (also see [GitHub Issue Labels](#github-issue-labels) section below).
