@@ -90,6 +90,7 @@ Repositories related to our [TIAGo](http://roboticslab.uc3m.es/roboticslab/robot
 
 ### Research Projects (Grants)
 
+- [alma](https://github.com/roboticslab-uc3m/alma) (private)
 - [roboasset](https://github.com/roboticslab-uc3m/roboasset) (private)
 
 ### Humanoid Robotics
