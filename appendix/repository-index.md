@@ -61,6 +61,9 @@ Repositories related to our [TEO](http://roboticslab.uc3m.es/roboticslab/robot/t
 - [teo-hardware-issues](https://github.com/roboticslab-uc3m/teo-hardware-issues) (private)
 - [teo-ipos-backup](https://github.com/roboticslab-uc3m/teo-ipos-backup) (private)
 - Simulation
+  - [teo-blender-models](https://github.com/roboticslab-uc3m/teo-blender-models)
+  - [teo-bullet-models](https://github.com/roboticslab-uc3m/teo-bullet-models)
+  - [teo-coppeliasim-models](https://github.com/roboticslab-uc3m/teo-coppeliasim-models)
   - [teo-gazebo-models](https://github.com/roboticslab-uc3m/teo-gazebo-models)
   - [teo-openrave-models](https://github.com/roboticslab-uc3m/teo-openrave-models)
   - [teo-webots-models](https://github.com/roboticslab-uc3m/teo-webots-models)
