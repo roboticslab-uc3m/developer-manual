@@ -41,6 +41,8 @@ Proejcts related to our [TIAGo](http://roboticslab.uc3m.es/roboticslab/robot/tia
 
 - [[ALMA]](https://github.com/orgs/roboticslab-uc3m/projects/16) (roboticslab-uc3m) (private)
 - [[ROBOASSET]](https://github.com/orgs/roboticslab-uc3m/projects/15) (roboticslab-uc3m) (private)
+- [[ROBOASSET-WPs]](https://github.com/orgs/roboticslab-uc3m/projects/20) (roboticslab-uc3m) (private)
+
 - [[tiago-2021-accessrobot]](https://github.com/roboticslab-uc3m/tiago-2021-accessrobot/projects/1) (roboticslab-uc3m/tiago-2021-accessrobot) (private)
 
 ### Humanoid Robotics
