@@ -163,7 +163,7 @@ Repositories related to our research in [XGNITIVE](http://roboticslab.uc3m.es/ro
 
 ## Additional Notes
 
-We used to have some repositories at [http://robots.uc3m.es/svn/\*](http://robots.uc3m.es/svn/) (private)
+We used to have some repositories at [https://apps-robots.uc3m.es/svn/\*](https://apps-robots.uc3m.es/svn/) (private)
 
 ## If you have any doubts or comments
 

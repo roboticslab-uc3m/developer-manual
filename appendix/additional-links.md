@@ -13,7 +13,7 @@
 
 ## Progress Tracking
 
-* [Top Contributors](https://apps.robots.uc3m.es/contributors/index.html) (generated via [asrob-uc3m/repostatistics](https://github.com/asrob-uc3m/repostatistics))
+* [Top Contributors](https://apps-robots.uc3m.es/robots/contributors/) (generated via [asrob-uc3m/repostatistics](https://github.com/asrob-uc3m/repostatistics))
 * [Issues in Progress](https://github.com/issues?q=is%3Aopen+is%3Aissue+org%3Aroboticslab-uc3m+label%3A%22status%3A+in+progress%22+-label%3Aupstream+-label%3Aquestion)
 * [Project Index](project-index.md)
 * [Dashboard](https://github.com/orgs/roboticslab-uc3m/dashboard)

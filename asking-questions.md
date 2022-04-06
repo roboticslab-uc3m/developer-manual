@@ -12,7 +12,7 @@ Here are some places where to look before asking a question:
     1. Click on the `Issues` tab, which defaults to a view on open Github Issues of the repository: see if you can find an answer among them!
     1. Click on `Closed` to see the closed Github Issues of the repository: see if you can find an answer among them!
     1. The `Filters` query changed from `is:issue is:open` to `is:issue is:closed` when you clicked on `Closed`. See if you can modify the query to find the answer you are looking for!
-* We still have some information in our [old wiki](https://apps.robots.uc3m.es/index.php/Main_Page)
+* We still have some information in our [old wiki](https://apps-robots.uc3m.es/robots/wiki/)
 * You can also [Google](https://www.google.com) or [DuckDuckGo](https://duckduckgo.com) it!
 
 ## I cannot find my question answered anywhere, how and where should I ask my question?
