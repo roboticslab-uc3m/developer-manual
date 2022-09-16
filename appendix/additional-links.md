@@ -10,6 +10,7 @@
 * [ASROB Tutorials (Spanish)](https://asrob.uc3m.es/tutoriales/) (generated via [asrob-uc3m/tutoriales](https://github.com/asrob-uc3m/tutoriales))
 * [roboticslab-uc3m/developer-manual/issues](https://github.com/roboticslab-uc3m/developer-manual/issues)
 * [roboticslab-uc3m/questions-and-answers/issues](https://github.com/roboticslab-uc3m/questions-and-answers/issues)
+* We still have some information in our [old wiki](https://apps-robots.uc3m.es/robots/wiki/)
 
 ## Progress Tracking
 
