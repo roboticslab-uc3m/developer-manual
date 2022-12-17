@@ -9,9 +9,11 @@
 1. Go to the repository that is most related from the [Repository Index](appendix/repository-index.md)
     * If it is clearly specific to one repository, go to that repository. Examples: [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices/issues), [kinematics-dynamics](https://github.com/roboticslab-uc3m/kinematics-dynamics/issues), [vision](https://github.com/roboticslab-uc3m/vision/issues)...
     * If it is related to the installation of a dependency, go to [installation-guides](https://github.com/roboticslab-uc3m/installation-guides/issues)
+    * If it is extremely generic but refers to a specific research project, go to the research project's main repository. Examples: [alma](https://github.com/roboticslab-uc3m/alma/issues), [roboasset](https://github.com/roboticslab-uc3m/roboasset/issues)...
+      * Note that research projects have more specific repositories, see the [Project Index](appendix/project-index.md).
     * If it is extremely generic but refers to a specific robot, go to the robot's main repository. Examples: [teo-main](https://github.com/roboticslab-uc3m/teo-main/issues), [asibot-main](https://github.com/roboticslab-uc3m/asibot-main/issues)...
-    * Note that TEO has its own private [teo-hardware-issues](https://github.com/roboticslab-uc3m/teo-hardware-issues/issues) repository where you can also open an issue on any specific TEO hardware issue.
-    * If it extremely generic, go to: [questions-and-answers](https://github.com/roboticslab-uc3m/questions-and-answers)
+      * Note that TEO has its own private [teo-hardware-issues](https://github.com/roboticslab-uc3m/teo-hardware-issues/issues) repository where you can also open an issue on any specific TEO hardware issue.
+    * If it extremely generic and fits nowhere else, go to: [questions-and-answers](https://github.com/roboticslab-uc3m/questions-and-answers)
 1. Fix the objective/scope of the Issue to be as "achievable" as possible. If the task at hand seems too broad or prone to become labeled `epic`, open several Issues where each can be acomplished in less than 1-2 weeks.
 1. Click on `Issues`, then on `New Issue`
 1. Add an accurate title and detailed description:
