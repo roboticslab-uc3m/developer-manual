@@ -2,9 +2,10 @@
 
 ## What should I do before asking a question?
 
-The quickest answers are the ones that are already written! It's pretty possible that your question has already been answered somewhere!!
+Search for the answer! This is because the quickest answers are the ones that are already written! It's pretty possible that your question has already been answered somewhere!!
 
 Here are some places where to look before asking a question:
+
 * Read the Frequently Asked Questions section of this manual: [Developer Manual (FAQ)](frequently-asked-questions.md)
 * Read the manuals! You can find a list of all the manuals including this one at: [Repository Index (Manuals and FAQs)](appendix/repository-index.md#manuals-and-faqs)
 * Do a search among open and closed issues of the repositories associated to your project:
