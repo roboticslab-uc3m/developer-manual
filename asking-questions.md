@@ -18,7 +18,7 @@ Here are some places where to look before asking a question:
 
 ## I cannot find my question answered anywhere, how and where should I ask my question?
 
-Please open a GitHub Issue following [THESE GUIDELINES (Opening a GitHub Issue)](github.md#github-issues).
+Please open a GitHub Issue following [THESE GUIDELINES ("Opening a GitHub Issue")](github.md#github-issues).
 
 * Note: If it refers to a wiki page, add a comment in the *Discussion* tab on the wiki.
 
