@@ -9,3 +9,6 @@
 ## gitbook
 /node_modules/
 /_book/
+
+# Miscellanea
+/venv/

@@ -1,0 +1,64 @@
+# Contributors
+
+This is a list of people who contributed to the roboticslab-uc3m software ecosystem.
+Generated on 2023-08-16.
+
+- Ainhoamm1
+- Alberto Jardón Huete (ajardon)
+- alicest9
+- allura
+- Alvaro Martinez (AlvaroMartinezR)
+- amridriss
+- Ana Carnerero Calvo (anacarnerero)
+- Andrea Gil Ruiz (andreagil)
+- Angordil
+- Bartek Łukawski (PeterBowman)
+- beaelp
+- Borailuce99
+- buyus
+- Carlos Llamas (cllamasmar)
+- David Estévez Fernández (David-Estevez)
+- David Velasco Garcia
+- Dennis Pinto (dpriver)
+- Domingo Esteban (domingoesteban)
+- Edwin Daniel Oña (edwinDOS)
+- Elena Jiménez Martín
+- Elisabeth Menendez (elisabeth-ms)
+- Erik (err8029)
+- Francisco Blanco (FranBesq)
+- FranJNaranjo
+- gavs1992
+- Gerson-Martin
+- ggconde
+- Hualonso98
+- Ignacio Montesino Valle (imontesino)
+- Jennifer J Gago Muñoz (jgagom)
+- jlpesoto
+- Jonatan Gines Clavero (jginesclavero)
+- Jorge-CM
+- Juan G. Victores (jgvictores)
+- Juan Lorente (j-lorente)
+- Juan Miguel Garcia Haro (jmgarciah)
+- JuanmaMec
+- Leytha
+- LoliPinel (lpinel)
+- Luís Miguel Martins Almeida (Luis93A)
+- marioprats
+- mgd96
+- Miguel Serna (serna92)
+- munozyanez
+- Olaya Álvarez Tuñón (olayasturias)
+- oXygenB
+- RaulFdzbis
+- Raúl de Santos (rsantos88)
+- Robert W. Ellenberg (robEllenberg)
+- Roberto Montero
+- Santiago Morante (smorante)
+- Sheilasr12
+- smcdiaz
+- Sofia Hernandez (sofiahernandezp)
+- ssantamaria94
+- Thomas Lehmann (tdl-ua)
+- victordiazobregon
+- vkyrki
+- Víctor Pozo Pérez
