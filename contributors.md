@@ -44,7 +44,6 @@ Generated on 2023-08-16.
 - Leytha
 - LoliPinel (lpinel)
 - Luís Miguel Martins Almeida (Luis93A)
-- marioprats
 - mgd96
 - Miguel Serna (serna92)
 - munozyanez
@@ -59,7 +58,5 @@ Generated on 2023-08-16.
 - smcdiaz
 - Sofia Hernandez (sofiahernandezp)
 - ssantamaria94
-- Thomas Lehmann (tdl-ua)
 - victordiazobregon
-- vkyrki
 - Víctor Pozo Pérez

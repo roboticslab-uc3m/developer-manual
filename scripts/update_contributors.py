@@ -28,7 +28,7 @@ org = g.get_organization(ORG_NAME)
 print(f'public repositories: {org.public_repos}')
 print(f'private repositories: {org.total_private_repos}')
 
-repos = [repo for repo in org.get_repos() if not repo.fork]
+repos = [repo for repo in org.get_repos() if not repo.fork and '3rd-party' not in repo.topics]
 print(f'retrieved {len(repos)} target repositories')
 
 registered = {}
