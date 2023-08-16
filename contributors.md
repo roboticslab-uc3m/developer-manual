@@ -17,6 +17,7 @@ Generated on 2023-08-16.
 - Borailuce99
 - buyus
 - Carlos Llamas (cllamasmar)
+- Cristina Arenas Izquierdo (crisarenas)
 - David Estévez Fernández (David-Estevez)
 - David Velasco Garcia
 - Dennis Pinto (dpriver)
