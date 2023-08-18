@@ -15,7 +15,6 @@ Generated on 2023-08-16.
 - Bartek Łukawski (PeterBowman)
 - beaelp
 - Borailuce99
-- buyus
 - Carlos Llamas (cllamasmar)
 - Cristina Arenas Izquierdo (crisarenas)
 - David Estévez Fernández (David-Estevez)
