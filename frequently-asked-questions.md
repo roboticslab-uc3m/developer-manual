@@ -59,7 +59,7 @@ Once you have publishing services running (robot joint/cartesian state, sensors 
 
 Depending on options above:
 
-1. You can use the waypoints in a program as in [this example](https://github.com/roboticslab-uc3m/yarp-devices/tree/73cbd201df69ee19662cdb26a83d898669834bcb/example/cpp/exampleRemoteControlboard).
+1. You can use the waypoints in a program as in [this example](https://github.com/roboticslab-uc3m/yarp-devices/tree/73cbd201df69ee19662cdb26a83d898669834bcb/example/cpp/exampleRemoteControlBoard).
 
 1. Use stuff from our [tools](https://github.com/roboticslab-uc3m/tools) repository. Specifically, you'll want the [PlaybackThread](https://github.com/roboticslab-uc3m/tools/tree/a7be63dc53090a5ca4ed19dc078ab3823aac1be3/libraries/ToolsYarpPlugins/PlaybackThread). You can find an example of use at [examplePlaybackThread](https://github.com/roboticslab-uc3m/tools/tree/a7be63dc53090a5ca4ed19dc078ab3823aac1be3/example/cpp/examplePlaybackThread) and its corresponding [test](https://github.com/roboticslab-uc3m/tools/blob/a7be63dc53090a5ca4ed19dc078ab3823aac1be3/tests/testPlaybackThread/testPlaybackThread.cpp).
 
@@ -73,11 +73,11 @@ Note: There are several alternatives to these approaches, but these are kind of 
 
 None of these options is the implemented solution. The iPos implementation is an intermediate solution, essentially a [FIFO](https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics)) memory with 8 buffer positions (would have to check the iPos manual for the specific correct value). So, you start filling it in, once it is initially full you start running, and then continue feeding it targets (e.g. via CAN-bus) at the rate established by the fixed period.
 - If you feed it too slow, the buffer will empty before time and movement will stop.
-- If you feed it too fast, the buffer will get full  (you'll see a `pt buffer full!` message in our [CanBusControlboard](https://github.com/roboticslab-uc3m/yarp-devices/blob/e696c219fa9aa6203d008585123ea477d9b74454/libraries/YarpPlugins/CanBusControlboard) implementation).
+- If you feed it too fast, the buffer will get full  (you'll see a `pt buffer full!` message in our [CanBusControlBoard](https://github.com/roboticslab-uc3m/yarp-devices/blob/e696c219fa9aa6203d008585123ea477d9b74454/libraries/YarpPlugins/CanBusControlBoard) implementation).
 
 Hence, best to feed it at the most precise rate possible. Take into account that a [PeriodicThread](https://github.com/robotology/yarp/blob/master/example/os/ratethread.cpp) (YARP's old `RateThread`) will be more precise than adding a fixed delay at the end of your loop.
 
-In the current [CanBusControlboard](https://github.com/roboticslab-uc3m/yarp-devices/blob/e696c219fa9aa6203d008585123ea477d9b74454/libraries/YarpPlugins/CanBusControlboard) implementation, this is set when we instance the class, and may be modified via [--ptModeMs](https://github.com/roboticslab-uc3m/yarp-devices/blob/e696c219fa9aa6203d008585123ea477d9b74454/libraries/YarpPlugins/CanBusControlboard/DeviceDriverImpl.cpp#L10). You'll be asking yourself if there is a minimum threshold. The answer is yes, and this minimum should be estimated by the time consumed by CAN-bus communications to feed all the individual drivers per period.
+In the current [CanBusControlBoard](https://github.com/roboticslab-uc3m/yarp-devices/blob/e696c219fa9aa6203d008585123ea477d9b74454/libraries/YarpPlugins/CanBusControlBoard) implementation, this is set when we instance the class, and may be modified via [--ptModeMs](https://github.com/roboticslab-uc3m/yarp-devices/blob/e696c219fa9aa6203d008585123ea477d9b74454/libraries/YarpPlugins/CanBusControlBoard/DeviceDriverImpl.cpp#L10). You'll be asking yourself if there is a minimum threshold. The answer is yes, and this minimum should be estimated by the time consumed by CAN-bus communications to feed all the individual drivers per period.
 
 ## How can I change the RGB-D sensor resolution?
 
