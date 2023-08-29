@@ -71,9 +71,10 @@ Repositories related to our [TEO](http://roboticslab.uc3m.es/roboticslab/robot/t
   - [teo_robot](https://github.com/roboticslab-uc3m/teo_robot)
   - [teo-ros-simulation](https://github.com/roboticslab-uc3m/teo-ros-simulation)
 - Demos
-  - [waiter](https://github.com/roboticslab-uc3m/waiter)
-  - [teo-follow-me](https://github.com/roboticslab-uc3m/teo-follow-me)
   - [teo-self-presentation](https://github.com/roboticslab-uc3m/teo-self-presentation)
+  - [teo-demos-misc](https://github.com/roboticslab-uc3m/teo-demos-misc)
+  - [teo-follow-me](https://github.com/roboticslab-uc3m/teo-follow-me)
+  - [waiter](https://github.com/roboticslab-uc3m/waiter)
 
 ### TIAGo
 
