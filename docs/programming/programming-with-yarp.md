@@ -8,6 +8,7 @@
 ### Regarding `close()`
 
 If there exists a `close` method that needs to release unmanaged resources (dynamically allocated memory) or terminate stuff in an ordered manner (if using `PolyDriver` class members, e.g. `close` device A before device B), always define a class destructor that calls `close`, be it a `DeviceDriver` or an `RFModule` derived class. Also, make sure nothing bad happens if this `close` method is called several times (i.e. set dangling pointers to `nullptr`). Why is that:
+
 - `PolyDriver::open` may fail to initialize a subdevice, but it does not call the subdevice's `close` method; instead, it is immediately destructed via delete ([ref](https://github.com/robotology/yarp/blob/b3dff81c3739112b8f65cfd808f129bcbf4e7aa5/src/libYARP_dev/src/yarp/dev/PolyDriver.cpp#L308)).
 - If `RFModule::configure` returns false, as explained in the above comments, `close` will never be called, hence we also want to use a destructor here.
 - `PolyDriver::close` will never close a wrapped device twice, but callers of `RFModule` can do that inadvertently because of the previous point: once after a successful `RFModule::configure` and a `CTRL+C` signal (it just stops execution flow and calls close before leaving `runModule`), and one more time on class destruction.
@@ -21,4 +22,4 @@ If there exists a `close` method that needs to release unmanaged resources (dyna
 
 ## If you have any doubts or comments
 
-Please read the [Asking Questions](asking-questions.md) section, and once you've succeded with its [self-evaluation](asking-questions.md#self-evaluation-time) follow the recommendations by commenting publicly [HERE](https://github.com/roboticslab-uc3m/developer-manual/issues/new) if required
+Please read the [Asking Questions](asking-questions.md) section, and once you've succeded with its [self-evaluation](asking-questions.md#self-evaluation-time) follow the recommendations by commenting publicly [HERE](https://github.com/roboticslab-uc3m/developer-manual/issues/new) if required.

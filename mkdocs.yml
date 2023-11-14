@@ -1,0 +1,82 @@
+site_name: Developer Manual
+
+repo_name: roboticslab-uc3m/developer-manual
+repo_url: https://github.com/roboticslab-uc3m/developer-manual
+edit_uri: blob/master/docs/
+
+theme:
+  name: material
+  language: en
+  logo: assets/roboticslab.svg
+  favicon: assets/favicon.ico
+  features:
+    - content.action.edit
+    - content.action.view
+    - navigation.footer
+    - navigation.indexes
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.suggest
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: light-blue
+      accent: light-blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: light-blue
+      accent: light-blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+extra:
+  social:
+    - icon: material/web
+      link: http://roboticslab.uc3m.es/
+    - icon: fontawesome/brands/github
+      link: https://github.com/roboticslab-uc3m
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/uc3mRoboticsLab
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@RoboticsLabUC3M
+
+exclude_docs: |
+  fig/README.md
+  fig/editable/README.md
+
+nav:
+- index.md
+- introduction.md
+- asking-questions.md
+- documenting.md
+- GitHub: github.md
+- Programming:
+    - programming/index.md
+    - Programming with YARP: programming/programming-with-yarp.md
+- Frequently Asked Questions (FAQ): frequently-asked-questions.md
+- Appendices:
+  - appendix/index.md
+  - Repository Index: appendix/repository-index.md
+  - Project Index: appendix/project-index.md
+  - YARP Tricks: appendix/yarp-tricks.md
+  - Additional Links: appendix/additional-links.md
+- contributors.md
+
+use_directory_urls: false
+
+markdown_extensions:
+  - toc:
+      permalink: '#'
+
+plugins:
+  - search
+  - open-in-new-tab
+  - git-revision-date-localized

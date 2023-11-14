@@ -10,9 +10,9 @@
     * If it is clearly specific to one repository, go to that repository. Examples: [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices/issues), [kinematics-dynamics](https://github.com/roboticslab-uc3m/kinematics-dynamics/issues), [vision](https://github.com/roboticslab-uc3m/vision/issues)...
     * If it is related to the installation of a dependency, go to [installation-guides](https://github.com/roboticslab-uc3m/installation-guides/issues)
     * If it is extremely generic but refers to a specific research project, go to the research project's main repository. Examples: [alma](https://github.com/roboticslab-uc3m/alma/issues), [roboasset](https://github.com/roboticslab-uc3m/roboasset/issues)...
-      * Note that research projects have more specific repositories, see the [Project Index](appendix/project-index.md).
+        * Note that research projects have more specific repositories, see the [Project Index](appendix/project-index.md).
     * If it is extremely generic but refers to a specific robot, go to the robot's main repository. Examples: [teo-main](https://github.com/roboticslab-uc3m/teo-main/issues), [asibot-main](https://github.com/roboticslab-uc3m/asibot-main/issues)...
-      * Note that robots have more specific repositories, see the [Repository Index (Robots section)](appendix/repository-index.md#robots-individual); e.g. TEO has its own private [teo-hardware-issues](https://github.com/roboticslab-uc3m/teo-hardware-issues/issues) repository where you can also open an issue on any specific TEO hardware issue.
+        * Note that robots have more specific repositories, see the [Repository Index (Robots section)](appendix/repository-index.md#robots-individual); e.g. TEO has its own private [teo-hardware-issues](https://github.com/roboticslab-uc3m/teo-hardware-issues/issues) repository where you can also open an issue on any specific TEO hardware issue.
     * If it extremely generic and fits nowhere else, go to: [questions-and-answers](https://github.com/roboticslab-uc3m/questions-and-answers)
 1. Fix the objective/scope of the Issue to be as "achievable" as possible. If the task at hand seems too broad or prone to become labeled `epic`, open several Issues where each can be acomplished in less than 1-2 weeks.
 1. Click on `Issues`, then on `New Issue`
@@ -27,6 +27,7 @@
 1. If you have permissions, add the Issue to closest related `Project(s)`.
 
 Troubleshooting:
+
 - In certain repositories (none of the https://github.com/roboticslab-uc3m GitHub organization), you have to be part of the specific GitHub organization to be able to put an Issue. Please contact the specific GitHub organization owners if given the case.
 
 ### Closing a GitHub Issue
@@ -35,13 +36,12 @@ Please cite the hash of the commit that closes the GitHub Issue (ideally, the ha
 
 ### GitHub Issue Labels
 
-We are attempting to unify GitHub labels, spawned from [questions-and-answers#76](https://github.com/roboticslab-uc3m/questions-and-answers/issues/76)
+We are attempting to unify GitHub labels, spawned from [questions-and-answers#76](https://github.com/roboticslab-uc3m/questions-and-answers/issues/76).
+
 - Existing repos: use https://github.com/destan/github-label-manager or similar to copy from [teo-main](https://github.com/roboticslab-uc3m/teo-main/labels).
 - New repos: new repos will inherit labels defined at https://github.com/organizations/roboticslab-uc3m/settings/labels
 
 ## git commit (and push)
-
-We have seen in [Main Developer Tools](main-developer-tools.md) that GitHub is an important part of our workflow. Now let's see when and how to use it.
 
 ### When should I commit to GitHub?
 
@@ -49,7 +49,7 @@ Essentially, always. Whatever you are doing, as insignificant as it may seem, pl
 
 ### To which GitHub repository should I commit?
 
-Please use one of our repositories: [Repository Index](repository-index.md).
+Please use one of our repositories: [Repository Index](appendix/repository-index.md).
 
 ### To which repository branch should I commit?
 
@@ -58,6 +58,7 @@ Please upload your work to a new branch, branching out from `master`. This git w
 ### Which files should I commit to the branch?
 
 We commented above to commit absolutely everything, as insignificant as it may seem. There are a few exceptions, please AVOID uploading (all equally important):
+
 * Files that can be generated via other files (executables, `.pdf`...): instead, document how to generate these files (steps for compiling/installing, `pdflatex`...)
 * Compressed files (e.g. `.zip`): please upload each individual file (which can be done within the same commit)
 * Big files (e.g. bibliography `.pdf`, videos...): think about more appropiate mechanisms (Mendeley, Google Drive...) and instead provide links in descriptions
@@ -105,4 +106,4 @@ Read more at [questions-and-answers#74](https://github.com/roboticslab-uc3m/ques
 
 ## If you have any doubts or comments
 
-Please read the [Asking Questions](asking-questions.md) section, and once you've succeded with its [self-evaluation](asking-questions.md#self-evaluation-time) follow the recommendations by commenting publicly [HERE](https://github.com/roboticslab-uc3m/developer-manual/issues/new) if required
+Please read the [Asking Questions](asking-questions.md) section, and once you've succeded with its [self-evaluation](asking-questions.md#self-evaluation-time) follow the recommendations by commenting publicly [HERE](https://github.com/roboticslab-uc3m/developer-manual/issues/new) if required.

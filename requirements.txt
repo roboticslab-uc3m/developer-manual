@@ -1,0 +1,4 @@
+mkdocs
+mkdocs-material
+mkdocs-open-in-new-tab
+mkdocs-git-revision-date-localized-plugin

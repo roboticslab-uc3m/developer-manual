@@ -9,8 +9,8 @@ from datetime import datetime
 from github import Github, Auth
 from github.GithubException import IncompletableObject
 
-ALIASES_FILE = 'dev-aliases.yaml'
-OUT_FILE = 'contributors.md'
+ALIASES_FILE = 'dev-aliases.yml'
+OUT_FILE = 'docs/contributors.md'
 ORG_NAME = 'roboticslab-uc3m'
 
 with open(ALIASES_FILE, 'r', encoding='utf-8') as f:

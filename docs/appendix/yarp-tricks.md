@@ -180,7 +180,7 @@ Some specific to [CanBusControlBoard](https://github.com/roboticslab-uc3m/yarp-d
 
 ### remote_grabber
 
-- https://github.com/roboticslab-uc3m/yarp-devices/tree/f4d5f67d31703e41cea721080fd16d6777e67799/libraries/YarpPlugins/AravisGigE#camera-parameters-control
+- <https://github.com/roboticslab-uc3m/yarp-devices/tree/f4d5f67d31703e41cea721080fd16d6777e67799/libraries/YarpPlugins/AravisGigE#camera-parameters-control>
 
 ## Yarp streaming commands
 
@@ -201,7 +201,7 @@ Example: `yarp write ... /teo/leftHand/command:i`.
 ## Edit .ini config files in Calc (Excel)
 
 Click `Separated by space` and `Merge delimiters`.
-```bash
+```
 #!/bin/sh
 openoffice.org -calc launchManipulation.ini
 # libreoffice -calc launchManipulation.ini

@@ -22,12 +22,12 @@ List of repositories provided by [Robotics Lab](http://roboticslab.uc3m.es) of U
 - [vision](https://github.com/roboticslab-uc3m/vision) ([doxygen](https://robots.uc3m.es/vision/))
 - [yarp-devices](https://github.com/roboticslab-uc3m/yarp-devices) ([doxygen](https://robots.uc3m.es/yarp-devices/))
 - Simulation
-  - [openrave-tools](https://github.com/roboticslab-uc3m/openrave-tools)
-  - [openrave-yarp-plugins](https://github.com/roboticslab-uc3m/openrave-yarp-plugins) ([doxygen](https://robots.uc3m.es/openrave-yarp-plugins/))
-  - [gazebo-tools](https://github.com/roboticslab-uc3m/gazebo-tools)
-  - [coppeliasim-tools](https://github.com/roboticslab-uc3m/coppeliasim-tools)
-  - [webots-tools](https://github.com/roboticslab-uc3m/webots-tools)
-  - Also see models in each corresponding section of [Robots (individual)](#robots-individual)
+    - [openrave-tools](https://github.com/roboticslab-uc3m/openrave-tools)
+    - [openrave-yarp-plugins](https://github.com/roboticslab-uc3m/openrave-yarp-plugins) ([doxygen](https://robots.uc3m.es/openrave-yarp-plugins/))
+    - [gazebo-tools](https://github.com/roboticslab-uc3m/gazebo-tools)
+    - [coppeliasim-tools](https://github.com/roboticslab-uc3m/coppeliasim-tools)
+    - [webots-tools](https://github.com/roboticslab-uc3m/webots-tools)
+    - Also see models in each corresponding section of [Robots (individual)](#robots-individual)
 
 ## Robots (Individual)
 
@@ -39,7 +39,7 @@ Repositories related to our [AMOR](http://roboticslab.uc3m.es/roboticslab/robot/
 - [amor-configuration-files](https://github.com/roboticslab-uc3m/amor-configuration-files)
 - [amor-api](https://github.com/roboticslab-uc3m/amor-api) (private)
 - Simulation
-  - [amor-openrave-models](https://github.com/roboticslab-uc3m/amor-openrave-models)
+    - [amor-openrave-models](https://github.com/roboticslab-uc3m/amor-openrave-models)
 
 ### ASIBOT
 
@@ -49,7 +49,7 @@ Repositories related to our [ASIBOT](http://roboticslab.uc3m.es/roboticslab/robo
 - [asibot-configuration-files](https://github.com/roboticslab-uc3m/asibot-configuration-files)
 - [asibot-hmi](https://github.com/roboticslab-uc3m/asibot-hmi)
 - Simulation
-  - [asibot-openrave-models](https://github.com/roboticslab-uc3m/asibot-openrave-models)
+    - [asibot-openrave-models](https://github.com/roboticslab-uc3m/asibot-openrave-models)
 
 ### TEO
 
@@ -60,21 +60,28 @@ Repositories related to our [TEO](http://roboticslab.uc3m.es/roboticslab/robot/t
 - [teo-configuration-files](https://github.com/roboticslab-uc3m/teo-configuration-files)
 - [teo-hardware-issues](https://github.com/roboticslab-uc3m/teo-hardware-issues) (private)
 - [teo-ipos-backup](https://github.com/roboticslab-uc3m/teo-ipos-backup) (private)
+- [teo-electronics](https://github.com/roboticslab-uc3m/teo-electronics) (private)
 - Simulation
-  - [teo-blender-models](https://github.com/roboticslab-uc3m/teo-blender-models)
-  - [teo-bullet-models](https://github.com/roboticslab-uc3m/teo-bullet-models)
-  - [teo-coppeliasim-models](https://github.com/roboticslab-uc3m/teo-coppeliasim-models)
-  - [teo-gazebo-models](https://github.com/roboticslab-uc3m/teo-gazebo-models)
-  - [teo-openrave-models](https://github.com/roboticslab-uc3m/teo-openrave-models)
-  - [teo-webots-models](https://github.com/roboticslab-uc3m/teo-webots-models)
-  - [teo-simox-models](https://github.com/roboticslab-uc3m/teo-simox-models)
-  - [teo_robot](https://github.com/roboticslab-uc3m/teo_robot)
-  - [teo-ros-simulation](https://github.com/roboticslab-uc3m/teo-ros-simulation)
+    - [teo-blender-models](https://github.com/roboticslab-uc3m/teo-blender-models)
+    - [teo-bullet-models](https://github.com/roboticslab-uc3m/teo-bullet-models)
+    - [teo-coppeliasim-models](https://github.com/roboticslab-uc3m/teo-coppeliasim-models)
+    - [teo-gazebo-models](https://github.com/roboticslab-uc3m/teo-gazebo-models)
+    - [teo-openrave-models](https://github.com/roboticslab-uc3m/teo-openrave-models)
+    - [teo-webots-models](https://github.com/roboticslab-uc3m/teo-webots-models)
+    - [teo-simox-models](https://github.com/roboticslab-uc3m/teo-simox-models)
+    - [teo_robot](https://github.com/roboticslab-uc3m/teo_robot)
+    - [teo-ros-simulation](https://github.com/roboticslab-uc3m/teo-ros-simulation)
 - Demos
-  - [teo-self-presentation](https://github.com/roboticslab-uc3m/teo-self-presentation)
-  - [teo-demos-misc](https://github.com/roboticslab-uc3m/teo-demos-misc)
-  - [teo-follow-me](https://github.com/roboticslab-uc3m/teo-follow-me)
-  - [waiter](https://github.com/roboticslab-uc3m/waiter)
+    - [teo-self-presentation](https://github.com/roboticslab-uc3m/teo-self-presentation)
+    - [teo-demos-misc](https://github.com/roboticslab-uc3m/teo-demos-misc)
+    - [teo-follow-me](https://github.com/roboticslab-uc3m/teo-follow-me)
+    - [waiter](https://github.com/roboticslab-uc3m/waiter)
+- Firmware
+    - [cui-pic-firmware](https://github.com/roboticslab-uc3m/cui-pic-firmware)
+    - [lacquey-pic-firmware](https://github.com/roboticslab-uc3m/lacquey-pic-firmware) (legacy)
+    - [jr3-mbed-firmware](https://github.com/roboticslab-uc3m/jr3-mbed-firmware)
+    - [textiles-arduino-firmware](https://github.com/roboticslab-uc3m/textiles-arduino-firmware)
+    - [Dextra](https://github.com/roboticslab-uc3m/Dextra)
 
 ### TIAGo
 
@@ -168,4 +175,4 @@ We used to have some repositories at [https://apps-robots.uc3m.es/svn/\*](https:
 
 ## If you have any doubts or comments
 
-Please read the [Asking Questions](asking-questions.md) section, and once you've succeded with its [self-evaluation](asking-questions.md#self-evaluation-time) follow the recommendations by commenting publicly [HERE](https://github.com/roboticslab-uc3m/developer-manual/issues/new) if required
+Please read the [Asking Questions](../asking-questions.md) section, and once you've succeded with its [self-evaluation](../asking-questions.md#self-evaluation-time) follow the recommendations by commenting publicly [HERE](https://github.com/roboticslab-uc3m/developer-manual/issues/new) if required.

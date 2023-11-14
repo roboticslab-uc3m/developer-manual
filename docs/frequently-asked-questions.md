@@ -9,8 +9,8 @@
 
 - Please make sure you carefully read and understood the dedicated section at: [how do I install programs on Linux? (Spanish)](https://asrob.uc3m.es/tutoriales/software/linux/introduction.html#¿cómo-instalo-programas-en-linux)
 - Each of our repositories usually contains instructions for installing, e.g. the initial `README.md` of <https://github.com/roboticslab-uc3m/vision> links to its [doc/vision-install.md](https://github.com/roboticslab-uc3m/vision/blob/master/doc/vision-install.md) documentation file.
-   - Note 1: Don't know what a repository is? Please read: [Control de versiones (Spanish)](https://asrob.uc3m.es/tutoriales/software/version-control/index.html)
-   - Note 2: This manual contains an index of our repositories: [HERE](appendix/repository-index.md)
+    - Note 1: Don't know what a repository is? Please read: [Control de versiones (Spanish)](https://asrob.uc3m.es/tutoriales/software/version-control/index.html)
+    - Note 2: This manual contains an index of our repositories: [HERE](appendix/repository-index.md)
 - For instructions on installing 3rd party software, please see a special repository we maintain: <https://robots.uc3m.es/installation-guides/>
 
 ## I see a lot of commands for installation but do not understand anything. What do they mean?
@@ -20,8 +20,8 @@
 ## I've heard lots of stuff about Git and GitHub. What do they mean?
 
 - Please read:
-   - [Git y GitHub (Spanish)](https://david-estevez.gitbooks.io/the-git-the-bad-and-the-ugly/content/es/control-de-versiones.html)
-   - [Control de versiones - Git (Spanish)](https://asrob.uc3m.es/tutoriales/software/version-control/git.html)
+    - [Git y GitHub (Spanish)](https://david-estevez.gitbooks.io/the-git-the-bad-and-the-ugly/content/es/control-de-versiones.html)
+    - [Control de versiones - Git (Spanish)](https://asrob.uc3m.es/tutoriales/software/version-control/git.html)
 
 ## How should I program stuff?
 
@@ -41,19 +41,20 @@ Once you have publishing services running (robot joint/cartesian state, sensors 
 
 1. To record full trajectories (data stream of a certain YARP port) at a given sample rate, use [yarpdatadumper](http://www.yarp.it/yarpdatadumper.html). To record from several YARP ports, [yarpdatadumperAppGenerator](http://www.yarp.it/yarpdatadumperAppGenerator.html) can be used to generate a [yarpmanager](http://www.yarp.it/yarpmanager.html) app of [yarpdatadumper](http://www.yarp.it/yarpdatadumper.html) components.
 
-   An example of recording a left arm trayectory of TEO:
-   * Terminal 1:
-   ```
-   launchManipulation  # Part of teoBase
-   ```
-   * Terminal 2:
-   ```bash
-   yarpdatadumper --name /leftArm  # the data.log and data.log files will be saved in a new `leftArm` directory
-   ```
-   * Terminal 3:
-   ```bash
-   yarp connect /teo/leftArm/state:o /leftArm
-   ```
+An example of recording a left arm trayectory of TEO:
+
+* Terminal 1:
+```
+launchManipulation  # Part of teoBase
+```
+* Terminal 2:
+```
+yarpdatadumper --name /leftArm  # the data.log and data.log files will be saved in a new `leftArm` directory
+```
+* Terminal 3:
+```
+yarp connect /teo/leftArm/state:o /leftArm
+```
 
 ## How can I play back data recorded for Programming by Demonstration (PbD) a.k.a. Learning from Demonstration (LfD)?
 
@@ -68,10 +69,12 @@ Note: There are several alternatives to these approaches, but these are kind of 
 ## How does the iPos PT Mode work?
 
 `PT Mode` performs at a fixed rate at driver level. This is great, because it's real-time right next to the motor, so network latencies will not affect performance of set of a pre-defined joint-space targets (positions). Not justifying how it's implemented, but providing the reason why they actually did it as it is. Naïve options:
+
 1. First receive (e.g. via CAN-bus) all the trajectory, then execute each target at the exact time given the fixed period. The issue with this is: how much memory should we reserve for this? What happens if somebody wants to run a trajectory with thousands or millions of intermediate targets?
 2. Receive the next target (e.g. via CAN-bus), execute it at exactly the planned time given the fixed period, repeat. The issue with this is: what happens if a target arrives late?
 
 None of these options is the implemented solution. The iPos implementation is an intermediate solution, essentially a [FIFO](https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics)) memory with 8 buffer positions (would have to check the iPos manual for the specific correct value). So, you start filling it in, once it is initially full you start running, and then continue feeding it targets (e.g. via CAN-bus) at the rate established by the fixed period.
+
 - If you feed it too slow, the buffer will empty before time and movement will stop.
 - If you feed it too fast, the buffer will get full  (you'll see a `pt buffer full!` message in our [CanBusControlBoard](https://github.com/roboticslab-uc3m/yarp-devices/blob/e696c219fa9aa6203d008585123ea477d9b74454/libraries/YarpPlugins/CanBusControlBoard) implementation).
 
@@ -82,11 +85,11 @@ In the current [CanBusControlBoard](https://github.com/roboticslab-uc3m/yarp-dev
 ## How can I change the RGB-D sensor resolution?
 
 We use the YARP `OpenNI2DeviceServer` device for this. In [teoBase.xml#L36](https://github.com/roboticslab-uc3m/teo-configuration-files/blob/89d6e279d13cfe47c444c709cd7a08e5de56382b/share/teoBase/scripts/teoBase.xml#L36) you can see an example instance:
-```bash
+```
 yarpdev --device OpenNI2DeviceServer --depthVideoMode 4 --colorVideoMode 9 --noRGBMirror
 ```
 If you want to know what values you can use for `--depthVideoMode` and `--colorVideoMode` instead (and the actual meaning of the current values), please launch:
-```bash
+```
 yarpdev --device OpenNI2DeviceServer --printVideoModes
 ```
 
@@ -94,11 +97,11 @@ yarpdev --device OpenNI2DeviceServer --printVideoModes
 
 Most of this was done at https://github.com/roboticslab-uc3m/questions-and-answers/issues/2
 
-- https://github.com/roboticslab-uc3m/teo-body -> https://github.com/roboticslab-uc3m/yarp-devices
-- https://github.com/roboticslab-uc3m/teo-head -> https://github.com/roboticslab-uc3m/vision and https://github.com/roboticslab-uc3m/speech
-- https://github.com/roboticslab-uc3m/teo-main (old version) -> https://github.com/roboticslab-uc3m/kinematics-dynamics
-- https://github.com/roboticslab-uc3m/best-practices -> https://github.com/roboticslab-uc3m/developer-manual
-- https://github.com/roboticslab-uc3m/teo-software-manual -> https://github.com/roboticslab-uc3m/teo-developer-manual
+- <https://github.com/roboticslab-uc3m/teo-body> -> <https://github.com/roboticslab-uc3m/yarp-devices>
+- <https://github.com/roboticslab-uc3m/teo-head> -> <https://github.com/roboticslab-uc3m/vision> and <https://github.com/roboticslab-uc3m/speech>
+- <https://github.com/roboticslab-uc3m/teo-main (old version)> -> <https://github.com/roboticslab-uc3m/kinematics-dynamics>
+- <https://github.com/roboticslab-uc3m/best-practices> -> <https://github.com/roboticslab-uc3m/developer-manual>
+- <https://github.com/roboticslab-uc3m/teo-software-manual> -> <https://github.com/roboticslab-uc3m/teo-developer-manual>
 
 ## I have read this page and related links, and I have doubts and/or comments. What should I do?
 

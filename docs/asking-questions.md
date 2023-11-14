@@ -25,10 +25,11 @@ Please open a GitHub Issue following [THESE GUIDELINES ("Opening a GitHub Issue"
 ## I really don't like GitHub Issues, why can't I just bug somebody who knows the answer?
 
 There are several reasons to prefer GitHub Issues rather than asking in person or private messaging:
+
 * Answers are left for future people with doubts, and even the *you from the future* can run into the same issue after some time and then find the solution online!
 * Developers can have more time to perform research and/or create new cool applications, maybe even that coffee-making or pizza-delivery robot you've been waiting for, yay!
 * GitHub Issues have proved many times to be an efficient mechanism to receive answers from very unexpected contributors, which have provided many answers, new ideas, and worthy viewpoints!!
 
 ## Self evaluation time!
 
-https://goo.gl/forms/s9RNrCZqVUAaausf1
+<https://goo.gl/forms/s9RNrCZqVUAaausf1>
