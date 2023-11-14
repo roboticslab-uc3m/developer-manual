@@ -53,17 +53,17 @@ exclude_docs: |
   fig/editable/README.md
 
 nav:
-- index.md
+- Home: README.md
 - introduction.md
 - asking-questions.md
 - documenting.md
 - GitHub: github.md
 - Programming:
-    - programming/index.md
+    - programming/README.md
     - Programming with YARP: programming/programming-with-yarp.md
 - Frequently Asked Questions (FAQ): frequently-asked-questions.md
 - Appendices:
-  - appendix/index.md
+  - appendix/README.md
   - Repository Index: appendix/repository-index.md
   - Project Index: appendix/project-index.md
   - YARP Tricks: appendix/yarp-tricks.md

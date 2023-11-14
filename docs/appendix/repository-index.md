@@ -4,8 +4,8 @@ List of repositories provided by [Robotics Lab](http://roboticslab.uc3m.es) of U
 
 ## Manuals and FAQs
 
-- [developer-manual](https://github.com/roboticslab-uc3m/developer-manual) ([gitbook](https://robots.uc3m.es/developer-manual/)) (this manual)
-- [installation-guides](https://github.com/roboticslab-uc3m/installation-guides) ([gitbook](https://robots.uc3m.es/installation-guides/))
+- [developer-manual](https://github.com/roboticslab-uc3m/developer-manual) ([hosted site](https://robots.uc3m.es/developer-manual/)) (this manual)
+- [installation-guides](https://github.com/roboticslab-uc3m/installation-guides) ([hosted site](https://robots.uc3m.es/installation-guides/))
 - [questions-and-answers](https://github.com/roboticslab-uc3m/questions-and-answers)
 - [help-at-uc3m](https://github.com/roboticslab-uc3m/help-at-uc3m) (private)
 - [datasheets-and-manuals](https://github.com/roboticslab-uc3m/datasheets-and-manuals) (private)
@@ -55,7 +55,7 @@ Repositories related to our [ASIBOT](http://roboticslab.uc3m.es/roboticslab/robo
 
 Repositories related to our [TEO](http://roboticslab.uc3m.es/roboticslab/robot/teo-humanoid) robot.
 
-- [teo-developer-manual](https://github.com/roboticslab-uc3m/teo-developer-manual) ([gitbook](https://robots.uc3m.es/teo-developer-manual/))
+- [teo-developer-manual](https://github.com/roboticslab-uc3m/teo-developer-manual) ([hosted site](https://robots.uc3m.es/teo-developer-manual/))
 - [teo-main](https://github.com/roboticslab-uc3m/teo-main)
 - [teo-configuration-files](https://github.com/roboticslab-uc3m/teo-configuration-files)
 - [teo-hardware-issues](https://github.com/roboticslab-uc3m/teo-hardware-issues) (private)

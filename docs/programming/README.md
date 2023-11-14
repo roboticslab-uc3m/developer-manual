@@ -12,8 +12,8 @@
 
 ## General Programming
 
-* In case of trouble during installation of dependencies or additional software, take a look first at our dedicated repository: [installation-guides](https://github.com/roboticslab-uc3m/installation-guides) ([gitbook](https://robots.uc3m.es/installation-guides/)).
-* If incorporating a new dependency or additional software, first take a look at our dedicated repository: [installation-guides](https://github.com/roboticslab-uc3m/installation-guides) ([gitbook](https://robots.uc3m.es/installation-guides/)). If it's not there, consider if it's a good option using the following recommended (but not mandatory) criteria: lightweight, flexible, multiplatform. If so, add it there, then link it to your project.
+* In case of trouble during installation of dependencies or additional software, take a look first at our dedicated repository: [installation-guides](https://github.com/roboticslab-uc3m/installation-guides) ([hosted site](https://robots.uc3m.es/installation-guides/)).
+* If incorporating a new dependency or additional software, first take a look at our dedicated repository: [installation-guides](https://github.com/roboticslab-uc3m/installation-guides) ([hosted site](https://robots.uc3m.es/installation-guides/)). If it's not there, consider if it's a good option using the following recommended (but not mandatory) criteria: lightweight, flexible, multiplatform. If so, add it there, then link it to your project.
 * Indent your code as if everything were Python. [astyle](http://astyle.sourceforge.net/) can handle this quite automatically for you \(use with caution\).
 * Any `toDo`, `fixMe`, etc. inlined in code must be associated to an _open issue_ \(with bidirectional reference\).
 * [Headers, config files and CLI parameters](https://github.com/roboticslab-uc3m/asibot-main/blob/master/doc/asibot-post-install.md#changing-parameters).
@@ -34,7 +34,7 @@
 ## Programming in C/C++
 
 * Some good slides on C are "Thinking in C" by Bruce Eckel, and some good books on C++ are "Thinking in C++" by Bruce Eckel.
-* A nice IDE is QTCreator, but you can also customize Eclipse, Atom or even Vim.
+* A nice IDE is Visual Studio Code, but you can also customize QtCreator, Eclipse, Atom or even Vim.
 * Use [project-generator](https://github.com/roboticslab-uc3m/project-generator) for creation of new C/C++ projects.
 * Report any problems with project-generator in its corresponding [issues section](https://github.com/roboticslab-uc3m/project-generator/issues). If you find that this solution doesn't suit you, at least stick to [CMake]((#programming-in-cmake) for any C/C++ project.
 * Use _UpperCamelCase_ for library and class names.
@@ -45,7 +45,7 @@
 * Keep a minimalistic `main()` by implementing your program as an OOP class, see comments on `RFModule` in best practices in [Programming with YARP](programming-with-yarp.md).
 * Create and maintain unit tests for each class. We are currently using **gtest**, see [kinematics-dynamics/tests/testKdlSolver](https://github.com/roboticslab-uc3m/kinematics-dynamics/tree/master/tests/testKdlSolver.cpp), which is then integrated with Travis CI.
 * It is recommended to mark a function as DEPRECATED for a month before eliminating it from an API. DEPRECATED macros can be generated via CMake as done [here](https://github.com/roboticslab-uc3m/kinematics-dynamics/blob/21f2dde2a38f1d0c1c93703d3619e34c14c3bfcd/CMakeLists.txt#L110-L118), then used within code as [here](https://github.com/roboticslab-uc3m/kinematics-dynamics/blob/21f2dde2a38f1d0c1c93703d3619e34c14c3bfcd/libraries/TeoYarp/ICartesianSolver.h#L29-L33). The full procedure, as described at [QA #21](https://github.com/roboticslab-uc3m/QA/issues/21), should be:
-    1. Open a [GitHub Issue](github.md#github-issues) wherever the offending function is located.
+    1. Open a [GitHub Issue](../github.md#github-issues) wherever the offending function is located.
     1. Label it as `announcement`.
     1. Use the search bar to localize any call to said function across roboticslab-uc3m and list all affected repos.
     1. If necessary, elaborate a removal plan and detail any steps that need to be taken to perform a seamless migration to the new API.
@@ -59,4 +59,4 @@
 
 ## If you have any doubts or comments
 
-Please read the [Asking Questions](asking-questions.md) section, and once you've succeded with its [self-evaluation](asking-questions.md#self-evaluation-time) follow the recommendations by commenting publicly [HERE](https://github.com/roboticslab-uc3m/developer-manual/issues/new) if required.
+Please read the [Asking Questions](../asking-questions.md) section, and once you've succeded with its [self-evaluation](../asking-questions.md#self-evaluation-time) follow the recommendations by commenting publicly [HERE](https://github.com/roboticslab-uc3m/developer-manual/issues/new) if required.
