@@ -25,10 +25,10 @@ jobs:
     - name: Detect changes
       id: check
       run: echo "modified=$(git diff --quiet HEAD -- docs/contributors.md && echo false || echo true)" >> "$GITHUB_OUTPUT"
-    - name: Commit
-      if: steps.check.outputs.modified == 'true'
-      run: git -c "user.name=GitHub Actions" -c "user.email=" commit -am "Update contributors"
     - name: Push to GitHub
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{secrets.DEV_MANUAL}}
+      if: steps.check.outputs.modified == 'true'
+      run: |
+        git -c "user.name=GitHub Actions" -c "user.email=" commit -am "Update contributors"
+        git push
+    - name: Regenerate GitHub Pages site
+      uses: ./.github/workflows/gh-pages.yml
