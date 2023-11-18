@@ -1,0 +1,32 @@
+name: Contributors
+
+on:
+  push:
+    branches:
+    - master
+    paths:
+    - dev-aliases.yml
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: fkirc/skip-duplicate-actions@v5
+      with:
+        cancel_others: 'true'
+    - uses: actions/checkout@v4
+    - name: Install dependencies
+      run: pip install PyGithub PyYAML
+    - name: Run script
+      run: python scripts/update_contributors.py
+      env:
+        GITHUB_PAT_AUTH: ${{secrets.DEV_MANUAL}}
+    - name: Detect changes
+      id: check
+      run: echo "modified=$(git diff --quiet HEAD -- docs/contributors.md && echo false || echo true)" >> "$GITHUB_OUTPUT"
+    - name: Push to GitHub
+      if: steps.check.outputs.modified == 'true'
+      run: |
+        git -c "user.name=Github Actions" -c "user.email=" commit -am "Update contributors"
+        git push
