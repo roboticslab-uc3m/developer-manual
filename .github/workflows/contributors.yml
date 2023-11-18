@@ -11,6 +11,8 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+    outputs:
+      modified: ${{steps.check.outputs.modified}}
     steps:
     - uses: fkirc/skip-duplicate-actions@v5
       with:
@@ -30,5 +32,8 @@ jobs:
       run: |
         git -c "user.name=GitHub Actions" -c "user.email=" commit -am "Update contributors"
         git push
-    - name: Regenerate GitHub Pages site
-      uses: ./.github/workflows/gh-pages.yml
+
+  gh-pages:
+    needs: update
+    if: needs.update.outputs.modified == 'true'
+    uses: ./.github/workflows/gh-pages.yml
