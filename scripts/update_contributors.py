@@ -16,7 +16,8 @@ with open(ALIASES_FILE, 'r', encoding='utf-8') as f:
 
 # required fine-grained PAT permissions:
 # * repository permissions: metadata (read-only)
-# * organization permissions: administration (read-only)
+#   * in order to also perform a commit & push via GHA: contents (read & write)
+# * organization permissions: members (read-only)
 # also make sure to check the 'All repositories' checkbox
 auth = Auth.Token(os.environ.get('GITHUB_PAT_AUTH'))
 
