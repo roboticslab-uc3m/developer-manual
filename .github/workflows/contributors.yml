@@ -28,7 +28,5 @@ jobs:
     - name: Push to GitHub
       if: steps.check.outputs.modified == 'true'
       run: |
-        git config --global user.name 'GitHub Actions'
-        git config --global user.email ''
-        git commit -am "Update contributors"
+        git -c "user.name=Github Actions" -c "user.email=" commit -am "Update contributors"
         git push
