@@ -21,7 +21,7 @@ jobs:
     - name: Run script
       run: python scripts/update_contributors.py
       env:
-        GITHUB_PAT_AUTH: ${{secrets.GITHUB_TOKEN}}
+        GITHUB_PAT_AUTH: ${{secrets.DEV_MANUAL}}
     - name: Detect changes
       id: check
       run: echo "modified=$(git diff --quiet HEAD -- docs/contributors.md && echo false || echo true)" >> "$GITHUB_OUTPUT"
