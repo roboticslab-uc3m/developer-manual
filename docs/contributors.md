@@ -1,7 +1,6 @@
 # Contributors
 
 This is a list of people who contributed to the roboticslab-uc3m software ecosystem.
-Generated on 2023-08-16.
 
 - Ainhoamm1
 - Alberto Jardón Huete (ajardon)

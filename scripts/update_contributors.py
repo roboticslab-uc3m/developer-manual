@@ -4,8 +4,6 @@ import os
 import textwrap
 import yaml
 
-from datetime import datetime
-
 from github import Github, Auth
 from github.GithubException import IncompletableObject
 
@@ -56,7 +54,6 @@ with open(OUT_FILE, 'w', encoding='utf-8') as f:
         # Contributors
 
         This is a list of people who contributed to the {ORG_NAME} software ecosystem.
-        Generated on {datetime.today().strftime('%Y-%m-%d')}.
 
         """))
 

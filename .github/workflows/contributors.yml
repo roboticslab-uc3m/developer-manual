@@ -22,10 +22,10 @@ jobs:
       run: python scripts/update_contributors.py
       env:
         GITHUB_PAT_AUTH: ${{secrets.GITHUB_TOKEN}}
-    - name: Test diff
+    - name: Detect changes
       id: check
       run: echo "modified=$(git diff --quiet HEAD -- docs/contributors.md && echo false || echo true)" >> "$GITHUB_OUTPUT"
-    - name: Push changes
+    - name: Push to GitHub
       if: steps.check.outputs.modified == 'true'
       run: |
         git config --global user.name 'GitHub Actions'
