@@ -36,6 +36,7 @@ List of repositories provided by [Robotics Lab](http://roboticslab.uc3m.es) of U
 Repositories related to our [AMOR](http://roboticslab.uc3m.es/roboticslab/robot/amor) robot.
 
 - [amor-main](https://github.com/roboticslab-uc3m/amor-main)
+- [amor-yarp-devices](https://github.com/roboticslab-uc3m/amor-yarp-devices)
 - [amor-configuration-files](https://github.com/roboticslab-uc3m/amor-configuration-files)
 - [amor-api](https://github.com/roboticslab-uc3m/amor-api) (private)
 - Simulation
