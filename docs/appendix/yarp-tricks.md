@@ -157,7 +157,7 @@ Example: `yarp rpc /teo/leftArm/rpc:i`.
 
 #### remote variables
 
-Some specific to [CanBusControlBoard](https://github.com/roboticslab-uc3m/yarp-devices/tree/master/libraries/YarpPlugins/CanBusControlBoard) ([perma](https://github.com/roboticslab-uc3m/yarp-devices/tree/bd1a72b63dd22b670fd1e21ff7d670254c195522/libraries/YarpPlugins/CanBusControlBoard)):
+Some specific to [CanBusBroker](https://github.com/roboticslab-uc3m/yarp-devices/tree/master/libraries/YarpPlugins/CanBusBroker) ([perma](https://github.com/roboticslab-uc3m/yarp-devices/tree/1c466d0977503a62629e8be86292cde7b940dd38/libraries/YarpPlugins/CanBusBroker)):
 ```
 [get] [ivar] [lvar]
 [get] [ivar] [mvar] id15-ipos
