@@ -128,8 +128,9 @@ Repositories related to our [TIAGo](http://roboticslab.uc3m.es/roboticslab/robot
 
 ### Sign Language
 
-Repositories related to our research in [Robot Sign Language](http://roboticslab.uc3m.es/roboticslab/robottypeandapp/robot-sign-language).
+Repositories related to our research in [Robot Sign Language](http://roboticslab.uc3m.es/roboticslab/robottypeandapp/robot-sign-language):
 
+- [dextra-yarp-devices](https://github.com/roboticslab-uc3m/dextra-yarp-devices)
 - [sign-language-papers](https://github.com/roboticslab-uc3m/sign-language-papers) (private)
 
 ### Textiles
