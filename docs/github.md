@@ -38,7 +38,7 @@ Please cite the hash of the commit that closes the GitHub Issue (ideally, the ha
 
 We are attempting to unify GitHub labels, spawned from [questions-and-answers#76](https://github.com/roboticslab-uc3m/questions-and-answers/issues/76).
 
-- Existing repos: use https://github.com/destan/github-label-manager or similar to copy from [teo-main](https://github.com/roboticslab-uc3m/teo-main/labels).
+- Existing repos: use [https://github.com/destan/github-label-manager](https://dorukdestan.com/github-label-manager/) or similar to copy from [teo-main](https://github.com/roboticslab-uc3m/teo-main/labels).
 - New repos: new repos will inherit labels defined at https://github.com/organizations/roboticslab-uc3m/settings/labels
 
 ## git commit (and push)
