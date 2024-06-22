@@ -4,12 +4,14 @@ This is a list of people who contributed to the roboticslab-uc3m software ecosys
 
 - Ainhoamm1
 - Alberto Jardón Huete (ajardon)
+- Alberto Rodríguez Sanz (AlbertoRodriguezSanz)
 - alicest9
 - allura
 - Alvaro Martinez (100406315)
 - AlvaroMartinezR
 - amridriss
 - Ana Carnerero Calvo (anacarnerero)
+- anacg1620
 - Andrea Gil Ruiz (andreagil)
 - Angordil
 - Aroa (Aroa4)
@@ -64,3 +66,4 @@ This is a list of people who contributed to the roboticslab-uc3m software ecosys
 - victordiazobregon
 - vistor (vistormu)
 - Víctor Pozo Pérez
+- YEPEZ25
