@@ -25,7 +25,7 @@
 
 ## How should I program stuff?
 
-- Please make sure you carefully read and understood the dedicated section at: [Best Practices: Programming](programming/index.md)
+- Please make sure you carefully read and understood the dedicated section at: [Best Practices: Programming](programming/README.md)
 
 ## How should I document stuff?
 
