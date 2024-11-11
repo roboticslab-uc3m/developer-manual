@@ -18,7 +18,7 @@ This is a list of people who contributed to the roboticslab-uc3m software ecosys
 - avegasanchez
 - Bartek Łukawski (PeterBowman)
 - beaelp
-- Borja Pérez (Borailuce99)
+- Borailuce99
 - Carlos Llamas (cllamasmar)
 - Cristina Arenas Izquierdo (crisarenas)
 - DanielSRSH

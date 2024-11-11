@@ -13,6 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       modified: ${{steps.check.outputs.modified}}
+      hash: ${{steps.push.outputs.hash}}
     steps:
     - uses: fkirc/skip-duplicate-actions@v5
       with:
@@ -28,12 +29,16 @@ jobs:
       id: check
       run: echo "modified=$(git diff --quiet HEAD -- docs/contributors.md && echo false || echo true)" >> "$GITHUB_OUTPUT"
     - name: Push to GitHub
+      id: push
       if: steps.check.outputs.modified == 'true'
       run: |
         git -c "user.name=GitHub Actions" -c "user.email=" commit -am "Update contributors"
+        echo "hash=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
         git push
 
   gh-pages:
     needs: update
     if: needs.update.outputs.modified == 'true'
     uses: ./.github/workflows/gh-pages.yml
+    with:
+      hash: ${{needs.update.outputs.hash}}

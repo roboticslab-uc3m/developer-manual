@@ -8,6 +8,12 @@ on:
     - docs/**
     - mkdocs.yml
   workflow_call:
+    inputs:
+      hash:
+        description: 'Commit hash to fetch from'
+        required: false
+        default: ''
+        type: string
   workflow_dispatch:
 
 jobs:
@@ -19,6 +25,7 @@ jobs:
         cancel_others: 'true'
     - uses: actions/checkout@v4
       with:
+        ref: ${{inputs.hash}}
         fetch-depth: 0 # for the 'Last updated' timestamp
     - name: Install requirements
       run: pip install -r requirements.txt
