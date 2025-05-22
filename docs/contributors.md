@@ -51,6 +51,7 @@ This is a list of people who contributed to the roboticslab-uc3m software ecosys
 - Lisbeth Mena (lismena)
 - LoliPinel (lpinel)
 - Luís Miguel Martins Almeida (Luis93A)
+- Mercedes Rebollo (mercerebo1)
 - mgd96
 - Miguel Serna (serna92)
 - munozyanez
