@@ -13,6 +13,7 @@ This is a list of people who contributed to the roboticslab-uc3m software ecosys
 - Ana Carnerero Calvo (anacarnerero)
 - anacg1620
 - Andrea Gil Ruiz (andreagil)
+- Angel Gilabert (angelGilabert)
 - Angordil
 - Aroa (Aroa4)
 - avegasanchez
@@ -20,6 +21,7 @@ This is a list of people who contributed to the roboticslab-uc3m software ecosys
 - beaelp
 - Borja Pérez (Borailuce99)
 - Carlos Llamas (cllamasmar)
+- cisnal
 - Cristina Arenas Izquierdo (crisarenas)
 - DanielSRSH
 - David Estévez Fernández (David-Estevez)
@@ -33,11 +35,12 @@ This is a list of people who contributed to the roboticslab-uc3m software ecosys
 - Francisco Blanco (FranBesq)
 - FranJNaranjo
 - gavs1992
-- Gerson-Martin
+- Gerson Martin Lipa Noriega (Gerson-Martin)
 - ggconde
 - Hualonso98
 - Ignacio Montesino Valle (imontesino)
 - Jaime Mas Santillán (TheArmega)
+- Javier Armijo Martín (javiarmijo)
 - Jennifer J Gago Muñoz (jgagom)
 - jlpesoto
 - Jonatan Gines Clavero (jginesclavero)
