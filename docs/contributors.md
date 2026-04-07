@@ -3,6 +3,7 @@
 This is a list of people who contributed to the roboticslab-uc3m software ecosystem.
 
 - Ainhoamm1
+- albaod
 - Alberto Jardón Huete (ajardon)
 - Alberto Rodríguez Sanz (AlbertoRodriguezSanz)
 - alicest9
@@ -15,6 +16,7 @@ This is a list of people who contributed to the roboticslab-uc3m software ecosys
 - Andrea Gil Ruiz (andreagil)
 - Angel Gilabert (angelGilabert)
 - Angordil
+- Antonio Balboa (abp190904-star)
 - Aroa (Aroa4)
 - avegasanchez
 - Bartek Łukawski (PeterBowman)
@@ -45,6 +47,7 @@ This is a list of people who contributed to the roboticslab-uc3m software ecosys
 - jlpesoto
 - Jonatan Gines Clavero (jginesclavero)
 - Jorge-CM
+- josematocremaa
 - Juan G. Victores (jgvictores)
 - Juan Lorente (j-lorente)
 - Juan Miguel Garcia Haro (jmgarciah)
@@ -68,10 +71,12 @@ This is a list of people who contributed to the roboticslab-uc3m software ecosys
 - Roberto Montero
 - Santiago Morante (smorante)
 - Sheilasr12
+- Silvia-Martinez-25
 - smcdiaz
 - Sofia Hernandez (sofiahernandezp)
 - ssantamaria94
 - victordiazobregon
 - vistor (vistormu)
 - Víctor Pozo Pérez
+- www-data
 - YEPEZ25
